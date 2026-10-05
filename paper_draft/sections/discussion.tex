@@ -1,0 +1,27 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Is there a ``sounds like AI'' direction?} In the sense we can test, yes. A single direction, read off from \emph{other} models' text, has three properties. (a)~It separates human from chat-model text across corpora, generators and content-matched paraphrases. (b)~Subtracting it makes Qwen's own answers read as human-written to detectors that never saw Qwen's activations, at the level of real human answers once quality is held fixed. (c)~Adding it makes both the chat model and the \emph{base} model write in recognisable assistant prose. Equal-norm random directions do none of this, and neither do the four confound directions or the Assistant axis.
+
+\paragraph{What it is and is not.} It is not ``machine-generated'' in general: base-model and pre-chat text is invisible to it. It is also not the Assistant persona. Its cosine with the Assistant axis is moderate (0.40 at L12, 0.17 at L27), and steering with the Assistant axis mostly breaks coherence and relevance rather than humanising the text (Table~\ref{tab:steer}). About half of the raw direction is formality, fluency, register and terseness, which is unsurprising since those are real differences between chat-model and human text. But the part orthogonal to all measured confounds both reads out \emph{better} and steers \emph{better}. The most natural description is a learned representation of \emph{chat-assistant register}: the house style that post-trained models share across vendors. Pretraining corpora that contain such text already teach the base model this representation, and chat tuning moves the model's default output to its far end without changing the axis itself.
+
+\paragraph{Implications for detection.} Prompting the model to ``sound human'' left 99\% of answers detectable. A single-vector intervention at one layer brought detection close to the level of real human text at matched quality, at a cost of a few dozen lines of code. This is a form of detector evasion. We report it because the result bears directly on how much detectors can be trusted: current detectors (and, plausibly, activation probes) key on a low-dimensional feature that the generating model itself represents and can turn down. Detectors should be stress-tested against such activation-level attacks in addition to paraphrasing~\citep{krishna2023paraphrasing,sadasivan2023can}. Conversely, the direction gives a cheap, model-internal handle for \emph{auditing} how much a model's output relies on assistant register.
+
+\section{Limitations}
+\label{sec:limitations}
+
+\begin{itemize}
+    \item \textbf{One model family.} All causal results are on Qwen2.5-7B (base and instruct) at one steering layer. We did not test Gemma or Llama models, SAE-feature-level analyses~\citep{kuznetsov2025feature}, or larger models.
+    \item \textbf{Detectors are proxies.} ``Reads as human'' means ``scored as human by two supervised detectors and Binoculars''. We did not run a human study. The Gemma-3 judge could not tell human from AI text on our validation set (AUROC $\leq$0.60), so the claim rests on the detectors. We also cannot rule out that all three detectors share blind spots that the direction exploits.
+    \item \textbf{Quality cost.} The strongest effects ($\alpha{\leq}{-}6$) cost coherence (judge 6.8--7.1 vs.\ 8.1 for real human answers) and sometimes switch the output language. At near-zero coherence cost ($\alpha{=}{-}4$) the effect is partial (P(AI) 0.62--0.87). Our coherence and relevance scores come from a single LLM judge.
+    \item \textbf{Confound set is finite.} We controlled six named confounds with authorship held fixed. Other correlates of chat style (e.g.\ hedging, markdown habits, specific lexical items) are not separated out and may be part of $u_{AI}^{\perp}$. Some confound directions are themselves AI-generated (formality rewrites by Llama-3.1).
+    \item \textbf{Base model is not pre-AI.} Qwen2.5 was pretrained after ChatGPT, so its base model has likely seen assistant-style text. Our base-vs-instruct result says chat tuning did not \emph{create} the direction in this model. It does not say that the direction would exist in a model trained only on pre-2022 data.
+    \item \textbf{Datasets.} We used HC3, the human-AI parallel corpus and MAGE. We did not use RAID: its public test split is unlabelled and the labelled training split is 12\,GB. Some HC3 human answers are low-quality Reddit posts, which is part of why human answers score lower on coherence.
+\end{itemize}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+The residual stream of Qwen2.5-7B contains a direction for ``sounds like an AI assistant''. It is fit from other models' text, it transfers across generators and corpora, and it is causal for the model's own writing: removing it makes outputs read as human to independent detectors far better than prompting does, and adding it produces stock assistant prose even in the base model. It is not the Assistant persona and not just formality or fluency. Its confound-orthogonal component is the cleanest version for both reading and writing. The direction already exists before chat tuning. Chat tuning appears to change where the model sits along it, not the axis itself.
+
+\paragraph{Reproducibility.} All code, raw outputs and analysis scripts are in the accompanying repository (\texttt{src/}, \texttt{results/}). Every number in this paper is produced by those scripts.

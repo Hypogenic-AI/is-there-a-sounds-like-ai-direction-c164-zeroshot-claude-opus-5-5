@@ -1,0 +1,38 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small}
+\makeatletter\newcommand{\tabinput}[1]{\@@input #1 }\makeatother
+
+\title{Is There a ``Sounds Like AI'' Direction in the Residual Stream?\\[2pt]
+\large Reading, Writing and Disentangling Chat-Assistant Style in Qwen2.5-7B}
+\author{Anonymous authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Human-written and AI-written text are known to be linearly separable in LLM activations. We ask whether the separating direction is also \emph{causal} for generation, and whether it is anything more than a relabelling of formality, fluency, domain, length or the Assistant persona. In Qwen2.5-7B-Instruct we fit a diff-of-means ``AI direction'' on question-matched and prefix-matched human/AI pairs, cut to equal token length. It transfers to unseen generators (GPT-4, GPT-4o, Llama-3-Instruct) and to content-matched paraphrases, but not to base-model or pre-chat LM text, so it encodes \emph{chat-assistant} style rather than machine authorship. About half of its norm lies in the span of six authorship-controlled confound directions. Projecting that span out makes it a \emph{better} read-out (AUROC 0.97--0.99). Subtracting the direction at one layer while the model answers held-out questions moves two supervised detectors from P(AI)$=$0.99 to 0.33--0.42, and moves the zero-shot Binoculars score to the level of real human answers. Among answers an LLM judge rates highly coherent and relevant, the confound-orthogonal direction reaches P(AI) 0.40/0.30, matching real human answers (0.36/0.26). Equal-norm random, formality, fluency and register directions leave detection at 0.95--1.00, the Assistant axis reaches only 0.72, and a ``write like a human'' prompt leaves 99\% of answers flagged. Adding the direction yields stock assistant prose, including in the base model. The direction is nearly identical in the pretrained base model (cosine $\geq$0.98 at every layer), so chat tuning did not create it. We also report failure modes (language switching, coherence loss at high strength, brittle multi-layer ablation) and find that an LLM judge cannot tell human from AI text in our setting.
+\end{abstract}
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\input{sections/appendix}
+\end{document}

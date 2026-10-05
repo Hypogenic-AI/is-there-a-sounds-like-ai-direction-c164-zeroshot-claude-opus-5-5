@@ -1,0 +1,10 @@
+{
+ "best_layer_instruct_readout": 27,
+ "layers_reported": [
+  8,
+  12,
+  16,
+  20,
+  27
+ ]
+}

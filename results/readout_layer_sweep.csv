@@ -1,0 +1,2465 @@
+model,eval,layer,direction,auroc
+instruct,HC3 (ChatGPT),1,ai,0.8439883306263682
+instruct,HC3 (ChatGPT),1,ai_hc3,0.9101350098863076
+instruct,HC3 (ChatGPT),1,ai_hap,0.6689377957065179
+instruct,HC3 (ChatGPT),1,ai_perp,0.8511647305981216
+instruct,HC3 (ChatGPT),2,ai,0.8659026110444178
+instruct,HC3 (ChatGPT),2,ai_hc3,0.9207054145187488
+instruct,HC3 (ChatGPT),2,ai_hap,0.7442469634912788
+instruct,HC3 (ChatGPT),2,ai_perp,0.8795580732292917
+instruct,HC3 (ChatGPT),3,ai,0.9022259639149777
+instruct,HC3 (ChatGPT),3,ai_hc3,0.9420911747051761
+instruct,HC3 (ChatGPT),3,ai_hap,0.807300861521079
+instruct,HC3 (ChatGPT),3,ai_perp,0.9082813272367771
+instruct,HC3 (ChatGPT),4,ai,0.8470722847962714
+instruct,HC3 (ChatGPT),4,ai_hc3,0.850582144622555
+instruct,HC3 (ChatGPT),4,ai_hap,0.745214629969635
+instruct,HC3 (ChatGPT),4,ai_perp,0.9189664836522844
+instruct,HC3 (ChatGPT),5,ai,0.8482175958618743
+instruct,HC3 (ChatGPT),5,ai_hc3,0.866232522420733
+instruct,HC3 (ChatGPT),5,ai_hap,0.7829006602641057
+instruct,HC3 (ChatGPT),5,ai_perp,0.9318694389520514
+instruct,HC3 (ChatGPT),6,ai,0.8538095385212909
+instruct,HC3 (ChatGPT),6,ai_hc3,0.881861935950851
+instruct,HC3 (ChatGPT),6,ai_hap,0.7808307146387967
+instruct,HC3 (ChatGPT),6,ai_perp,0.9471281159522633
+instruct,HC3 (ChatGPT),7,ai,0.8472786173292848
+instruct,HC3 (ChatGPT),7,ai_hc3,0.9014116676082197
+instruct,HC3 (ChatGPT),7,ai_hap,0.8025188016383024
+instruct,HC3 (ChatGPT),7,ai_perp,0.9521253354282888
+instruct,HC3 (ChatGPT),8,ai,0.8628892733564015
+instruct,HC3 (ChatGPT),8,ai_hc3,0.8903646017230423
+instruct,HC3 (ChatGPT),8,ai_hap,0.825763761386908
+instruct,HC3 (ChatGPT),8,ai_perp,0.9671754731304285
+instruct,HC3 (ChatGPT),9,ai,0.8526211955370384
+instruct,HC3 (ChatGPT),9,ai_hc3,0.8733824412117789
+instruct,HC3 (ChatGPT),9,ai_hap,0.8184869536049715
+instruct,HC3 (ChatGPT),9,ai_perp,0.9537439975990396
+instruct,HC3 (ChatGPT),10,ai,0.861028970411694
+instruct,HC3 (ChatGPT),10,ai_hc3,0.8766274892309864
+instruct,HC3 (ChatGPT),10,ai_hap,0.8346150960384155
+instruct,HC3 (ChatGPT),10,ai_perp,0.9742613957347646
+instruct,HC3 (ChatGPT),11,ai,0.86572717322223
+instruct,HC3 (ChatGPT),11,ai_hc3,0.8804242285149354
+instruct,HC3 (ChatGPT),11,ai_hap,0.8403405479838995
+instruct,HC3 (ChatGPT),11,ai_perp,0.9671942306334299
+instruct,HC3 (ChatGPT),12,ai,0.8626481842737095
+instruct,HC3 (ChatGPT),12,ai_hc3,0.8781336063837301
+instruct,HC3 (ChatGPT),12,ai_hap,0.8361068692182755
+instruct,HC3 (ChatGPT),12,ai_perp,0.9663159381399619
+instruct,HC3 (ChatGPT),13,ai,0.8653277487465575
+instruct,HC3 (ChatGPT),13,ai_hc3,0.8794841465998163
+instruct,HC3 (ChatGPT),13,ai_hap,0.840186074429772
+instruct,HC3 (ChatGPT),13,ai_perp,0.9627630463950286
+instruct,HC3 (ChatGPT),14,ai,0.8732654826636538
+instruct,HC3 (ChatGPT),14,ai_hc3,0.8843500635548338
+instruct,HC3 (ChatGPT),14,ai_hap,0.8432755455123225
+instruct,HC3 (ChatGPT),14,ai_perp,0.9607173751853684
+instruct,HC3 (ChatGPT),15,ai,0.8803260274698115
+instruct,HC3 (ChatGPT),15,ai_hc3,0.8869827342701788
+instruct,HC3 (ChatGPT),15,ai_hap,0.8619061595226325
+instruct,HC3 (ChatGPT),15,ai_perp,0.9690390862227243
+instruct,HC3 (ChatGPT),16,ai,0.8790891356542616
+instruct,HC3 (ChatGPT),16,ai_hc3,0.8857965980509851
+instruct,HC3 (ChatGPT),16,ai_hap,0.8624732981427865
+instruct,HC3 (ChatGPT),16,ai_perp,0.9705209289598191
+instruct,HC3 (ChatGPT),17,ai,0.8754755578702068
+instruct,HC3 (ChatGPT),17,ai_hc3,0.8831782713085234
+instruct,HC3 (ChatGPT),17,ai_hap,0.8589755755243275
+instruct,HC3 (ChatGPT),17,ai_perp,0.9732639379281124
+instruct,HC3 (ChatGPT),18,ai,0.875503142433444
+instruct,HC3 (ChatGPT),18,ai_hc3,0.8839649830520444
+instruct,HC3 (ChatGPT),18,ai_hap,0.8562844255349198
+instruct,HC3 (ChatGPT),18,ai_perp,0.9700773691829674
+instruct,HC3 (ChatGPT),19,ai,0.8788938369465432
+instruct,HC3 (ChatGPT),19,ai_hc3,0.8854082074006073
+instruct,HC3 (ChatGPT),19,ai_hap,0.8637013628981004
+instruct,HC3 (ChatGPT),19,ai_perp,0.9734868211990678
+instruct,HC3 (ChatGPT),20,ai,0.8855240625662031
+instruct,HC3 (ChatGPT),20,ai_hc3,0.8903326036296871
+instruct,HC3 (ChatGPT),20,ai_hap,0.8776657721912294
+instruct,HC3 (ChatGPT),20,ai_perp,0.9826824111997741
+instruct,HC3 (ChatGPT),21,ai,0.8859323141021113
+instruct,HC3 (ChatGPT),21,ai_hc3,0.8968933161499895
+instruct,HC3 (ChatGPT),21,ai_hap,0.876886784125415
+instruct,HC3 (ChatGPT),21,ai_perp,0.9825820033895911
+instruct,HC3 (ChatGPT),22,ai,0.8818056634418474
+instruct,HC3 (ChatGPT),22,ai_hc3,0.9051366870277523
+instruct,HC3 (ChatGPT),22,ai_hap,0.8671703975707931
+instruct,HC3 (ChatGPT),22,ai_perp,0.9818603912153095
+instruct,HC3 (ChatGPT),23,ai,0.8855008915330838
+instruct,HC3 (ChatGPT),23,ai_hc3,0.9177626933126192
+instruct,HC3 (ChatGPT),23,ai_hap,0.8633030418049574
+instruct,HC3 (ChatGPT),23,ai_perp,0.9829119147659064
+instruct,HC3 (ChatGPT),24,ai,0.8918111362191936
+instruct,HC3 (ChatGPT),24,ai_hc3,0.9272804710119342
+instruct,HC3 (ChatGPT),24,ai_hap,0.8588277222653768
+instruct,HC3 (ChatGPT),24,ai_perp,0.98490793376174
+instruct,HC3 (ChatGPT),25,ai,0.9122413671350893
+instruct,HC3 (ChatGPT),25,ai_hc3,0.9397067650589648
+instruct,HC3 (ChatGPT),25,ai_hap,0.8768349251465292
+instruct,HC3 (ChatGPT),25,ai_perp,0.9876575630252101
+instruct,HC3 (ChatGPT),26,ai,0.9349511863568957
+instruct,HC3 (ChatGPT),26,ai_hc3,0.9549036526375256
+instruct,HC3 (ChatGPT),26,ai_hap,0.8979525633782925
+instruct,HC3 (ChatGPT),26,ai_perp,0.98844648153379
+instruct,HC3 (ChatGPT),27,ai,0.9861856507308806
+instruct,HC3 (ChatGPT),27,ai_hc3,0.9822289209801568
+instruct,HC3 (ChatGPT),27,ai_hap,0.9736126068074288
+instruct,HC3 (ChatGPT),27,ai_perp,0.9876785272932702
+instruct,HC3 (ChatGPT),28,ai,0.88721444460137
+instruct,HC3 (ChatGPT),28,ai_hc3,0.9289752665772191
+instruct,HC3 (ChatGPT),28,ai_hap,0.8465625220676506
+instruct,HC3 (ChatGPT),28,ai_perp,0.93803293376174
+instruct,HAP gpt-4o,1,ai,0.8977889855703226
+instruct,HAP gpt-4o,1,ai_hc3,0.6834431533437233
+instruct,HAP gpt-4o,1,ai_hap,0.9286452616319072
+instruct,HAP gpt-4o,1,ai_perp,0.9403483731810893
+instruct,HAP gpt-4o,2,ai,0.9121706599761266
+instruct,HAP gpt-4o,2,ai_hc3,0.7653233316585648
+instruct,HAP gpt-4o,2,ai_hap,0.9384954605239999
+instruct,HAP gpt-4o,2,ai_perp,0.9722767144242369
+instruct,HAP gpt-4o,3,ai,0.9306773851850192
+instruct,HAP gpt-4o,3,ai_hc3,0.8019559589223025
+instruct,HAP gpt-4o,3,ai_hap,0.9557349086824478
+instruct,HAP gpt-4o,3,ai_perp,0.9799699821749163
+instruct,HAP gpt-4o,4,ai,0.8248629516674615
+instruct,HAP gpt-4o,4,ai_hc3,0.7117712756935622
+instruct,HAP gpt-4o,4,ai_hap,0.824024500689642
+instruct,HAP gpt-4o,4,ai_perp,0.9554020884469776
+instruct,HAP gpt-4o,5,ai,0.8135726652180452
+instruct,HAP gpt-4o,5,ai_hc3,0.7149490689033894
+instruct,HAP gpt-4o,5,ai_hap,0.819582630623942
+instruct,HAP gpt-4o,5,ai_perp,0.9644298373341098
+instruct,HAP gpt-4o,6,ai,0.8343355276000781
+instruct,HAP gpt-4o,6,ai_hc3,0.7450821009917402
+instruct,HAP gpt-4o,6,ai_hap,0.8378269398779447
+instruct,HAP gpt-4o,6,ai_perp,0.9785170938393054
+instruct,HAP gpt-4o,7,ai,0.8472227111408372
+instruct,HAP gpt-4o,7,ai_hc3,0.7823995698938496
+instruct,HAP gpt-4o,7,ai_hap,0.8587818139342872
+instruct,HAP gpt-4o,7,ai_perp,0.9808660366550287
+instruct,HAP gpt-4o,8,ai,0.840172682499096
+instruct,HAP gpt-4o,8,ai_hc3,0.80866676693943
+instruct,HAP gpt-4o,8,ai_hap,0.8520070020257232
+instruct,HAP gpt-4o,8,ai_perp,0.9897177748407103
+instruct,HAP gpt-4o,9,ai,0.8517317852925457
+instruct,HAP gpt-4o,9,ai_hc3,0.8186961767275451
+instruct,HAP gpt-4o,9,ai_hap,0.8668879067847326
+instruct,HAP gpt-4o,9,ai_perp,0.9847862750055204
+instruct,HAP gpt-4o,10,ai,0.8625004400267536
+instruct,HAP gpt-4o,10,ai_hc3,0.8289528003302601
+instruct,HAP gpt-4o,10,ai_hap,0.8790774479088328
+instruct,HAP gpt-4o,10,ai_perp,0.9949692941330832
+instruct,HAP gpt-4o,11,ai,0.8703441169223088
+instruct,HAP gpt-4o,11,ai_hc3,0.8356124052342382
+instruct,HAP gpt-4o,11,ai_hap,0.8862746855008785
+instruct,HAP gpt-4o,11,ai_perp,0.9943260550241455
+instruct,HAP gpt-4o,12,ai,0.85952105888038
+instruct,HAP gpt-4o,12,ai_hc3,0.8228660302546393
+instruct,HAP gpt-4o,12,ai_hap,0.8778709745552529
+instruct,HAP gpt-4o,12,ai_perp,0.9936508139694893
+instruct,HAP gpt-4o,13,ai,0.8612427635600244
+instruct,HAP gpt-4o,13,ai_hc3,0.8199122506648404
+instruct,HAP gpt-4o,13,ai_hap,0.8823416463720994
+instruct,HAP gpt-4o,13,ai_perp,0.9930683785574163
+instruct,HAP gpt-4o,14,ai,0.8698128846233851
+instruct,HAP gpt-4o,14,ai_hc3,0.8335130775951177
+instruct,HAP gpt-4o,14,ai_hap,0.8867387137137938
+instruct,HAP gpt-4o,14,ai_perp,0.9922011258284503
+instruct,HAP gpt-4o,15,ai,0.8862074814148699
+instruct,HAP gpt-4o,15,ai_hc3,0.851952598718002
+instruct,HAP gpt-4o,15,ai_hap,0.9012707972644737
+instruct,HAP gpt-4o,15,ai_perp,0.9958621484186239
+instruct,HAP gpt-4o,16,ai,0.8763540823282056
+instruct,HAP gpt-4o,16,ai_hc3,0.836182039868024
+instruct,HAP gpt-4o,16,ai_hap,0.8949728143471123
+instruct,HAP gpt-4o,16,ai_perp,0.9942524505489934
+instruct,HAP gpt-4o,17,ai,0.8687728213875404
+instruct,HAP gpt-4o,17,ai_hc3,0.8325370182507097
+instruct,HAP gpt-4o,17,ai_hap,0.8869499265555346
+instruct,HAP gpt-4o,17,ai_perp,0.9943132542458581
+instruct,HAP gpt-4o,18,ai,0.872862670050339
+instruct,HAP gpt-4o,18,ai_hc3,0.8326586256444392
+instruct,HAP gpt-4o,18,ai_hap,0.8909309686028911
+instruct,HAP gpt-4o,18,ai_perp,0.9944700637798778
+instruct,HAP gpt-4o,19,ai,0.8747603854314343
+instruct,HAP gpt-4o,19,ai_hc3,0.8310873301096706
+instruct,HAP gpt-4o,19,ai_hap,0.8930462972148707
+instruct,HAP gpt-4o,19,ai_perp,0.9943068538567144
+instruct,HAP gpt-4o,20,ai,0.8889852503032184
+instruct,HAP gpt-4o,20,ai_hc3,0.8494468463682592
+instruct,HAP gpt-4o,20,ai_hap,0.902829292020955
+instruct,HAP gpt-4o,20,ai_perp,0.9959517538666351
+instruct,HAP gpt-4o,21,ai,0.8933727170611973
+instruct,HAP gpt-4o,21,ai_hc3,0.8503717025995181
+instruct,HAP gpt-4o,21,ai_hap,0.905293441841264
+instruct,HAP gpt-4o,21,ai_perp,0.9956797373280295
+instruct,HAP gpt-4o,22,ai,0.890950169770322
+instruct,HAP gpt-4o,22,ai_hc3,0.8521318096140245
+instruct,HAP gpt-4o,22,ai_hap,0.9026884834597944
+instruct,HAP gpt-4o,22,ai_perp,0.9955549297397283
+instruct,HAP gpt-4o,23,ai,0.8990850643719138
+instruct,HAP gpt-4o,23,ai_hc3,0.854400747565452
+instruct,HAP gpt-4o,23,ai_hap,0.9103625500430426
+instruct,HAP gpt-4o,23,ai_perp,0.9947068781781933
+instruct,HAP gpt-4o,24,ai,0.9129067047276475
+instruct,HAP gpt-4o,24,ai_hc3,0.8584905962282505
+instruct,HAP gpt-4o,24,ai_hap,0.9298197330397688
+instruct,HAP gpt-4o,24,ai_perp,0.9944316614450158
+instruct,HAP gpt-4o,25,ai,0.9399579494433262
+instruct,HAP gpt-4o,25,ai_hc3,0.8681679846134644
+instruct,HAP gpt-4o,25,ai_hap,0.96198168848666
+instruct,HAP gpt-4o,25,ai_perp,0.9946972775944777
+instruct,HAP gpt-4o,26,ai,0.9577222295115544
+instruct,HAP gpt-4o,26,ai_hc3,0.8975713723394381
+instruct,HAP gpt-4o,26,ai_hap,0.974081624162749
+instruct,HAP gpt-4o,26,ai_perp,0.9950973019159565
+instruct,HAP gpt-4o,27,ai,0.9824757345246592
+instruct,HAP gpt-4o,27,ai_hc3,0.9105385607444934
+instruct,HAP gpt-4o,27,ai_hap,0.9893081499355161
+instruct,HAP gpt-4o,27,ai_perp,0.9960573602875055
+instruct,HAP gpt-4o,28,ai,0.9047910112934867
+instruct,HAP gpt-4o,28,ai_hc3,0.8416127700564194
+instruct,HAP gpt-4o,28,ai_hap,0.9368633612923666
+instruct,HAP gpt-4o,28,ai_perp,0.9621480986043951
+instruct,HAP gpt-4o-mini,1,ai,0.8992226727385024
+instruct,HAP gpt-4o-mini,1,ai_hc3,0.6867137521961334
+instruct,HAP gpt-4o-mini,1,ai_hap,0.9303637661169799
+instruct,HAP gpt-4o-mini,1,ai_perp,0.9463999411164199
+instruct,HAP gpt-4o-mini,2,ai,0.9145612053212835
+instruct,HAP gpt-4o-mini,2,ai_hc3,0.7756471593472883
+instruct,HAP gpt-4o-mini,2,ai_hap,0.9395131223978418
+instruct,HAP gpt-4o-mini,2,ai_perp,0.973255973963217
+instruct,HAP gpt-4o-mini,3,ai,0.9333751492090718
+instruct,HAP gpt-4o-mini,3,ai_hc3,0.8134990607428931
+instruct,HAP gpt-4o-mini,3,ai_hap,0.9572325997420643
+instruct,HAP gpt-4o-mini,3,ai_perp,0.9801843952112289
+instruct,HAP gpt-4o-mini,4,ai,0.8334682748711122
+instruct,HAP gpt-4o-mini,4,ai_hc3,0.6911172199269716
+instruct,HAP gpt-4o-mini,4,ai_hap,0.8312473398382622
+instruct,HAP gpt-4o-mini,4,ai_perp,0.9669003875435627
+instruct,HAP gpt-4o-mini,5,ai,0.8204754849094824
+instruct,HAP gpt-4o-mini,5,ai_hc3,0.6912740294609914
+instruct,HAP gpt-4o-mini,5,ai_hap,0.8242069117802361
+instruct,HAP gpt-4o-mini,5,ai_perp,0.9714062615006993
+instruct,HAP gpt-4o-mini,6,ai,0.840019073159648
+instruct,HAP gpt-4o-mini,6,ai_hc3,0.7220182987125616
+instruct,HAP gpt-4o-mini,6,ai_hap,0.8417663793958674
+instruct,HAP gpt-4o-mini,6,ai_perp,0.9818420959994368
+instruct,HAP gpt-4o-mini,7,ai,0.8522694179806132
+instruct,HAP gpt-4o-mini,7,ai_hc3,0.7714197023179009
+instruct,HAP gpt-4o-mini,7,ai_hap,0.8623084283524438
+instruct,HAP gpt-4o-mini,7,ai_perp,0.9833973905613461
+instruct,HAP gpt-4o-mini,8,ai,0.844329735247903
+instruct,HAP gpt-4o-mini,8,ai_hc3,0.8180849395643255
+instruct,HAP gpt-4o-mini,8,ai_hap,0.8551079905658264
+instruct,HAP gpt-4o-mini,8,ai_perp,0.9901882034427694
+instruct,HAP gpt-4o-mini,9,ai,0.857447332797834
+instruct,HAP gpt-4o-mini,9,ai_hc3,0.8272150946777564
+instruct,HAP gpt-4o-mini,9,ai_hap,0.8717394017556266
+instruct,HAP gpt-4o-mini,9,ai_perp,0.9877112528441728
+instruct,HAP gpt-4o-mini,10,ai,0.8648749843990514
+instruct,HAP gpt-4o-mini,10,ai_hc3,0.8335130775951178
+instruct,HAP gpt-4o-mini,10,ai_hap,0.8807991525884774
+instruct,HAP gpt-4o-mini,10,ai_perp,0.9944732639744496
+instruct,HAP gpt-4o-mini,11,ai,0.8720210188779478
+instruct,HAP gpt-4o-mini,11,ai_hc3,0.839289428797271
+instruct,HAP gpt-4o-mini,11,ai_hap,0.8875931656644723
+instruct,HAP gpt-4o-mini,11,ai_perp,0.9943068538567145
+instruct,HAP gpt-4o-mini,12,ai,0.8598474787267065
+instruct,HAP gpt-4o-mini,12,ai_hc3,0.8253269798803768
+instruct,HAP gpt-4o-mini,12,ai_hap,0.8773397422563292
+instruct,HAP gpt-4o-mini,12,ai_perp,0.993788422336078
+instruct,HAP gpt-4o-mini,13,ai,0.8623500308818777
+instruct,HAP gpt-4o-mini,13,ai_hc3,0.8226772187749016
+instruct,HAP gpt-4o-mini,13,ai_hap,0.8826360642727077
+instruct,HAP gpt-4o-mini,13,ai_perp,0.9935644087160499
+instruct,HAP gpt-4o-mini,14,ai,0.8700817009674189
+instruct,HAP gpt-4o-mini,14,ai_hc3,0.8360892342254409
+instruct,HAP gpt-4o-mini,14,ai_hap,0.886095474604856
+instruct,HAP gpt-4o-mini,14,ai_perp,0.9929083688288248
+instruct,HAP gpt-4o-mini,15,ai,0.8852826251836112
+instruct,HAP gpt-4o-mini,15,ai_hc3,0.8520358037768696
+instruct,HAP gpt-4o-mini,15,ai_hap,0.9006915620469724
+instruct,HAP gpt-4o-mini,15,ai_perp,0.9943196546350017
+instruct,HAP gpt-4o-mini,16,ai,0.874821189128299
+instruct,HAP gpt-4o-mini,16,ai_hc3,0.8355900038722355
+instruct,HAP gpt-4o-mini,16,ai_hap,0.8939007491655493
+instruct,HAP gpt-4o-mini,16,ai_perp,0.9936092114400555
+instruct,HAP gpt-4o-mini,17,ai,0.8675279456990985
+instruct,HAP gpt-4o-mini,17,ai_hc3,0.8306073009238961
+instruct,HAP gpt-4o-mini,17,ai_hap,0.8862170819985855
+instruct,HAP gpt-4o-mini,17,ai_perp,0.9936732153314922
+instruct,HAP gpt-4o-mini,18,ai,0.8700144968814105
+instruct,HAP gpt-4o-mini,18,ai_hc3,0.8291896147285754
+instruct,HAP gpt-4o-mini,18,ai_hap,0.8891324592535227
+instruct,HAP gpt-4o-mini,18,ai_perp,0.9934780034626104
+instruct,HAP gpt-4o-mini,19,ai,0.8735699130507134
+instruct,HAP gpt-4o-mini,19,ai_hc3,0.8289848022759784
+instruct,HAP gpt-4o-mini,19,ai_hap,0.8931071009117354
+instruct,HAP gpt-4o-mini,19,ai_perp,0.9932667906208698
+instruct,HAP gpt-4o-mini,20,ai,0.8896732921361618
+instruct,HAP gpt-4o-mini,20,ai_hc3,0.8481635683449553
+instruct,HAP gpt-4o-mini,20,ai_hap,0.9052838412575485
+instruct,HAP gpt-4o-mini,20,ai_perp,0.9948316857664946
+instruct,HAP gpt-4o-mini,21,ai,0.8942143682335887
+instruct,HAP gpt-4o-mini,21,ai_hc3,0.8487332029787411
+instruct,HAP gpt-4o-mini,21,ai_hap,0.908829656843136
+instruct,HAP gpt-4o-mini,21,ai_perp,0.9944988655310244
+instruct,HAP gpt-4o-mini,22,ai,0.892419059078792
+instruct,HAP gpt-4o-mini,22,ai_hc3,0.8502084926763547
+instruct,HAP gpt-4o-mini,22,ai_hap,0.9070343476883393
+instruct,HAP gpt-4o-mini,22,ai_perp,0.9941884466575568
+instruct,HAP gpt-4o-mini,23,ai,0.901846832287403
+instruct,HAP gpt-4o-mini,23,ai_hc3,0.8524710302386383
+instruct,HAP gpt-4o-mini,23,ai_hap,0.9158956864577367
+instruct,HAP gpt-4o-mini,23,ai_perp,0.9939420316755259
+instruct,HAP gpt-4o-mini,24,ai,0.9158444833445873
+instruct,HAP gpt-4o-mini,24,ai_hc3,0.8562792617791162
+instruct,HAP gpt-4o-mini,24,ai_hap,0.936175319459423
+instruct,HAP gpt-4o-mini,24,ai_perp,0.9938908285623766
+instruct,HAP gpt-4o-mini,25,ai,0.941804461711272
+instruct,HAP gpt-4o-mini,25,ai_hc3,0.8638989250546433
+instruct,HAP gpt-4o-mini,25,ai_hap,0.9662187460997628
+instruct,HAP gpt-4o-mini,25,ai_perp,0.9943772581372947
+instruct,HAP gpt-4o-mini,26,ai,0.9599463647389762
+instruct,HAP gpt-4o-mini,26,ai_hc3,0.8936159318486564
+instruct,HAP gpt-4o-mini,26,ai_hap,0.9768849946076721
+instruct,HAP gpt-4o-mini,26,ai_perp,0.9947356799293396
+instruct,HAP gpt-4o-mini,27,ai,0.9816404837414116
+instruct,HAP gpt-4o-mini,27,ai_hc3,0.9041061696551149
+instruct,HAP gpt-4o-mini,27,ai_hap,0.9897145746461383
+instruct,HAP gpt-4o-mini,27,ai_perp,0.9951517052236777
+instruct,HAP gpt-4o-mini,28,ai,0.9105129591879186
+instruct,HAP gpt-4o-mini,28,ai_hc3,0.8473059161997049
+instruct,HAP gpt-4o-mini,28,ai_hap,0.9415516463400976
+instruct,HAP gpt-4o-mini,28,ai_perp,0.9660491357874559
+instruct,HAP llama3-70b-inst,1,ai,0.728076267037036
+instruct,HAP llama3-70b-inst,1,ai_hc3,0.6758554920139144
+instruct,HAP llama3-70b-inst,1,ai_hap,0.723631196776764
+instruct,HAP llama3-70b-inst,1,ai_perp,0.8176913156319904
+instruct,HAP llama3-70b-inst,2,ai,0.7798362140418138
+instruct,HAP llama3-70b-inst,2,ai_hc3,0.7539050374262755
+instruct,HAP llama3-70b-inst,2,ai_hap,0.7669490305010545
+instruct,HAP llama3-70b-inst,2,ai_perp,0.9007043628252598
+instruct,HAP llama3-70b-inst,3,ai,0.8226932197477607
+instruct,HAP llama3-70b-inst,3,ai_hc3,0.7973380781551519
+instruct,HAP llama3-70b-inst,3,ai_hap,0.8100172490487421
+instruct,HAP llama3-70b-inst,3,ai_perp,0.9346936293726659
+instruct,HAP llama3-70b-inst,4,ai,0.7725237694451824
+instruct,HAP llama3-70b-inst,4,ai_hc3,0.7151986840799921
+instruct,HAP llama3-70b-inst,4,ai_hap,0.7546986856800894
+instruct,HAP llama3-70b-inst,4,ai_perp,0.9273011799117385
+instruct,HAP llama3-70b-inst,5,ai,0.7745014896905731
+instruct,HAP llama3-70b-inst,5,ai_hc3,0.7350558913981968
+instruct,HAP llama3-70b-inst,5,ai_hap,0.7646704919659115
+instruct,HAP llama3-70b-inst,5,ai_perp,0.9351160550561474
+instruct,HAP llama3-70b-inst,6,ai,0.8005446731161255
+instruct,HAP llama3-70b-inst,6,ai_hc3,0.7913969169325494
+instruct,HAP llama3-70b-inst,6,ai_hap,0.7771288494340456
+instruct,HAP llama3-70b-inst,6,ai_perp,0.9551076705463691
+instruct,HAP llama3-70b-inst,7,ai,0.808909981726889
+instruct,HAP llama3-70b-inst,7,ai_hc3,0.8231508475715322
+instruct,HAP llama3-70b-inst,7,ai_hap,0.799632617663154
+instruct,HAP llama3-70b-inst,7,ai_perp,0.9590887125937257
+instruct,HAP llama3-70b-inst,8,ai,0.8103596698679281
+instruct,HAP llama3-70b-inst,8,ai_hc3,0.8209619144844006
+instruct,HAP llama3-70b-inst,8,ai_hap,0.7973444785442956
+instruct,HAP llama3-70b-inst,8,ai_perp,0.9769874008339707
+instruct,HAP llama3-70b-inst,9,ai,0.8222579932859919
+instruct,HAP llama3-70b-inst,9,ai_hc3,0.8189905946281534
+instruct,HAP llama3-70b-inst,9,ai_hap,0.8199858551399926
+instruct,HAP llama3-70b-inst,9,ai_perp,0.9674156188696272
+instruct,HAP llama3-70b-inst,10,ai,0.8363932527097647
+instruct,HAP llama3-70b-inst,10,ai_hc3,0.828520774063063
+instruct,HAP llama3-70b-inst,10,ai_hap,0.8383901741225868
+instruct,HAP llama3-70b-inst,10,ai_perp,0.9863671711240043
+instruct,HAP llama3-70b-inst,11,ai,0.8400702762727974
+instruct,HAP llama3-70b-inst,11,ai_hc3,0.8289784018868347
+instruct,HAP llama3-70b-inst,11,ai_hap,0.8435520879669485
+instruct,HAP llama3-70b-inst,11,ai_perp,0.983832617023115
+instruct,HAP llama3-70b-inst,12,ai,0.8318457762231943
+instruct,HAP llama3-70b-inst,12,ai_hc3,0.8220883829736847
+instruct,HAP llama3-70b-inst,12,ai_hap,0.8354715966730777
+instruct,HAP llama3-70b-inst,12,ai_perp,0.9826133428912478
+instruct,HAP llama3-70b-inst,13,ai,0.8350651719624552
+instruct,HAP llama3-70b-inst,13,ai_hc3,0.8211379251858514
+instruct,HAP llama3-70b-inst,13,ai_hap,0.8414751616898306
+instruct,HAP llama3-70b-inst,13,ai_perp,0.9808372349038822
+instruct,HAP llama3-70b-inst,14,ai,0.8409663307529097
+instruct,HAP llama3-70b-inst,14,ai_hc3,0.8284695709499137
+instruct,HAP llama3-70b-inst,14,ai_hap,0.8456226138549223
+instruct,HAP llama3-70b-inst,14,ai_perp,0.9797779705006064
+instruct,HAP llama3-70b-inst,15,ai,0.8588618187985828
+instruct,HAP llama3-70b-inst,15,ai_hc3,0.8422016058576361
+instruct,HAP llama3-70b-inst,15,ai_hap,0.8677647600974141
+instruct,HAP llama3-70b-inst,15,ai_perp,0.9880024705502094
+instruct,HAP llama3-70b-inst,16,ai,0.8439841142341455
+instruct,HAP llama3-70b-inst,16,ai_hc3,0.8254933899981118
+instruct,HAP llama3-70b-inst,16,ai_hap,0.8536263004790692
+instruct,HAP llama3-70b-inst,16,ai_perp,0.9849494849286836
+instruct,HAP llama3-70b-inst,17,ai,0.8365084597143506
+instruct,HAP llama3-70b-inst,17,ai_hc3,0.8204498833529079
+instruct,HAP llama3-70b-inst,17,ai_hap,0.8452481910900183
+instruct,HAP llama3-70b-inst,17,ai_perp,0.9859415452459509
+instruct,HAP llama3-70b-inst,18,ai,0.839308629964702
+instruct,HAP llama3-70b-inst,18,ai_hc3,0.8221907891999835
+instruct,HAP llama3-70b-inst,18,ai_hap,0.8476739385754652
+instruct,HAP llama3-70b-inst,18,ai_perp,0.9852503032184358
+instruct,HAP llama3-70b-inst,19,ai,0.837798138126798
+instruct,HAP llama3-70b-inst,19,ai_hc3,0.8205906919140684
+instruct,HAP llama3-70b-inst,19,ai_hap,0.8458498276695223
+instruct,HAP llama3-70b-inst,19,ai_perp,0.9851350962138498
+instruct,HAP llama3-70b-inst,20,ai,0.8540743277191253
+instruct,HAP llama3-70b-inst,20,ai_hc3,0.8392238248085484
+instruct,HAP llama3-70b-inst,20,ai_hap,0.86102515032914
+instruct,HAP llama3-70b-inst,20,ai_perp,0.9882328845593812
+instruct,HAP llama3-70b-inst,21,ai,0.8576841471961496
+instruct,HAP llama3-70b-inst,21,ai_hc3,0.842259209359929
+instruct,HAP llama3-70b-inst,21,ai_hap,0.8641997433443954
+instruct,HAP llama3-70b-inst,21,ai_perp,0.9869400059523619
+instruct,HAP llama3-70b-inst,22,ai,0.849187630607941
+instruct,HAP llama3-70b-inst,22,ai_hc3,0.8350555713787399
+instruct,HAP llama3-70b-inst,22,ai_hap,0.8567176884354568
+instruct,HAP llama3-70b-inst,22,ai_perp,0.9866647892191845
+instruct,HAP llama3-70b-inst,23,ai,0.8608043369036837
+instruct,HAP llama3-70b-inst,23,ai_hc3,0.8474243233988626
+instruct,HAP llama3-70b-inst,23,ai_hap,0.8657358367388738
+instruct,HAP llama3-70b-inst,23,ai_perp,0.9859095433002327
+instruct,HAP llama3-70b-inst,24,ai,0.8639757297243672
+instruct,HAP llama3-70b-inst,24,ai_hc3,0.8453057945923111
+instruct,HAP llama3-70b-inst,24,ai_hap,0.8697840828722385
+instruct,HAP llama3-70b-inst,24,ai_perp,0.9835413993170785
+instruct,HAP llama3-70b-inst,25,ai,0.8926206713368172
+instruct,HAP llama3-70b-inst,25,ai_hc3,0.8673455346085042
+instruct,HAP llama3-70b-inst,25,ai_hap,0.9001251276077584
+instruct,HAP llama3-70b-inst,25,ai_perp,0.9845814625529232
+instruct,HAP llama3-70b-inst,26,ai,0.9116618290392056
+instruct,HAP llama3-70b-inst,26,ai_hc3,0.8919998335898822
+instruct,HAP llama3-70b-inst,26,ai_hap,0.9138827640720556
+instruct,HAP llama3-70b-inst,26,ai_perp,0.9852535034130074
+instruct,HAP llama3-70b-inst,27,ai,0.9469119722479126
+instruct,HAP llama3-70b-inst,27,ai_hc3,0.9267347454725248
+instruct,HAP llama3-70b-inst,27,ai_hap,0.9422140866164663
+instruct,HAP llama3-70b-inst,27,ai_perp,0.9882328845593813
+instruct,HAP llama3-70b-inst,28,ai,0.8727250616837503
+instruct,HAP llama3-70b-inst,28,ai_hc3,0.8567816923268935
+instruct,HAP llama3-70b-inst,28,ai_hap,0.8792406578319962
+instruct,HAP llama3-70b-inst,28,ai_perp,0.9155212636928326
+instruct,HAP llama3-8b-inst,1,ai,0.7577964740256207
+instruct,HAP llama3-8b-inst,1,ai_hc3,0.7205078068746579
+instruct,HAP llama3-8b-inst,1,ai_hap,0.7425283457234201
+instruct,HAP llama3-8b-inst,1,ai_perp,0.8503429008483715
+instruct,HAP llama3-8b-inst,2,ai,0.8080779311382131
+instruct,HAP llama3-8b-inst,2,ai_hc3,0.7963684191998874
+instruct,HAP llama3-8b-inst,2,ai_hap,0.7861117955971724
+instruct,HAP llama3-8b-inst,2,ai_perp,0.9146412101855792
+instruct,HAP llama3-8b-inst,3,ai,0.8517781881138373
+instruct,HAP llama3-8b-inst,3,ai_hc3,0.8396686518540327
+instruct,HAP llama3-8b-inst,3,ai_hap,0.8292056157014347
+instruct,HAP llama3-8b-inst,3,ai_perp,0.9461695271072482
+instruct,HAP llama3-8b-inst,4,ai,0.8056393828744788
+instruct,HAP llama3-8b-inst,4,ai_hc3,0.6912164259586983
+instruct,HAP llama3-8b-inst,4,ai_hap,0.7826011821518749
+instruct,HAP llama3-8b-inst,4,ai_perp,0.9357944963053754
+instruct,HAP llama3-8b-inst,5,ai,0.8076075025361543
+instruct,HAP llama3-8b-inst,5,ai_hc3,0.715726716184344
+instruct,HAP llama3-8b-inst,5,ai_hap,0.7906176695543089
+instruct,HAP llama3-8b-inst,5,ai_perp,0.946265532944403
+instruct,HAP llama3-8b-inst,6,ai,0.8282551579136012
+instruct,HAP llama3-8b-inst,6,ai_hc3,0.7651985240702635
+instruct,HAP llama3-8b-inst,6,ai_hap,0.7948739283348427
+instruct,HAP llama3-8b-inst,6,ai_perp,0.9612776456808574
+instruct,HAP llama3-8b-inst,7,ai,0.8362012410354549
+instruct,HAP llama3-8b-inst,7,ai_hc3,0.8176977160211341
+instruct,HAP llama3-8b-inst,7,ai_hap,0.8196978376285278
+instruct,HAP llama3-8b-inst,7,ai_perp,0.9648970657415972
+instruct,HAP llama3-8b-inst,8,ai,0.8336858881019967
+instruct,HAP llama3-8b-inst,8,ai_hc3,0.8526822430803792
+instruct,HAP llama3-8b-inst,8,ai_hap,0.8155439850742925
+instruct,HAP llama3-8b-inst,8,ai_perp,0.9785394952013083
+instruct,HAP llama3-8b-inst,9,ai,0.8433024727903458
+instruct,HAP llama3-8b-inst,9,ai_hc3,0.8472451125028402
+instruct,HAP llama3-8b-inst,9,ai_hap,0.8362908464834662
+instruct,HAP llama3-8b-inst,9,ai_perp,0.9698925694682237
+instruct,HAP llama3-8b-inst,10,ai,0.8586762075134169
+instruct,HAP llama3-8b-inst,10,ai_hc3,0.8559976446567952
+instruct,HAP llama3-8b-inst,10,ai_hap,0.8572873230692427
+instruct,HAP llama3-8b-inst,10,ai_perp,0.9872472246312576
+instruct,HAP llama3-8b-inst,11,ai,0.8640845363398093
+instruct,HAP llama3-8b-inst,11,ai_hc3,0.8589482240520223
+instruct,HAP llama3-8b-inst,11,ai_hap,0.8643405519055558
+instruct,HAP llama3-8b-inst,11,ai_perp,0.9853399086664469
+instruct,HAP llama3-8b-inst,12,ai,0.8550759886201081
+instruct,HAP llama3-8b-inst,12,ai_hc3,0.851200552993622
+instruct,HAP llama3-8b-inst,12,ai_hap,0.8543751460088773
+instruct,HAP llama3-8b-inst,12,ai_perp,0.9839542244168445
+instruct,HAP llama3-8b-inst,13,ai,0.86023790246447
+instruct,HAP llama3-8b-inst,13,ai_hc3,0.8517925889894106
+instruct,HAP llama3-8b-inst,13,ai_hap,0.8626028462530522
+instruct,HAP llama3-8b-inst,13,ai_perp,0.9819285012528762
+instruct,HAP llama3-8b-inst,14,ai,0.8650765966570767
+instruct,HAP llama3-8b-inst,14,ai_hc3,0.8589674252194535
+instruct,HAP llama3-8b-inst,14,ai_hap,0.865844643354316
+instruct,HAP llama3-8b-inst,14,ai_perp,0.9810292465781919
+instruct,HAP llama3-8b-inst,15,ai,0.8822680418969473
+instruct,HAP llama3-8b-inst,15,ai_hc3,0.8714449838550185
+instruct,HAP llama3-8b-inst,15,ai_hap,0.8871163366732696
+instruct,HAP llama3-8b-inst,15,ai_perp,0.9884280964282629
+instruct,HAP llama3-8b-inst,16,ai,0.8699152908496837
+instruct,HAP llama3-8b-inst,16,ai_hc3,0.8577273498228691
+instruct,HAP llama3-8b-inst,16,ai_hap,0.8754740288209523
+instruct,HAP llama3-8b-inst,16,ai_perp,0.9868375997260632
+instruct,HAP llama3-8b-inst,17,ai,0.8639309270003616
+instruct,HAP llama3-8b-inst,17,ai_hc3,0.8531526716824384
+instruct,HAP llama3-8b-inst,17,ai_hap,0.8687888223603996
+instruct,HAP llama3-8b-inst,17,ai_perp,0.9875768446721561
+instruct,HAP llama3-8b-inst,18,ai,0.8662318668975073
+instruct,HAP llama3-8b-inst,18,ai_hc3,0.8547335678009222
+instruct,HAP llama3-8b-inst,18,ai_hap,0.870452923537751
+instruct,HAP llama3-8b-inst,18,ai_perp,0.9862199621737001
+instruct,HAP llama3-8b-inst,19,ai,0.8661326608657807
+instruct,HAP llama3-8b-inst,19,ai_hc3,0.8542119360857141
+instruct,HAP llama3-8b-inst,19,ai_hap,0.8701425046642837
+instruct,HAP llama3-8b-inst,19,ai_perp,0.9865527824091705
+instruct,HAP llama3-8b-inst,20,ai,0.8790774479088329
+instruct,HAP llama3-8b-inst,20,ai_hc3,0.8708017447460806
+instruct,HAP llama3-8b-inst,20,ai_hap,0.8816120020097222
+instruct,HAP llama3-8b-inst,20,ai_perp,0.9862903664542803
+instruct,HAP llama3-8b-inst,21,ai,0.883612123617116
+instruct,HAP llama3-8b-inst,21,ai_hc3,0.875403624540372
+instruct,HAP llama3-8b-inst,21,ai_hap,0.8859898681839856
+instruct,HAP llama3-8b-inst,21,ai_perp,0.9855607220919032
+instruct,HAP llama3-8b-inst,22,ai,0.8807063469458942
+instruct,HAP llama3-8b-inst,22,ai_hc3,0.8739475360101895
+instruct,HAP llama3-8b-inst,22,ai_hap,0.8832088991010654
+instruct,HAP llama3-8b-inst,22,ai_perp,0.9862903664542804
+instruct,HAP llama3-8b-inst,23,ai,0.8914333991506682
+instruct,HAP llama3-8b-inst,23,ai_hc3,0.8862650849171628
+instruct,HAP llama3-8b-inst,23,ai_hap,0.8908349627657361
+instruct,HAP llama3-8b-inst,23,ai_perp,0.9861239563365451
+instruct,HAP llama3-8b-inst,24,ai,0.895392039836022
+instruct,HAP llama3-8b-inst,24,ai_hc3,0.8837081294542709
+instruct,HAP llama3-8b-inst,24,ai_hap,0.8960384791395317
+instruct,HAP llama3-8b-inst,24,ai_perp,0.9828405567058477
+instruct,HAP llama3-8b-inst,25,ai,0.9221712680130952
+instruct,HAP llama3-8b-inst,25,ai_hc3,0.9049062182980725
+instruct,HAP llama3-8b-inst,25,ai_hap,0.9237617647152947
+instruct,HAP llama3-8b-inst,25,ai_perp,0.9834325927016363
+instruct,HAP llama3-8b-inst,26,ai,0.9368441601249357
+instruct,HAP llama3-8b-inst,26,ai_hc3,0.925525071924373
+instruct,HAP llama3-8b-inst,26,ai_hap,0.9344632153634941
+instruct,HAP llama3-8b-inst,26,ai_perp,0.9835221981496475
+instruct,HAP llama3-8b-inst,27,ai,0.9605576019021955
+instruct,HAP llama3-8b-inst,27,ai_hc3,0.9490145000816049
+instruct,HAP llama3-8b-inst,27,ai_hap,0.9557253080987322
+instruct,HAP llama3-8b-inst,27,ai_perp,0.9856855296802046
+instruct,HAP llama3-8b-inst,28,ai,0.9062406994345256
+instruct,HAP llama3-8b-inst,28,ai_hc3,0.8927742806762651
+instruct,HAP llama3-8b-inst,28,ai_hap,0.9108489796179609
+instruct,HAP llama3-8b-inst,28,ai_perp,0.9328599178830074
+instruct,HAP llama3-70b-base,1,ai,0.49275795968394875
+instruct,HAP llama3-70b-base,1,ai_hc3,0.5612357231319665
+instruct,HAP llama3-70b-base,1,ai_hap,0.4507746070961114
+instruct,HAP llama3-70b-base,1,ai_perp,0.529304181694247
+instruct,HAP llama3-70b-base,2,ai,0.5412697091983192
+instruct,HAP llama3-70b-base,2,ai_hc3,0.6167046956454951
+instruct,HAP llama3-70b-base,2,ai_hap,0.48425504270659653
+instruct,HAP llama3-70b-base,2,ai_perp,0.6167718997315037
+instruct,HAP llama3-70b-base,3,ai,0.5836786876642099
+instruct,HAP llama3-70b-base,3,ai_hc3,0.6587328509573382
+instruct,HAP llama3-70b-base,3,ai_hap,0.5140552545594772
+instruct,HAP llama3-70b-base,3,ai_perp,0.6731273261414294
+instruct,HAP llama3-70b-base,4,ai,0.6329280820273873
+instruct,HAP llama3-70b-base,4,ai_hc3,0.6229802772008538
+instruct,HAP llama3-70b-base,4,ai_hap,0.602761447896032
+instruct,HAP llama3-70b-base,4,ai_perp,0.7294507506056369
+instruct,HAP llama3-70b-base,5,ai,0.6414550004640281
+instruct,HAP llama3-70b-base,5,ai_hc3,0.6535517359455454
+instruct,HAP llama3-70b-base,5,ai_hap,0.6103395086421255
+instruct,HAP llama3-70b-base,5,ai_perp,0.750130407928802
+instruct,HAP llama3-70b-base,6,ai,0.6480762030331444
+instruct,HAP llama3-70b-base,6,ai_hc3,0.6899443486163959
+instruct,HAP llama3-70b-base,6,ai_hap,0.5960730412409074
+instruct,HAP llama3-70b-base,6,ai_perp,0.7726149749904794
+instruct,HAP llama3-70b-base,7,ai,0.653484531859537
+instruct,HAP llama3-70b-base,7,ai_hc3,0.6851984600663721
+instruct,HAP llama3-70b-base,7,ai_hap,0.6204041205705307
+instruct,HAP llama3-70b-base,7,ai_perp,0.7716837183700769
+instruct,HAP llama3-70b-base,8,ai,0.6432951123428304
+instruct,HAP llama3-70b-base,8,ai_hc3,0.6844368137582765
+instruct,HAP llama3-70b-base,8,ai_hap,0.606998505509135
+instruct,HAP llama3-70b-base,8,ai_perp,0.7883727330621702
+instruct,HAP llama3-70b-base,9,ai,0.6271213289768018
+instruct,HAP llama3-70b-base,9,ai_hc3,0.6581184135995468
+instruct,HAP llama3-70b-base,9,ai_hap,0.5984699869752081
+instruct,HAP llama3-70b-base,9,ai_perp,0.753103388686032
+instruct,HAP llama3-70b-base,10,ai,0.6478105868836825
+instruct,HAP llama3-70b-base,10,ai_hc3,0.6696967175604276
+instruct,HAP llama3-70b-base,10,ai_hap,0.6237835260383832
+instruct,HAP llama3-70b-base,10,ai_perp,0.787566284030069
+instruct,HAP llama3-70b-base,11,ai,0.6302799210191979
+instruct,HAP llama3-70b-base,11,ai_hc3,0.6553662462677732
+instruct,HAP llama3-70b-base,11,ai_hap,0.6037375072404402
+instruct,HAP llama3-70b-base,11,ai_perp,0.7663585946025517
+instruct,HAP llama3-70b-base,12,ai,0.6293070618693617
+instruct,HAP llama3-70b-base,12,ai_hc3,0.6539325590995932
+instruct,HAP llama3-70b-base,12,ai_hap,0.6048447745622934
+instruct,HAP llama3-70b-base,12,ai_perp,0.7683043129022245
+instruct,HAP llama3-70b-base,13,ai,0.6371411381812014
+instruct,HAP llama3-70b-base,13,ai_hc3,0.6575583795494766
+instruct,HAP llama3-70b-base,13,ai_hap,0.6142437460197581
+instruct,HAP llama3-70b-base,13,ai_perp,0.7627551755146714
+instruct,HAP llama3-70b-base,14,ai,0.6325520591651973
+instruct,HAP llama3-70b-base,14,ai_hc3,0.6551966359554662
+instruct,HAP llama3-70b-base,14,ai_hap,0.6069729039525603
+instruct,HAP llama3-70b-base,14,ai_perp,0.7601342161603426
+instruct,HAP llama3-70b-base,15,ai,0.6434839238225685
+instruct,HAP llama3-70b-base,15,ai_hc3,0.6588160560162057
+instruct,HAP llama3-70b-base,15,ai_hap,0.6218090059875641
+instruct,HAP llama3-70b-base,15,ai_perp,0.7656001484890281
+instruct,HAP llama3-70b-base,16,ai,0.616144661595425
+instruct,HAP llama3-70b-base,16,ai_hc3,0.6318000134408173
+instruct,HAP llama3-70b-base,16,ai_hap,0.595573810887702
+instruct,HAP llama3-70b-base,16,ai_perp,0.7514424877032524
+instruct,HAP llama3-70b-base,17,ai,0.5954714046614035
+instruct,HAP llama3-70b-base,17,ai_hc3,0.6155846275453547
+instruct,HAP llama3-70b-base,17,ai_hap,0.5738860922744103
+instruct,HAP llama3-70b-base,17,ai_perp,0.7466005933160736
+instruct,HAP llama3-70b-base,18,ai,0.6033534838918206
+instruct,HAP llama3-70b-base,18,ai_hc3,0.6253356204057207
+instruct,HAP llama3-70b-base,18,ai_hap,0.5789872024219072
+instruct,HAP llama3-70b-base,18,ai_perp,0.7457205398088205
+instruct,HAP llama3-70b-base,19,ai,0.5982587741334673
+instruct,HAP llama3-70b-base,19,ai_hc3,0.6182983925422666
+instruct,HAP llama3-70b-base,19,ai_hap,0.5769198767285051
+instruct,HAP llama3-70b-base,19,ai_perp,0.7331309743632415
+instruct,HAP llama3-70b-base,20,ai,0.5910039330391288
+instruct,HAP llama3-70b-base,20,ai_hc3,0.6120900150729164
+instruct,HAP llama3-70b-base,20,ai_hap,0.5688073834889161
+instruct,HAP llama3-70b-base,20,ai_perp,0.698488868123182
+instruct,HAP llama3-70b-base,21,ai,0.593032856397669
+instruct,HAP llama3-70b-base,21,ai_hc3,0.6153446129524675
+instruct,HAP llama3-70b-base,21,ai_hap,0.5690057955523696
+instruct,HAP llama3-70b-base,21,ai_perp,0.6964087416514925
+instruct,HAP llama3-70b-base,22,ai,0.5671624834789956
+instruct,HAP llama3-70b-base,22,ai_hc3,0.58936223322378
+instruct,HAP llama3-70b-base,22,ai_hap,0.5437562603806311
+instruct,HAP llama3-70b-base,22,ai_perp,0.6872177828411967
+instruct,HAP llama3-70b-base,23,ai,0.5712907344766562
+instruct,HAP llama3-70b-base,23,ai_hc3,0.5917111760395033
+instruct,HAP llama3-70b-base,23,ai_hap,0.5473500788847963
+instruct,HAP llama3-70b-base,23,ai_perp,0.6795213148959457
+instruct,HAP llama3-70b-base,24,ai,0.5618885628246197
+instruct,HAP llama3-70b-base,24,ai_hc3,0.5851347761943926
+instruct,HAP llama3-70b-base,24,ai_hap,0.5381623202690724
+instruct,HAP llama3-70b-base,24,ai_perp,0.663536343009655
+instruct,HAP llama3-70b-base,25,ai,0.5624037941506843
+instruct,HAP llama3-70b-base,25,ai_hc3,0.581908980065988
+instruct,HAP llama3-70b-base,25,ai_hap,0.5364950188971489
+instruct,HAP llama3-70b-base,25,ai_perp,0.6582560219661356
+instruct,HAP llama3-70b-base,26,ai,0.5609349048422143
+instruct,HAP llama3-70b-base,26,ai_hc3,0.5823506069169005
+instruct,HAP llama3-70b-base,26,ai_hap,0.534686908964065
+instruct,HAP llama3-70b-base,26,ai_perp,0.6572383600922935
+instruct,HAP llama3-70b-base,27,ai,0.5951865873445106
+instruct,HAP llama3-70b-base,27,ai_hc3,0.6230378807031468
+instruct,HAP llama3-70b-base,27,ai_hap,0.5544225088885404
+instruct,HAP llama3-70b-base,27,ai_perp,0.6666293310633287
+instruct,HAP llama3-70b-base,28,ai,0.6409333687488199
+instruct,HAP llama3-70b-base,28,ai_hc3,0.6613570105062389
+instruct,HAP llama3-70b-base,28,ai_hap,0.6161510619845687
+instruct,HAP llama3-70b-base,28,ai_perp,0.5630182315084757
+instruct,HAP llama3-8b-base,1,ai,0.4943244549268595
+instruct,HAP llama3-8b-base,1,ai_hc3,0.5850755725948138
+instruct,HAP llama3-8b-base,1,ai_hap,0.43840105478413083
+instruct,HAP llama3-8b-base,1,ai_perp,0.5282977205014066
+instruct,HAP llama3-8b-base,2,ai,0.5437674610616325
+instruct,HAP llama3-8b-base,2,ai_hc3,0.6422182468694096
+instruct,HAP llama3-8b-base,2,ai_hap,0.47367359935484077
+instruct,HAP llama3-8b-base,2,ai_perp,0.623013879243858
+instruct,HAP llama3-8b-base,3,ai,0.5931016605809634
+instruct,HAP llama3-8b-base,3,ai_hc3,0.6908484035829379
+instruct,HAP llama3-8b-base,3,ai_hap,0.5051075105366406
+instruct,HAP llama3-8b-base,3,ai_perp,0.6936965767518666
+instruct,HAP llama3-8b-base,4,ai,0.6407525577555115
+instruct,HAP llama3-8b-base,4,ai_hc3,0.6760859060230862
+instruct,HAP llama3-8b-base,4,ai_hap,0.5951753866635091
+instruct,HAP llama3-8b-base,4,ai_perp,0.7744822885231422
+instruct,HAP llama3-8b-base,5,ai,0.6515116119060039
+instruct,HAP llama3-8b-base,5,ai_hc3,0.7099567653713346
+instruct,HAP llama3-8b-base,5,ai_hap,0.6079889657291163
+instruct,HAP llama3-8b-base,5,ai_perp,0.7943554968142064
+instruct,HAP llama3-8b-base,6,ai,0.6635443434960846
+instruct,HAP llama3-8b-base,6,ai_hc3,0.7487847261113475
+instruct,HAP llama3-8b-base,6,ai_hap,0.6014285668568649
+instruct,HAP llama3-8b-base,6,ai_perp,0.815646391300591
+instruct,HAP llama3-8b-base,7,ai,0.6663957168595851
+instruct,HAP llama3-8b-base,7,ai_hc3,0.7412130657543978
+instruct,HAP llama3-8b-base,7,ai_hap,0.6249467967652433
+instruct,HAP llama3-8b-base,7,ai_perp,0.8142063037432674
+instruct,HAP llama3-8b-base,8,ai,0.6511883922542491
+instruct,HAP llama3-8b-base,8,ai_hc3,0.7059181198216851
+instruct,HAP llama3-8b-base,8,ai_hap,0.6045551569535428
+instruct,HAP llama3-8b-base,8,ai_perp,0.8321433943183747
+instruct,HAP llama3-8b-base,9,ai,0.6308799575014161
+instruct,HAP llama3-8b-base,9,ai_hc3,0.6716760379031046
+instruct,HAP llama3-8b-base,9,ai_hap,0.5949929755729149
+instruct,HAP llama3-8b-base,9,ai_perp,0.7982597341918388
+instruct,HAP llama3-8b-base,10,ai,0.6598385181819055
+instruct,HAP llama3-8b-base,10,ai_hc3,0.6873377901376403
+instruct,HAP llama3-8b-base,10,ai_hap,0.6304895337636528
+instruct,HAP llama3-8b-base,10,ai_perp,0.8268342715237085
+instruct,HAP llama3-8b-base,11,ai,0.632502456149334
+instruct,HAP llama3-8b-base,11,ai_hc3,0.6652372464245826
+instruct,HAP llama3-8b-base,11,ai_hap,0.5985323907693588
+instruct,HAP llama3-8b-base,11,ai_perp,0.8030600260495837
+instruct,HAP llama3-8b-base,12,ai,0.628979041925749
+instruct,HAP llama3-8b-base,12,ai_hc3,0.6618738419295893
+instruct,HAP llama3-8b-base,12,ai_hap,0.5961290446459144
+instruct,HAP llama3-8b-base,12,ai_perp,0.8049033381229578
+instruct,HAP llama3-8b-base,13,ai,0.634665787679891
+instruct,HAP llama3-8b-base,13,ai_hc3,0.6642547866910309
+instruct,HAP llama3-8b-base,13,ai_hap,0.6021646116083859
+instruct,HAP llama3-8b-base,13,ai_perp,0.7969156524716703
+instruct,HAP llama3-8b-base,14,ai,0.6262396753722628
+instruct,HAP llama3-8b-base,14,ai_hc3,0.6602481430870997
+instruct,HAP llama3-8b-base,14,ai_hap,0.5906631123172289
+instruct,HAP llama3-8b-base,14,ai_perp,0.7938082635424234
+instruct,HAP llama3-8b-base,15,ai,0.647159347288315
+instruct,HAP llama3-8b-base,15,ai_hc3,0.6700983419791923
+instruct,HAP llama3-8b-base,15,ai_hap,0.6171767243448402
+instruct,HAP llama3-8b-base,15,ai_perp,0.7977125009200561
+instruct,HAP llama3-8b-base,16,ai,0.6067728917918209
+instruct,HAP llama3-8b-base,16,ai_hc3,0.6318496164566805
+instruct,HAP llama3-8b-base,16,ai_hap,0.5781951542653794
+instruct,HAP llama3-8b-base,16,ai_perp,0.7781209097513129
+instruct,HAP llama3-8b-base,17,ai,0.5877605358405791
+instruct,HAP llama3-8b-base,17,ai_hc3,0.6147125745245311
+instruct,HAP llama3-8b-base,17,ai_hap,0.5602356623282696
+instruct,HAP llama3-8b-base,17,ai_perp,0.7707188597066701
+instruct,HAP llama3-8b-base,18,ai,0.5973515189723535
+instruct,HAP llama3-8b-base,18,ai_hc3,0.6272701380243919
+instruct,HAP llama3-8b-base,18,ai_hap,0.5664440397976197
+instruct,HAP llama3-8b-base,18,ai_perp,0.7704948460866421
+instruct,HAP llama3-8b-base,19,ai,0.5866468681295822
+instruct,HAP llama3-8b-base,19,ai_hc3,0.6144533587642128
+instruct,HAP llama3-8b-base,19,ai_hap,0.557064269507586
+instruct,HAP llama3-8b-base,19,ai_perp,0.7489159340887925
+instruct,HAP llama3-8b-base,20,ai,0.5785055731388469
+instruct,HAP llama3-8b-base,20,ai_hc3,0.6078673583353867
+instruct,HAP llama3-8b-base,20,ai_hap,0.5489517762679971
+instruct,HAP llama3-8b-base,20,ai_perp,0.708423872171428
+instruct,HAP llama3-8b-base,21,ai,0.5814849542852205
+instruct,HAP llama3-8b-base,21,ai_hc3,0.6120308114733376
+instruct,HAP llama3-8b-base,21,ai_hap,0.5495406120692139
+instruct,HAP llama3-8b-base,21,ai_perp,0.7024267075438186
+instruct,HAP llama3-8b-base,22,ai,0.5579923259334167
+instruct,HAP llama3-8b-base,22,ai_hc3,0.5888550023841449
+instruct,HAP llama3-8b-base,22,ai_hap,0.5263296008397311
+instruct,HAP llama3-8b-base,22,ai_perp,0.6882082430611781
+instruct,HAP llama3-8b-base,23,ai,0.5659736111955607
+instruct,HAP llama3-8b-base,23,ai_hc3,0.5975339300629479
+instruct,HAP llama3-8b-base,23,ai_hap,0.530752269738
+instruct,HAP llama3-8b-base,23,ai_perp,0.6791964951469049
+instruct,HAP llama3-8b-base,24,ai,0.5580371286574224
+instruct,HAP llama3-8b-base,24,ai_hc3,0.5918695856708087
+instruct,HAP llama3-8b-base,24,ai_hap,0.5231710087973349
+instruct,HAP llama3-8b-base,24,ai_perp,0.6645364038133519
+instruct,HAP llama3-8b-base,25,ai,0.5621589792659394
+instruct,HAP llama3-8b-base,25,ai_hc3,0.5963018551527933
+instruct,HAP llama3-8b-base,25,ai_hap,0.5201788268726739
+instruct,HAP llama3-8b-base,25,ai_perp,0.6619762481558878
+instruct,HAP llama3-8b-base,26,ai,0.5583539479200336
+instruct,HAP llama3-8b-base,26,ai_hc3,0.5954666043695458
+instruct,HAP llama3-8b-base,26,ai_hap,0.5166490122599454
+instruct,HAP llama3-8b-base,26,ai_perp,0.6643987954467633
+instruct,HAP llama3-8b-base,27,ai,0.5919687917025355
+instruct,HAP llama3-8b-base,27,ai_hc3,0.6351042143362317
+instruct,HAP llama3-8b-base,27,ai_hap,0.5447403202114689
+instruct,HAP llama3-8b-base,27,ai_perp,0.670501566495243
+instruct,HAP llama3-8b-base,28,ai,0.6486698391262189
+instruct,HAP llama3-8b-base,28,ai_hc3,0.671573631676806
+instruct,HAP llama3-8b-base,28,ai_hap,0.6206777372064222
+instruct,HAP llama3-8b-base,28,ai_perp,0.577977541034495
+instruct,MAGE chat (GPT-3.5/davinci-003),1,ai,0.7006333333333333
+instruct,MAGE chat (GPT-3.5/davinci-003),1,ai_hc3,0.7236583333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),1,ai_hap,0.6219847222222221
+instruct,MAGE chat (GPT-3.5/davinci-003),1,ai_perp,0.7471083333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),2,ai,0.7168611111111112
+instruct,MAGE chat (GPT-3.5/davinci-003),2,ai_hc3,0.7439944444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),2,ai_hap,0.6506194444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),2,ai_perp,0.7548125000000001
+instruct,MAGE chat (GPT-3.5/davinci-003),3,ai,0.7750291666666667
+instruct,MAGE chat (GPT-3.5/davinci-003),3,ai_hc3,0.788148611111111
+instruct,MAGE chat (GPT-3.5/davinci-003),3,ai_hap,0.7149194444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),3,ai_perp,0.7909201388888889
+instruct,MAGE chat (GPT-3.5/davinci-003),4,ai,0.7171597222222221
+instruct,MAGE chat (GPT-3.5/davinci-003),4,ai_hc3,0.7484180555555555
+instruct,MAGE chat (GPT-3.5/davinci-003),4,ai_hap,0.6239069444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),4,ai_perp,0.811390277777778
+instruct,MAGE chat (GPT-3.5/davinci-003),5,ai,0.7186236111111111
+instruct,MAGE chat (GPT-3.5/davinci-003),5,ai_hc3,0.7684166666666666
+instruct,MAGE chat (GPT-3.5/davinci-003),5,ai_hap,0.6336520833333332
+instruct,MAGE chat (GPT-3.5/davinci-003),5,ai_perp,0.8314194444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),6,ai,0.7388194444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),6,ai_hc3,0.7933819444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),6,ai_hap,0.6700597222222222
+instruct,MAGE chat (GPT-3.5/davinci-003),6,ai_perp,0.8512888888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),7,ai,0.7343124999999999
+instruct,MAGE chat (GPT-3.5/davinci-003),7,ai_hc3,0.7935930555555554
+instruct,MAGE chat (GPT-3.5/davinci-003),7,ai_hap,0.6856569444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),7,ai_perp,0.8617194444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),8,ai,0.7354444444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),8,ai_hc3,0.7737249999999999
+instruct,MAGE chat (GPT-3.5/davinci-003),8,ai_hap,0.6828375
+instruct,MAGE chat (GPT-3.5/davinci-003),8,ai_perp,0.8773083333333335
+instruct,MAGE chat (GPT-3.5/davinci-003),9,ai,0.7254055555555555
+instruct,MAGE chat (GPT-3.5/davinci-003),9,ai_hc3,0.7573416666666667
+instruct,MAGE chat (GPT-3.5/davinci-003),9,ai_hap,0.6811138888888888
+instruct,MAGE chat (GPT-3.5/davinci-003),9,ai_perp,0.8635458333333333
+instruct,MAGE chat (GPT-3.5/davinci-003),10,ai,0.7536625000000001
+instruct,MAGE chat (GPT-3.5/davinci-003),10,ai_hc3,0.7677208333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),10,ai_hap,0.7297083333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),10,ai_perp,0.8901652777777778
+instruct,MAGE chat (GPT-3.5/davinci-003),11,ai,0.7458805555555554
+instruct,MAGE chat (GPT-3.5/davinci-003),11,ai_hc3,0.7632111111111112
+instruct,MAGE chat (GPT-3.5/davinci-003),11,ai_hap,0.7167124999999999
+instruct,MAGE chat (GPT-3.5/davinci-003),11,ai_perp,0.8828777777777779
+instruct,MAGE chat (GPT-3.5/davinci-003),12,ai,0.7367097222222222
+instruct,MAGE chat (GPT-3.5/davinci-003),12,ai_hc3,0.7571236111111111
+instruct,MAGE chat (GPT-3.5/davinci-003),12,ai_hap,0.7047180555555557
+instruct,MAGE chat (GPT-3.5/davinci-003),12,ai_perp,0.8787763888888888
+instruct,MAGE chat (GPT-3.5/davinci-003),13,ai,0.7377777777777776
+instruct,MAGE chat (GPT-3.5/davinci-003),13,ai_hc3,0.756532638888889
+instruct,MAGE chat (GPT-3.5/davinci-003),13,ai_hap,0.706375
+instruct,MAGE chat (GPT-3.5/davinci-003),13,ai_perp,0.876751388888889
+instruct,MAGE chat (GPT-3.5/davinci-003),14,ai,0.7405597222222222
+instruct,MAGE chat (GPT-3.5/davinci-003),14,ai_hc3,0.7655541666666668
+instruct,MAGE chat (GPT-3.5/davinci-003),14,ai_hap,0.7013388888888888
+instruct,MAGE chat (GPT-3.5/davinci-003),14,ai_perp,0.8765416666666667
+instruct,MAGE chat (GPT-3.5/davinci-003),15,ai,0.7676569444444443
+instruct,MAGE chat (GPT-3.5/davinci-003),15,ai_hc3,0.7767930555555556
+instruct,MAGE chat (GPT-3.5/davinci-003),15,ai_hap,0.7465208333333333
+instruct,MAGE chat (GPT-3.5/davinci-003),15,ai_perp,0.8896194444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),16,ai,0.7512930555555555
+instruct,MAGE chat (GPT-3.5/davinci-003),16,ai_hc3,0.7620819444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),16,ai_hap,0.7297291666666665
+instruct,MAGE chat (GPT-3.5/davinci-003),16,ai_perp,0.8860944444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),17,ai,0.7424041666666668
+instruct,MAGE chat (GPT-3.5/davinci-003),17,ai_hc3,0.7550125
+instruct,MAGE chat (GPT-3.5/davinci-003),17,ai_hap,0.7208777777777778
+instruct,MAGE chat (GPT-3.5/davinci-003),17,ai_perp,0.8898875000000002
+instruct,MAGE chat (GPT-3.5/davinci-003),18,ai,0.7458666666666667
+instruct,MAGE chat (GPT-3.5/davinci-003),18,ai_hc3,0.7601888888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),18,ai_hap,0.7213791666666667
+instruct,MAGE chat (GPT-3.5/davinci-003),18,ai_perp,0.8887388888888887
+instruct,MAGE chat (GPT-3.5/davinci-003),19,ai,0.7418388888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),19,ai_hc3,0.755401388888889
+instruct,MAGE chat (GPT-3.5/davinci-003),19,ai_hap,0.7171930555555557
+instruct,MAGE chat (GPT-3.5/davinci-003),19,ai_perp,0.8903027777777779
+instruct,MAGE chat (GPT-3.5/davinci-003),20,ai,0.7636694444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),20,ai_hc3,0.7725861111111112
+instruct,MAGE chat (GPT-3.5/davinci-003),20,ai_hap,0.7449263888888888
+instruct,MAGE chat (GPT-3.5/davinci-003),20,ai_perp,0.8925583333333333
+instruct,MAGE chat (GPT-3.5/davinci-003),21,ai,0.7668625
+instruct,MAGE chat (GPT-3.5/davinci-003),21,ai_hc3,0.776790277777778
+instruct,MAGE chat (GPT-3.5/davinci-003),21,ai_hap,0.7461930555555556
+instruct,MAGE chat (GPT-3.5/davinci-003),21,ai_perp,0.8921402777777777
+instruct,MAGE chat (GPT-3.5/davinci-003),22,ai,0.7528111111111111
+instruct,MAGE chat (GPT-3.5/davinci-003),22,ai_hc3,0.770323611111111
+instruct,MAGE chat (GPT-3.5/davinci-003),22,ai_hap,0.7314180555555556
+instruct,MAGE chat (GPT-3.5/davinci-003),22,ai_perp,0.8922763888888888
+instruct,MAGE chat (GPT-3.5/davinci-003),23,ai,0.7574993055555557
+instruct,MAGE chat (GPT-3.5/davinci-003),23,ai_hc3,0.7808833333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),23,ai_hap,0.7331569444444443
+instruct,MAGE chat (GPT-3.5/davinci-003),23,ai_perp,0.8890666666666669
+instruct,MAGE chat (GPT-3.5/davinci-003),24,ai,0.7558986111111112
+instruct,MAGE chat (GPT-3.5/davinci-003),24,ai_hc3,0.7793541666666666
+instruct,MAGE chat (GPT-3.5/davinci-003),24,ai_hap,0.7246486111111111
+instruct,MAGE chat (GPT-3.5/davinci-003),24,ai_perp,0.8806694444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),25,ai,0.7875166666666666
+instruct,MAGE chat (GPT-3.5/davinci-003),25,ai_hc3,0.8012277777777779
+instruct,MAGE chat (GPT-3.5/davinci-003),25,ai_hap,0.7570777777777777
+instruct,MAGE chat (GPT-3.5/davinci-003),25,ai_perp,0.883438888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),26,ai,0.8098819444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),26,ai_hc3,0.8219513888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),26,ai_hap,0.7781694444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),26,ai_perp,0.8857944444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),27,ai,0.8770777777777777
+instruct,MAGE chat (GPT-3.5/davinci-003),27,ai_hc3,0.8682944444444445
+instruct,MAGE chat (GPT-3.5/davinci-003),27,ai_hap,0.8437708333333334
+instruct,MAGE chat (GPT-3.5/davinci-003),27,ai_perp,0.8842930555555555
+instruct,MAGE chat (GPT-3.5/davinci-003),28,ai,0.7922277777777778
+instruct,MAGE chat (GPT-3.5/davinci-003),28,ai_hc3,0.7954388888888889
+instruct,MAGE chat (GPT-3.5/davinci-003),28,ai_hap,0.7799069444444444
+instruct,MAGE chat (GPT-3.5/davinci-003),28,ai_perp,0.8014027777777778
+instruct,MAGE older LMs,1,ai,0.5139694444444445
+instruct,MAGE older LMs,1,ai_hc3,0.5428972222222223
+instruct,MAGE older LMs,1,ai_hap,0.48602777777777784
+instruct,MAGE older LMs,1,ai_perp,0.5219944444444444
+instruct,MAGE older LMs,2,ai,0.5121277777777777
+instruct,MAGE older LMs,2,ai_hc3,0.5469875
+instruct,MAGE older LMs,2,ai_hap,0.4798541666666667
+instruct,MAGE older LMs,2,ai_perp,0.508023611111111
+instruct,MAGE older LMs,3,ai,0.5320347222222223
+instruct,MAGE older LMs,3,ai_hc3,0.5589430555555555
+instruct,MAGE older LMs,3,ai_hap,0.5013472222222223
+instruct,MAGE older LMs,3,ai_perp,0.5152861111111111
+instruct,MAGE older LMs,4,ai,0.5126534722222222
+instruct,MAGE older LMs,4,ai_hc3,0.5816805555555555
+instruct,MAGE older LMs,4,ai_hap,0.46214305555555557
+instruct,MAGE older LMs,4,ai_perp,0.5386180555555556
+instruct,MAGE older LMs,5,ai,0.5100986111111112
+instruct,MAGE older LMs,5,ai_hc3,0.5812972222222222
+instruct,MAGE older LMs,5,ai_hap,0.4623715277777778
+instruct,MAGE older LMs,5,ai_perp,0.5401222222222223
+instruct,MAGE older LMs,6,ai,0.5134416666666666
+instruct,MAGE older LMs,6,ai_hc3,0.5815680555555556
+instruct,MAGE older LMs,6,ai_hap,0.4682986111111111
+instruct,MAGE older LMs,6,ai_perp,0.5394534722222222
+instruct,MAGE older LMs,7,ai,0.5053743055555555
+instruct,MAGE older LMs,7,ai_hc3,0.56926875
+instruct,MAGE older LMs,7,ai_hap,0.4706680555555556
+instruct,MAGE older LMs,7,ai_perp,0.5346069444444446
+instruct,MAGE older LMs,8,ai,0.506475
+instruct,MAGE older LMs,8,ai_hc3,0.538286111111111
+instruct,MAGE older LMs,8,ai_hap,0.48054722222222224
+instruct,MAGE older LMs,8,ai_perp,0.5352909722222222
+instruct,MAGE older LMs,9,ai,0.497775
+instruct,MAGE older LMs,9,ai_hc3,0.520675
+instruct,MAGE older LMs,9,ai_hap,0.47853749999999995
+instruct,MAGE older LMs,9,ai_perp,0.5307722222222222
+instruct,MAGE older LMs,10,ai,0.5127583333333333
+instruct,MAGE older LMs,10,ai_hc3,0.5250486111111111
+instruct,MAGE older LMs,10,ai_hap,0.5003055555555556
+instruct,MAGE older LMs,10,ai_perp,0.5359458333333333
+instruct,MAGE older LMs,11,ai,0.5049180555555556
+instruct,MAGE older LMs,11,ai_hc3,0.5186083333333333
+instruct,MAGE older LMs,11,ai_hap,0.49047222222222225
+instruct,MAGE older LMs,11,ai_perp,0.530075
+instruct,MAGE older LMs,12,ai,0.4931930555555556
+instruct,MAGE older LMs,12,ai_hc3,0.5073416666666667
+instruct,MAGE older LMs,12,ai_hap,0.47948888888888885
+instruct,MAGE older LMs,12,ai_perp,0.5181083333333334
+instruct,MAGE older LMs,13,ai,0.4805944444444445
+instruct,MAGE older LMs,13,ai_hc3,0.4964194444444444
+instruct,MAGE older LMs,13,ai_hap,0.46520277777777774
+instruct,MAGE older LMs,13,ai_perp,0.5081277777777777
+instruct,MAGE older LMs,14,ai,0.4811805555555556
+instruct,MAGE older LMs,14,ai_hc3,0.4977069444444444
+instruct,MAGE older LMs,14,ai_hap,0.4661513888888889
+instruct,MAGE older LMs,14,ai_perp,0.5022597222222221
+instruct,MAGE older LMs,15,ai,0.49621805555555554
+instruct,MAGE older LMs,15,ai_hc3,0.5050125
+instruct,MAGE older LMs,15,ai_hap,0.48606944444444444
+instruct,MAGE older LMs,15,ai_perp,0.4979388888888889
+instruct,MAGE older LMs,16,ai,0.49594305555555557
+instruct,MAGE older LMs,16,ai_hc3,0.5051152777777778
+instruct,MAGE older LMs,16,ai_hap,0.4860625
+instruct,MAGE older LMs,16,ai_perp,0.4983819444444444
+instruct,MAGE older LMs,17,ai,0.5128472222222222
+instruct,MAGE older LMs,17,ai_hc3,0.516425
+instruct,MAGE older LMs,17,ai_hap,0.5086458333333332
+instruct,MAGE older LMs,17,ai_perp,0.49856249999999996
+instruct,MAGE older LMs,18,ai,0.5088375
+instruct,MAGE older LMs,18,ai_hc3,0.5126652777777778
+instruct,MAGE older LMs,18,ai_hap,0.5035236111111111
+instruct,MAGE older LMs,18,ai_perp,0.4987194444444444
+instruct,MAGE older LMs,19,ai,0.49692500000000006
+instruct,MAGE older LMs,19,ai_hc3,0.5041986111111111
+instruct,MAGE older LMs,19,ai_hap,0.48901666666666666
+instruct,MAGE older LMs,19,ai_perp,0.5003222222222222
+instruct,MAGE older LMs,20,ai,0.5176152777777778
+instruct,MAGE older LMs,20,ai_hc3,0.5211902777777778
+instruct,MAGE older LMs,20,ai_hap,0.5125861111111111
+instruct,MAGE older LMs,20,ai_perp,0.5081680555555557
+instruct,MAGE older LMs,21,ai,0.5244069444444444
+instruct,MAGE older LMs,21,ai_hc3,0.5264722222222222
+instruct,MAGE older LMs,21,ai_hap,0.5201777777777777
+instruct,MAGE older LMs,21,ai_perp,0.5089388888888888
+instruct,MAGE older LMs,22,ai,0.5376930555555555
+instruct,MAGE older LMs,22,ai_hc3,0.5396263888888889
+instruct,MAGE older LMs,22,ai_hap,0.5356638888888888
+instruct,MAGE older LMs,22,ai_perp,0.5137583333333333
+instruct,MAGE older LMs,23,ai,0.5387277777777777
+instruct,MAGE older LMs,23,ai_hc3,0.5451277777777778
+instruct,MAGE older LMs,23,ai_hap,0.5345430555555555
+instruct,MAGE older LMs,23,ai_perp,0.5135388888888889
+instruct,MAGE older LMs,24,ai,0.5514534722222223
+instruct,MAGE older LMs,24,ai_hc3,0.5632541666666666
+instruct,MAGE older LMs,24,ai_hap,0.5435875
+instruct,MAGE older LMs,24,ai_perp,0.5281722222222223
+instruct,MAGE older LMs,25,ai,0.5589902777777778
+instruct,MAGE older LMs,25,ai_hc3,0.5736444444444444
+instruct,MAGE older LMs,25,ai_hap,0.5437361111111111
+instruct,MAGE older LMs,25,ai_perp,0.534976388888889
+instruct,MAGE older LMs,26,ai,0.5632194444444445
+instruct,MAGE older LMs,26,ai_hc3,0.5805819444444444
+instruct,MAGE older LMs,26,ai_hap,0.5449027777777777
+instruct,MAGE older LMs,26,ai_perp,0.5377555555555555
+instruct,MAGE older LMs,27,ai,0.5556472222222222
+instruct,MAGE older LMs,27,ai_hc3,0.5868458333333334
+instruct,MAGE older LMs,27,ai_hap,0.5035826388888889
+instruct,MAGE older LMs,27,ai_perp,0.5352131944444445
+instruct,MAGE older LMs,28,ai,0.43914722222222224
+instruct,MAGE older LMs,28,ai_hc3,0.4450375
+instruct,MAGE older LMs,28,ai_hap,0.43392777777777775
+instruct,MAGE older LMs,28,ai_perp,0.4230125
+instruct,MAGE GPT-4 (OOD),1,ai,0.7043389107611548
+instruct,MAGE GPT-4 (OOD),1,ai_hc3,0.705625
+instruct,MAGE GPT-4 (OOD),1,ai_hap,0.6806594488188976
+instruct,MAGE GPT-4 (OOD),1,ai_perp,0.7331610892388452
+instruct,MAGE GPT-4 (OOD),2,ai,0.7378338254593176
+instruct,MAGE GPT-4 (OOD),2,ai_hc3,0.7594873687664042
+instruct,MAGE GPT-4 (OOD),2,ai_hap,0.7073244750656168
+instruct,MAGE GPT-4 (OOD),2,ai_perp,0.7874081364829396
+instruct,MAGE GPT-4 (OOD),3,ai,0.7688402230971129
+instruct,MAGE GPT-4 (OOD),3,ai_hc3,0.779899934383202
+instruct,MAGE GPT-4 (OOD),3,ai_hap,0.7333185695538058
+instruct,MAGE GPT-4 (OOD),3,ai_perp,0.8539156824146983
+instruct,MAGE GPT-4 (OOD),4,ai,0.7280495406824147
+instruct,MAGE GPT-4 (OOD),4,ai_hc3,0.7540206692913386
+instruct,MAGE GPT-4 (OOD),4,ai_hap,0.691609251968504
+instruct,MAGE GPT-4 (OOD),4,ai_perp,0.8629330708661418
+instruct,MAGE GPT-4 (OOD),5,ai,0.74686843832021
+instruct,MAGE GPT-4 (OOD),5,ai_hc3,0.7708825459317585
+instruct,MAGE GPT-4 (OOD),5,ai_hap,0.7334662073490813
+instruct,MAGE GPT-4 (OOD),5,ai_perp,0.8837893700787403
+instruct,MAGE GPT-4 (OOD),6,ai,0.7601640419947506
+instruct,MAGE GPT-4 (OOD),6,ai_hc3,0.8358415354330708
+instruct,MAGE GPT-4 (OOD),6,ai_hap,0.7014829396325459
+instruct,MAGE GPT-4 (OOD),6,ai_perp,0.910741469816273
+instruct,MAGE GPT-4 (OOD),7,ai,0.7828100393700788
+instruct,MAGE GPT-4 (OOD),7,ai_hc3,0.8417880577427823
+instruct,MAGE GPT-4 (OOD),7,ai_hap,0.7605692257217848
+instruct,MAGE GPT-4 (OOD),7,ai_perp,0.8995193569553805
+instruct,MAGE GPT-4 (OOD),8,ai,0.7828641732283464
+instruct,MAGE GPT-4 (OOD),8,ai_hc3,0.805209973753281
+instruct,MAGE GPT-4 (OOD),8,ai_hap,0.7520472440944882
+instruct,MAGE GPT-4 (OOD),8,ai_perp,0.9119422572178477
+instruct,MAGE GPT-4 (OOD),9,ai,0.7768667979002624
+instruct,MAGE GPT-4 (OOD),9,ai_hc3,0.7885104986876641
+instruct,MAGE GPT-4 (OOD),9,ai_hap,0.7532595144356955
+instruct,MAGE GPT-4 (OOD),9,ai_perp,0.907043963254593
+instruct,MAGE GPT-4 (OOD),10,ai,0.806473097112861
+instruct,MAGE GPT-4 (OOD),10,ai_hc3,0.8158989501312337
+instruct,MAGE GPT-4 (OOD),10,ai_hap,0.783740157480315
+instruct,MAGE GPT-4 (OOD),10,ai_perp,0.9284120734908137
+instruct,MAGE GPT-4 (OOD),11,ai,0.8148868110236221
+instruct,MAGE GPT-4 (OOD),11,ai_hc3,0.8176033464566929
+instruct,MAGE GPT-4 (OOD),11,ai_hap,0.7957693569553806
+instruct,MAGE GPT-4 (OOD),11,ai_perp,0.9352493438320211
+instruct,MAGE GPT-4 (OOD),12,ai,0.8149442257217847
+instruct,MAGE GPT-4 (OOD),12,ai_hc3,0.8138090551181101
+instruct,MAGE GPT-4 (OOD),12,ai_hap,0.7986958661417323
+instruct,MAGE GPT-4 (OOD),12,ai_perp,0.926655183727034
+instruct,MAGE GPT-4 (OOD),13,ai,0.8130741469816274
+instruct,MAGE GPT-4 (OOD),13,ai_hc3,0.8070849737532808
+instruct,MAGE GPT-4 (OOD),13,ai_hap,0.8016420603674541
+instruct,MAGE GPT-4 (OOD),13,ai_perp,0.926030183727034
+instruct,MAGE GPT-4 (OOD),14,ai,0.8076853674540683
+instruct,MAGE GPT-4 (OOD),14,ai_hc3,0.8122162073490813
+instruct,MAGE GPT-4 (OOD),14,ai_hap,0.7822178477690288
+instruct,MAGE GPT-4 (OOD),14,ai_perp,0.9243848425196849
+instruct,MAGE GPT-4 (OOD),15,ai,0.8420669291338583
+instruct,MAGE GPT-4 (OOD),15,ai_hc3,0.830362532808399
+instruct,MAGE GPT-4 (OOD),15,ai_hap,0.8354519356955381
+instruct,MAGE GPT-4 (OOD),15,ai_perp,0.948882874015748
+instruct,MAGE GPT-4 (OOD),16,ai,0.8299753937007874
+instruct,MAGE GPT-4 (OOD),16,ai_hc3,0.8148818897637796
+instruct,MAGE GPT-4 (OOD),16,ai_hap,0.8232119422572178
+instruct,MAGE GPT-4 (OOD),16,ai_perp,0.9428083989501312
+instruct,MAGE GPT-4 (OOD),17,ai,0.8109678477690289
+instruct,MAGE GPT-4 (OOD),17,ai_hc3,0.806858595800525
+instruct,MAGE GPT-4 (OOD),17,ai_hap,0.7977148950131233
+instruct,MAGE GPT-4 (OOD),17,ai_perp,0.9450639763779528
+instruct,MAGE GPT-4 (OOD),18,ai,0.8136860236220473
+instruct,MAGE GPT-4 (OOD),18,ai_hc3,0.8105380577427822
+instruct,MAGE GPT-4 (OOD),18,ai_hap,0.7944685039370079
+instruct,MAGE GPT-4 (OOD),18,ai_perp,0.9444110892388451
+instruct,MAGE GPT-4 (OOD),19,ai,0.8096604330708662
+instruct,MAGE GPT-4 (OOD),19,ai_hc3,0.8018110236220473
+instruct,MAGE GPT-4 (OOD),19,ai_hap,0.7996128608923884
+instruct,MAGE GPT-4 (OOD),19,ai_perp,0.9430561023622046
+instruct,MAGE GPT-4 (OOD),20,ai,0.841123687664042
+instruct,MAGE GPT-4 (OOD),20,ai_hc3,0.8293307086614172
+instruct,MAGE GPT-4 (OOD),20,ai_hap,0.834714566929134
+instruct,MAGE GPT-4 (OOD),20,ai_perp,0.944105971128609
+instruct,MAGE GPT-4 (OOD),21,ai,0.8415124671916011
+instruct,MAGE GPT-4 (OOD),21,ai_hc3,0.8313008530183728
+instruct,MAGE GPT-4 (OOD),21,ai_hap,0.8302362204724408
+instruct,MAGE GPT-4 (OOD),21,ai_perp,0.9408841863517059
+instruct,MAGE GPT-4 (OOD),22,ai,0.8122006233595801
+instruct,MAGE GPT-4 (OOD),22,ai_hc3,0.8090977690288713
+instruct,MAGE GPT-4 (OOD),22,ai_hap,0.7983480971128609
+instruct,MAGE GPT-4 (OOD),22,ai_perp,0.9424064960629922
+instruct,MAGE GPT-4 (OOD),23,ai,0.8086876640419948
+instruct,MAGE GPT-4 (OOD),23,ai_hc3,0.8102526246719159
+instruct,MAGE GPT-4 (OOD),23,ai_hap,0.794235564304462
+instruct,MAGE GPT-4 (OOD),23,ai_perp,0.9415600393700787
+instruct,MAGE GPT-4 (OOD),24,ai,0.806991469816273
+instruct,MAGE GPT-4 (OOD),24,ai_hc3,0.8076328740157479
+instruct,MAGE GPT-4 (OOD),24,ai_hap,0.7908480971128609
+instruct,MAGE GPT-4 (OOD),24,ai_perp,0.9392503280839897
+instruct,MAGE GPT-4 (OOD),25,ai,0.8316699475065618
+instruct,MAGE GPT-4 (OOD),25,ai_hc3,0.8219143700787401
+instruct,MAGE GPT-4 (OOD),25,ai_hap,0.8185252624671915
+instruct,MAGE GPT-4 (OOD),25,ai_perp,0.9419668635170604
+instruct,MAGE GPT-4 (OOD),26,ai,0.8486351706036744
+instruct,MAGE GPT-4 (OOD),26,ai_hc3,0.8388484251968502
+instruct,MAGE GPT-4 (OOD),26,ai_hap,0.8304199475065617
+instruct,MAGE GPT-4 (OOD),26,ai_perp,0.9406069553805774
+instruct,MAGE GPT-4 (OOD),27,ai,0.9073031496062992
+instruct,MAGE GPT-4 (OOD),27,ai_hc3,0.8629363517060367
+instruct,MAGE GPT-4 (OOD),27,ai_hap,0.901013779527559
+instruct,MAGE GPT-4 (OOD),27,ai_perp,0.9327066929133859
+instruct,MAGE GPT-4 (OOD),28,ai,0.8231332020997376
+instruct,MAGE GPT-4 (OOD),28,ai_hc3,0.7729740813648295
+instruct,MAGE GPT-4 (OOD),28,ai_hap,0.8509694881889763
+instruct,MAGE GPT-4 (OOD),28,ai_perp,0.8587811679790026
+instruct,Llama-3.1 paraphrase,1,ai,0.7524839999999999
+instruct,Llama-3.1 paraphrase,1,ai_hc3,0.674784
+instruct,Llama-3.1 paraphrase,1,ai_hap,0.761324
+instruct,Llama-3.1 paraphrase,1,ai_perp,0.741232
+instruct,Llama-3.1 paraphrase,2,ai,0.7978480000000001
+instruct,Llama-3.1 paraphrase,2,ai_hc3,0.7552760000000001
+instruct,Llama-3.1 paraphrase,2,ai_hap,0.7991720000000001
+instruct,Llama-3.1 paraphrase,2,ai_perp,0.817824
+instruct,Llama-3.1 paraphrase,3,ai,0.842816
+instruct,Llama-3.1 paraphrase,3,ai_hc3,0.8008919999999999
+instruct,Llama-3.1 paraphrase,3,ai_hap,0.846424
+instruct,Llama-3.1 paraphrase,3,ai_perp,0.863032
+instruct,Llama-3.1 paraphrase,4,ai,0.805856
+instruct,Llama-3.1 paraphrase,4,ai_hc3,0.689676
+instruct,Llama-3.1 paraphrase,4,ai_hap,0.796224
+instruct,Llama-3.1 paraphrase,4,ai_perp,0.825448
+instruct,Llama-3.1 paraphrase,5,ai,0.788708
+instruct,Llama-3.1 paraphrase,5,ai_hc3,0.7069679999999999
+instruct,Llama-3.1 paraphrase,5,ai_hap,0.7795439999999998
+instruct,Llama-3.1 paraphrase,5,ai_perp,0.832516
+instruct,Llama-3.1 paraphrase,6,ai,0.8063960000000001
+instruct,Llama-3.1 paraphrase,6,ai_hc3,0.7275759999999998
+instruct,Llama-3.1 paraphrase,6,ai_hap,0.79762
+instruct,Llama-3.1 paraphrase,6,ai_perp,0.8595560000000001
+instruct,Llama-3.1 paraphrase,7,ai,0.8002959999999999
+instruct,Llama-3.1 paraphrase,7,ai_hc3,0.739352
+instruct,Llama-3.1 paraphrase,7,ai_hap,0.7977920000000001
+instruct,Llama-3.1 paraphrase,7,ai_perp,0.86456
+instruct,Llama-3.1 paraphrase,8,ai,0.794528
+instruct,Llama-3.1 paraphrase,8,ai_hc3,0.7885719999999999
+instruct,Llama-3.1 paraphrase,8,ai_hap,0.792408
+instruct,Llama-3.1 paraphrase,8,ai_perp,0.8776679999999999
+instruct,Llama-3.1 paraphrase,9,ai,0.774216
+instruct,Llama-3.1 paraphrase,9,ai_hc3,0.766344
+instruct,Llama-3.1 paraphrase,9,ai_hap,0.775724
+instruct,Llama-3.1 paraphrase,9,ai_perp,0.844044
+instruct,Llama-3.1 paraphrase,10,ai,0.804604
+instruct,Llama-3.1 paraphrase,10,ai_hc3,0.7902799999999999
+instruct,Llama-3.1 paraphrase,10,ai_hap,0.810956
+instruct,Llama-3.1 paraphrase,10,ai_perp,0.891528
+instruct,Llama-3.1 paraphrase,11,ai,0.8110280000000001
+instruct,Llama-3.1 paraphrase,11,ai_hc3,0.79262
+instruct,Llama-3.1 paraphrase,11,ai_hap,0.818932
+instruct,Llama-3.1 paraphrase,11,ai_perp,0.884076
+instruct,Llama-3.1 paraphrase,12,ai,0.7949120000000001
+instruct,Llama-3.1 paraphrase,12,ai_hc3,0.777924
+instruct,Llama-3.1 paraphrase,12,ai_hap,0.80322
+instruct,Llama-3.1 paraphrase,12,ai_perp,0.8723879999999999
+instruct,Llama-3.1 paraphrase,13,ai,0.7839280000000001
+instruct,Llama-3.1 paraphrase,13,ai_hc3,0.7651519999999999
+instruct,Llama-3.1 paraphrase,13,ai_hap,0.796228
+instruct,Llama-3.1 paraphrase,13,ai_perp,0.8574759999999999
+instruct,Llama-3.1 paraphrase,14,ai,0.788184
+instruct,Llama-3.1 paraphrase,14,ai_hc3,0.7664679999999999
+instruct,Llama-3.1 paraphrase,14,ai_hap,0.7993480000000001
+instruct,Llama-3.1 paraphrase,14,ai_perp,0.845252
+instruct,Llama-3.1 paraphrase,15,ai,0.823236
+instruct,Llama-3.1 paraphrase,15,ai_hc3,0.789824
+instruct,Llama-3.1 paraphrase,15,ai_hap,0.8416879999999999
+instruct,Llama-3.1 paraphrase,15,ai_perp,0.860012
+instruct,Llama-3.1 paraphrase,16,ai,0.810768
+instruct,Llama-3.1 paraphrase,16,ai_hc3,0.7794319999999999
+instruct,Llama-3.1 paraphrase,16,ai_hap,0.8324360000000001
+instruct,Llama-3.1 paraphrase,16,ai_perp,0.851524
+instruct,Llama-3.1 paraphrase,17,ai,0.804752
+instruct,Llama-3.1 paraphrase,17,ai_hc3,0.7783680000000001
+instruct,Llama-3.1 paraphrase,17,ai_hap,0.8220240000000001
+instruct,Llama-3.1 paraphrase,17,ai_perp,0.8520999999999999
+instruct,Llama-3.1 paraphrase,18,ai,0.816404
+instruct,Llama-3.1 paraphrase,18,ai_hc3,0.783844
+instruct,Llama-3.1 paraphrase,18,ai_hap,0.8364639999999999
+instruct,Llama-3.1 paraphrase,18,ai_perp,0.850584
+instruct,Llama-3.1 paraphrase,19,ai,0.8042480000000001
+instruct,Llama-3.1 paraphrase,19,ai_hc3,0.773172
+instruct,Llama-3.1 paraphrase,19,ai_hap,0.82522
+instruct,Llama-3.1 paraphrase,19,ai_perp,0.8418
+instruct,Llama-3.1 paraphrase,20,ai,0.857636
+instruct,Llama-3.1 paraphrase,20,ai_hc3,0.8282999999999999
+instruct,Llama-3.1 paraphrase,20,ai_hap,0.8760840000000001
+instruct,Llama-3.1 paraphrase,20,ai_perp,0.882072
+instruct,Llama-3.1 paraphrase,21,ai,0.86716
+instruct,Llama-3.1 paraphrase,21,ai_hc3,0.8320560000000001
+instruct,Llama-3.1 paraphrase,21,ai_hap,0.884172
+instruct,Llama-3.1 paraphrase,21,ai_perp,0.87486
+instruct,Llama-3.1 paraphrase,22,ai,0.8618559999999998
+instruct,Llama-3.1 paraphrase,22,ai_hc3,0.833816
+instruct,Llama-3.1 paraphrase,22,ai_hap,0.874248
+instruct,Llama-3.1 paraphrase,22,ai_perp,0.873044
+instruct,Llama-3.1 paraphrase,23,ai,0.86432
+instruct,Llama-3.1 paraphrase,23,ai_hc3,0.839808
+instruct,Llama-3.1 paraphrase,23,ai_hap,0.8740319999999999
+instruct,Llama-3.1 paraphrase,23,ai_perp,0.875964
+instruct,Llama-3.1 paraphrase,24,ai,0.871356
+instruct,Llama-3.1 paraphrase,24,ai_hc3,0.848984
+instruct,Llama-3.1 paraphrase,24,ai_hap,0.87822
+instruct,Llama-3.1 paraphrase,24,ai_perp,0.8862680000000001
+instruct,Llama-3.1 paraphrase,25,ai,0.886984
+instruct,Llama-3.1 paraphrase,25,ai_hc3,0.85602
+instruct,Llama-3.1 paraphrase,25,ai_hap,0.895224
+instruct,Llama-3.1 paraphrase,25,ai_perp,0.90112
+instruct,Llama-3.1 paraphrase,26,ai,0.8987040000000002
+instruct,Llama-3.1 paraphrase,26,ai_hc3,0.8677759999999999
+instruct,Llama-3.1 paraphrase,26,ai_hap,0.905956
+instruct,Llama-3.1 paraphrase,26,ai_perp,0.9019319999999998
+instruct,Llama-3.1 paraphrase,27,ai,0.926708
+instruct,Llama-3.1 paraphrase,27,ai_hc3,0.8923399999999999
+instruct,Llama-3.1 paraphrase,27,ai_hap,0.917268
+instruct,Llama-3.1 paraphrase,27,ai_perp,0.911956
+instruct,Llama-3.1 paraphrase,28,ai,0.723396
+instruct,Llama-3.1 paraphrase,28,ai_hc3,0.699136
+instruct,Llama-3.1 paraphrase,28,ai_hap,0.7424
+instruct,Llama-3.1 paraphrase,28,ai_perp,0.779616
+base,HC3 (ChatGPT),1,ai,0.8418841801426453
+base,HC3 (ChatGPT),1,ai_hc3,0.9097057940823388
+base,HC3 (ChatGPT),1,ai_hap,0.6703269543111363
+base,HC3 (ChatGPT),1,ai_perp,0.8547948591201187
+base,HC3 (ChatGPT),2,ai,0.861465909893369
+base,HC3 (ChatGPT),2,ai_hc3,0.9183221082550668
+base,HC3 (ChatGPT),2,ai_hap,0.7426967110373562
+base,HC3 (ChatGPT),2,ai_perp,0.8809549555116165
+base,HC3 (ChatGPT),3,ai,0.8994686109738014
+base,HC3 (ChatGPT),3,ai_hc3,0.9418925658498694
+base,HC3 (ChatGPT),3,ai_hap,0.8025673504695996
+base,HC3 (ChatGPT),3,ai_perp,0.9082548460560695
+base,HC3 (ChatGPT),4,ai,0.8471208336275687
+base,HC3 (ChatGPT),4,ai_hc3,0.8511150783842949
+base,HC3 (ChatGPT),4,ai_hap,0.7567560112280206
+base,HC3 (ChatGPT),4,ai_perp,0.9195965150766188
+base,HC3 (ChatGPT),5,ai,0.8477034196031353
+base,HC3 (ChatGPT),5,ai_hc3,0.8659015076618883
+base,HC3 (ChatGPT),5,ai_hap,0.7845700780312125
+base,HC3 (ChatGPT),5,ai_perp,0.9338301497069417
+base,HC3 (ChatGPT),6,ai,0.8578115069557234
+base,HC3 (ChatGPT),6,ai_hc3,0.8832510945554692
+base,HC3 (ChatGPT),6,ai_hap,0.7830143086646423
+base,HC3 (ChatGPT),6,ai_perp,0.9515129581244264
+base,HC3 (ChatGPT),7,ai,0.8528562160158181
+base,HC3 (ChatGPT),7,ai_hc3,0.8876105589294542
+base,HC3 (ChatGPT),7,ai_hap,0.8010126844855588
+base,HC3 (ChatGPT),7,ai_perp,0.9563667378716192
+base,HC3 (ChatGPT),8,ai,0.8664057534778619
+base,HC3 (ChatGPT),8,ai_hc3,0.9476080873525881
+base,HC3 (ChatGPT),8,ai_hap,0.8227151154579478
+base,HC3 (ChatGPT),8,ai_perp,0.9735077854671279
+base,HC3 (ChatGPT),9,ai,0.8591322558435138
+base,HC3 (ChatGPT),9,ai_hc3,0.8805025686745287
+base,HC3 (ChatGPT),9,ai_hap,0.81842626756585
+base,HC3 (ChatGPT),9,ai_perp,0.9620171598050984
+base,HC3 (ChatGPT),10,ai,0.8663086558152674
+base,HC3 (ChatGPT),10,ai_hc3,0.8817725619659628
+base,HC3 (ChatGPT),10,ai_hap,0.8373812760398277
+base,HC3 (ChatGPT),10,ai_perp,0.9809236194477792
+base,HC3 (ChatGPT),11,ai,0.8714051797189465
+base,HC3 (ChatGPT),11,ai_hc3,0.8854854441776712
+base,HC3 (ChatGPT),11,ai_hap,0.8434333292140386
+base,HC3 (ChatGPT),11,ai_perp,0.9735673681237201
+base,HC3 (ChatGPT),12,ai,0.869547083539298
+base,HC3 (ChatGPT),12,ai_hc3,0.8842529658922392
+base,HC3 (ChatGPT),12,ai_hap,0.8409705794082339
+base,HC3 (ChatGPT),12,ai_perp,0.9729704381752701
+base,HC3 (ChatGPT),13,ai,0.8714184203093002
+base,HC3 (ChatGPT),13,ai_hc3,0.8844868829884895
+base,HC3 (ChatGPT),13,ai_hap,0.8451612262552081
+base,HC3 (ChatGPT),13,ai_perp,0.9710284849233811
+base,HC3 (ChatGPT),14,ai,0.8761585516559564
+base,HC3 (ChatGPT),14,ai_hc3,0.8871449315020126
+base,HC3 (ChatGPT),14,ai_hap,0.8450012357884331
+base,HC3 (ChatGPT),14,ai_perp,0.9701855006708565
+base,HC3 (ChatGPT),15,ai,0.8795646935244685
+base,HC3 (ChatGPT),15,ai_hc3,0.887525598474684
+base,HC3 (ChatGPT),15,ai_hap,0.8590561224489797
+base,HC3 (ChatGPT),15,ai_perp,0.9751926505896477
+base,HC3 (ChatGPT),16,ai,0.8799630146176117
+base,HC3 (ChatGPT),16,ai_hc3,0.8869573564720006
+base,HC3 (ChatGPT),16,ai_hap,0.8636252295035662
+base,HC3 (ChatGPT),16,ai_perp,0.9757299978815055
+base,HC3 (ChatGPT),17,ai,0.8745476131629122
+base,HC3 (ChatGPT),17,ai_hc3,0.8834055681095968
+base,HC3 (ChatGPT),17,ai_hap,0.8569056298990184
+base,HC3 (ChatGPT),17,ai_perp,0.9768642751218135
+base,HC3 (ChatGPT),18,ai,0.8763395063907916
+base,HC3 (ChatGPT),18,ai_hc3,0.8853044894428359
+base,HC3 (ChatGPT),18,ai_hap,0.8564069009956923
+base,HC3 (ChatGPT),18,ai_perp,0.9758215786314526
+base,HC3 (ChatGPT),19,ai,0.8818078702069062
+base,HC3 (ChatGPT),19,ai_hc3,0.8882648647694371
+base,HC3 (ChatGPT),19,ai_hap,0.8675058258597558
+base,HC3 (ChatGPT),19,ai_perp,0.9798235470658854
+base,HC3 (ChatGPT),20,ai,0.8875443559776853
+base,HC3 (ChatGPT),20,ai_hc3,0.8937630199138478
+base,HC3 (ChatGPT),20,ai_hap,0.8801064543464445
+base,HC3 (ChatGPT),20,ai_perp,0.9853923186921827
+base,HC3 (ChatGPT),21,ai,0.889119986229786
+base,HC3 (ChatGPT),21,ai_hc3,0.9086675111220961
+base,HC3 (ChatGPT),21,ai_hap,0.8815143704540641
+base,HC3 (ChatGPT),21,ai_perp,0.9853051514723536
+base,HC3 (ChatGPT),22,ai,0.8901218575665559
+base,HC3 (ChatGPT),22,ai_hc3,0.9175033984181908
+base,HC3 (ChatGPT),22,ai_hap,0.8768294082338819
+base,HC3 (ChatGPT),22,ai_perp,0.9855170009180142
+base,HC3 (ChatGPT),23,ai,0.9035566432455335
+base,HC3 (ChatGPT),23,ai_hc3,0.9340728938634277
+base,HC3 (ChatGPT),23,ai_hap,0.8791266506602642
+base,HC3 (ChatGPT),23,ai_perp,0.9854905197373067
+base,HC3 (ChatGPT),24,ai,0.9138291345950145
+base,HC3 (ChatGPT),24,ai_hc3,0.9424199826989621
+base,HC3 (ChatGPT),24,ai_hap,0.8823871460348844
+base,HC3 (ChatGPT),24,ai_perp,0.9871500070616481
+base,HC3 (ChatGPT),25,ai,0.9374172463102889
+base,HC3 (ChatGPT),25,ai_hc3,0.9506898347574324
+base,HC3 (ChatGPT),25,ai_hap,0.9101692147447215
+base,HC3 (ChatGPT),25,ai_perp,0.989254157545371
+base,HC3 (ChatGPT),26,ai,0.956750714991879
+base,HC3 (ChatGPT),26,ai_hc3,0.9633809406115387
+base,HC3 (ChatGPT),26,ai_hap,0.9283386148577079
+base,HC3 (ChatGPT),26,ai_perp,0.9899382547136502
+base,HC3 (ChatGPT),27,ai,0.9885170980156769
+base,HC3 (ChatGPT),27,ai_hc3,0.9839524044912082
+base,HC3 (ChatGPT),27,ai_hap,0.9540419108819999
+base,HC3 (ChatGPT),27,ai_perp,0.9887377745215733
+base,HC3 (ChatGPT),28,ai,0.9230876173999011
+base,HC3 (ChatGPT),28,ai_hc3,0.9501204893722197
+base,HC3 (ChatGPT),28,ai_hap,0.8606472000564932
+base,HC3 (ChatGPT),28,ai_perp,0.9621539792387543
+base,HAP gpt-4o,1,ai,0.8931199016900226
+base,HAP gpt-4o,1,ai_hc3,0.6814654330983323
+base,HAP gpt-4o,1,ai_hap,0.9262035131736008
+base,HAP gpt-4o,1,ai_perp,0.9387066733657405
+base,HAP gpt-4o,2,ai,0.9032197157587181
+base,HAP gpt-4o,2,ai_hc3,0.7564139899705902
+base,HAP gpt-4o,2,ai_hap,0.9335767614670972
+base,HAP gpt-4o,2,ai_perp,0.9701549854231137
+base,HAP gpt-4o,3,ai,0.9215696314335912
+base,HAP gpt-4o,3,ai_hc3,0.7847837148498628
+base,HAP gpt-4o,3,ai_hap,0.9513794438701872
+base,HAP gpt-4o,3,ai_perp,0.9771506107571339
+base,HAP gpt-4o,4,ai,0.8198834489136939
+base,HAP gpt-4o,4,ai_hc3,0.7092591229546756
+base,HAP gpt-4o,4,ai_hap,0.8275415145240831
+base,HAP gpt-4o,4,ai_perp,0.955203676383524
+base,HAP gpt-4o,5,ai,0.8081355346405061
+base,HAP gpt-4o,5,ai_hc3,0.7147154546996458
+base,HAP gpt-4o,5,ai_hap,0.8183537559083592
+base,HAP gpt-4o,5,ai_perp,0.9630617541546526
+base,HAP gpt-4o,6,ai,0.8356284062070974
+base,HAP gpt-4o,6,ai_hc3,0.7442404498193489
+base,HAP gpt-4o,6,ai_hap,0.8442529305781792
+base,HAP gpt-4o,6,ai_perp,0.9788051113507701
+base,HAP gpt-4o,7,ai,0.8510437434596023
+base,HAP gpt-4o,7,ai_hc3,0.7654609400251535
+base,HAP gpt-4o,7,ai_hap,0.8634893001494491
+base,HAP gpt-4o,7,ai_perp,0.9846838687792219
+base,HAP gpt-4o,8,ai,0.8465378695024658
+base,HAP gpt-4o,8,ai_hc3,0.828069546628435
+base,HAP gpt-4o,8,ai_hap,0.8579433629564678
+base,HAP gpt-4o,8,ai_perp,0.9934075991820303
+base,HAP gpt-4o,9,ai,0.8595594612152418
+base,HAP gpt-4o,9,ai_hc3,0.8253749827989542
+base,HAP gpt-4o,9,ai_hap,0.8730578819192206
+base,HAP gpt-4o,9,ai_perp,0.99160588963809
+base,HAP gpt-4o,10,ai,0.8763412815499183
+base,HAP gpt-4o,10,ai_hc3,0.8476867393537527
+base,HAP gpt-4o,10,ai_hap,0.8889372473846411
+base,HAP gpt-4o,10,ai_perp,0.9968126062064573
+base,HAP gpt-4o,11,ai,0.8839449438525864
+base,HAP gpt-4o,11,ai_hc3,0.8572201189832342
+base,HAP gpt-4o,11,ai_hap,0.8944735839939069
+base,HAP gpt-4o,11,ai_perp,0.995951753866635
+base,HAP gpt-4o,12,ai,0.8740819441822064
+base,HAP gpt-4o,12,ai_hc3,0.8435072852429428
+base,HAP gpt-4o,12,ai_hap,0.8876347681939061
+base,HAP gpt-4o,12,ai_perp,0.9957213398574634
+base,HAP gpt-4o,13,ai,0.8765108918622252
+base,HAP gpt-4o,13,ai_hc3,0.8425184251202472
+base,HAP gpt-4o,13,ai_hap,0.891705415689274
+base,HAP gpt-4o,13,ai_perp,0.995145304834534
+base,HAP gpt-4o,14,ai,0.8800791088098157
+base,HAP gpt-4o,14,ai_hc3,0.8505957162195461
+base,HAP gpt-4o,14,ai_hap,0.8930078948800088
+base,HAP gpt-4o,14,ai_perp,0.9941820462684131
+base,HAP gpt-4o,15,ai,0.8907805594580152
+base,HAP gpt-4o,15,ai_hc3,0.8633388910045731
+base,HAP gpt-4o,15,ai_hap,0.9025668760660649
+base,HAP gpt-4o,15,ai_perp,0.9956829375226015
+base,HAP gpt-4o,16,ai,0.8809623625116407
+base,HAP gpt-4o,16,ai_hc3,0.8491652292459381
+base,HAP gpt-4o,16,ai_hap,0.8961664869224049
+base,HAP gpt-4o,16,ai_perp,0.9932443892588669
+base,HAP gpt-4o,17,ai,0.8721074241313872
+base,HAP gpt-4o,17,ai_hc3,0.8400126727705044
+base,HAP gpt-4o,17,ai_hap,0.8879195855107991
+base,HAP gpt-4o,17,ai_perp,0.9922843308873179
+base,HAP gpt-4o,18,ai,0.8783862058813175
+base,HAP gpt-4o,18,ai_hc3,0.8417727797850109
+base,HAP gpt-4o,18,ai_hap,0.8935711291246508
+base,HAP gpt-4o,18,ai_perp,0.9934171997657457
+base,HAP gpt-4o,19,ai,0.8813527862494039
+base,HAP gpt-4o,19,ai_hc3,0.8396318496164565
+base,HAP gpt-4o,19,ai_hap,0.8969057318684975
+base,HAP gpt-4o,19,ai_perp,0.9936732153314922
+base,HAP gpt-4o,20,ai,0.8946015917767799
+base,HAP gpt-4o,20,ai_hc3,0.8582729829973663
+base,HAP gpt-4o,20,ai_hap,0.9056870657735989
+base,HAP gpt-4o,20,ai_perp,0.9935420073540471
+base,HAP gpt-4o,21,ai,0.9001123268294712
+base,HAP gpt-4o,21,ai_hc3,0.8636173079323224
+base,HAP gpt-4o,21,ai_hap,0.9087528521734122
+base,HAP gpt-4o,21,ai_perp,0.9933275943177345
+base,HAP gpt-4o,22,ai,0.9014052054364905
+base,HAP gpt-4o,22,ai_hc3,0.8676463528982562
+base,HAP gpt-4o,22,ai_hap,0.91063776677622
+base,HAP gpt-4o,22,ai_perp,0.994034837318109
+base,HAP gpt-4o,23,ai,0.9205135672248874
+base,HAP gpt-4o,23,ai_hc3,0.8741747498247895
+base,HAP gpt-4o,23,ai_hap,0.9355896838527783
+base,HAP gpt-4o,23,ai_perp,0.9931803853674303
+base,HAP gpt-4o,24,ai,0.9356280861876404
+base,HAP gpt-4o,24,ai_hc3,0.8798454946060722
+base,HAP gpt-4o,24,ai_hap,0.955203676383524
+base,HAP gpt-4o,24,ai_perp,0.992338734195039
+base,HAP gpt-4o,25,ai,0.9589895065619989
+base,HAP gpt-4o,25,ai_hc3,0.8872923473747205
+base,HAP gpt-4o,25,ai_hap,0.9765649751504891
+base,HAP gpt-4o,25,ai_perp,0.9928987682451094
+base,HAP gpt-4o,26,ai,0.9709454334823557
+base,HAP gpt-4o,26,ai_hc3,0.9162285066932069
+base,HAP gpt-4o,26,ai_hap,0.9811636547502088
+base,HAP gpt-4o,26,ai_perp,0.9935004048246133
+base,HAP gpt-4o,27,ai,0.9797683699168909
+base,HAP gpt-4o,27,ai_hc3,0.9228177073166047
+base,HAP gpt-4o,27,ai_hap,0.9836758074890953
+base,HAP gpt-4o,27,ai_perp,0.9942684515218525
+base,HAP gpt-4o,28,ai,0.8754516274589494
+base,HAP gpt-4o,28,ai_hc3,0.8300856692086879
+base,HAP gpt-4o,28,ai_hap,0.9062086974888073
+base,HAP gpt-4o,28,ai_perp,0.9489184942444501
+base,HAP gpt-4o-mini,1,ai,0.8942367695955914
+base,HAP gpt-4o-mini,1,ai_hc3,0.68327994342056
+base,HAP gpt-4o-mini,1,ai_hap,0.927406786332609
+base,HAP gpt-4o-mini,1,ai_perp,0.9441278029704205
+base,HAP gpt-4o-mini,2,ai,0.9057862718053258
+base,HAP gpt-4o-mini,2,ai_hc3,0.764753697024779
+base,HAP gpt-4o-mini,2,ai_hap,0.9347320317075278
+base,HAP gpt-4o-mini,2,ai_perp,0.9710254383466514
+base,HAP gpt-4o-mini,3,ai,0.9257682867118321
+base,HAP gpt-4o-mini,3,ai_hc3,0.7976580976123349
+base,HAP gpt-4o-mini,3,ai_hap,0.9538307929122091
+base,HAP gpt-4o-mini,3,ai_perp,0.9788307129073448
+base,HAP gpt-4o-mini,4,ai,0.829784850918936
+base,HAP gpt-4o-mini,4,ai_hc3,0.6881442391697415
+base,HAP gpt-4o-mini,4,ai_hap,0.8364764577686323
+base,HAP gpt-4o-mini,4,ai_perp,0.9664459599143629
+base,HAP gpt-4o-mini,5,ai,0.8161008189297909
+base,HAP gpt-4o-mini,5,ai_hc3,0.6898435424873832
+base,HAP gpt-4o-mini,5,ai_hap,0.8249781586720472
+base,HAP gpt-4o-mini,5,ai_perp,0.9702989941788461
+base,HAP gpt-4o-mini,6,ai,0.8424304197695219
+base,HAP gpt-4o-mini,6,ai_hc3,0.7205430090149482
+base,HAP gpt-4o-mini,6,ai_hap,0.8495652535674169
+base,HAP gpt-4o-mini,6,ai_perp,0.9818900989180142
+base,HAP gpt-4o-mini,7,ai,0.8573385261823919
+base,HAP gpt-4o-mini,7,ai_hc3,0.7440772398961857
+base,HAP gpt-4o-mini,7,ai_hap,0.8692016474601655
+base,HAP gpt-4o-mini,7,ai_perp,0.9854775170330358
+base,HAP gpt-4o-mini,8,ai,0.8526054384106553
+base,HAP gpt-4o-mini,8,ai_hc3,0.8387101935797696
+base,HAP gpt-4o-mini,8,ai_hap,0.8633324906154294
+base,HAP gpt-4o-mini,8,ai_perp,0.9925211452856335
+base,HAP gpt-4o-mini,9,ai,0.8666542925809889
+base,HAP gpt-4o-mini,9,ai_hc3,0.8347675538672751
+base,HAP gpt-4o-mini,9,ai_hap,0.8795990796240412
+base,HAP gpt-4o-mini,9,ai_perp,0.991887506760411
+base,HAP gpt-4o-mini,10,ai,0.8803319241809902
+base,HAP gpt-4o-mini,10,ai_hc3,0.8532390769358777
+base,HAP gpt-4o-mini,10,ai_hap,0.8923486547982117
+base,HAP gpt-4o-mini,10,ai_perp,0.9953661182599902
+base,HAP gpt-4o-mini,11,ai,0.8876347681939062
+base,HAP gpt-4o-mini,11,ai_hc3,0.8621132164835621
+base,HAP gpt-4o-mini,11,ai_hap,0.8981698087243705
+base,HAP gpt-4o-mini,11,ai_perp,0.9952285098934016
+base,HAP gpt-4o-mini,12,ai,0.876664501201673
+base,HAP gpt-4o-mini,12,ai_hc3,0.8476643379917499
+base,HAP gpt-4o-mini,12,ai_hap,0.8897468966113139
+base,HAP gpt-4o-mini,12,ai_perp,0.9949692941330833
+base,HAP gpt-4o-mini,13,ai,0.87999910394552
+base,HAP gpt-4o-mini,13,ai_hc3,0.8467234807876318
+base,HAP gpt-4o-mini,13,ai_hap,0.8954272419763122
+base,HAP gpt-4o-mini,13,ai_perp,0.9947932834316326
+base,HAP gpt-4o-mini,14,ai,0.8830296882050428
+base,HAP gpt-4o-mini,14,ai_hc3,0.8547111664389195
+base,HAP gpt-4o-mini,14,ai_hap,0.8955360485917543
+base,HAP gpt-4o-mini,14,ai_perp,0.9939100297298076
+base,HAP gpt-4o-mini,15,ai,0.8923838569385019
+base,HAP gpt-4o-mini,15,ai_hc3,0.8646701719464543
+base,HAP gpt-4o-mini,15,ai_hap,0.9044037877502953
+base,HAP gpt-4o-mini,15,ai_perp,0.9938908285623766
+base,HAP gpt-4o-mini,16,ai,0.8830712907344767
+base,HAP gpt-4o-mini,16,ai_hc3,0.8505797152466871
+base,HAP gpt-4o-mini,16,ai_hap,0.8982018106700886
+base,HAP gpt-4o-mini,16,ai_perp,0.9927067565707997
+base,HAP gpt-4o-mini,17,ai,0.8735219101321361
+base,HAP gpt-4o-mini,17,ai_hc3,0.8401662821099524
+base,HAP gpt-4o-mini,17,ai_hap,0.889462079294421
+base,HAP gpt-4o-mini,17,ai_perp,0.9920635174618617
+base,HAP gpt-4o-mini,18,ai,0.8781301903155713
+base,HAP gpt-4o-mini,18,ai_hc3,0.8399486688790678
+base,HAP gpt-4o-mini,18,ai_hap,0.89411196200729
+base,HAP gpt-4o-mini,18,ai_perp,0.9925531472313516
+base,HAP gpt-4o-mini,19,ai,0.8827128689424317
+base,HAP gpt-4o-mini,19,ai_hc3,0.8393598330778511
+base,HAP gpt-4o-mini,19,ai_hap,0.8994818884988207
+base,HAP gpt-4o-mini,19,ai_perp,0.9927355583219459
+base,HAP gpt-4o-mini,20,ai,0.89780178634861
+base,HAP gpt-4o-mini,20,ai_hc3,0.8597002697764023
+base,HAP gpt-4o-mini,20,ai_hap,0.9097897152146851
+base,HAP gpt-4o-mini,20,ai_perp,0.9935100054083288
+base,HAP gpt-4o-mini,21,ai,0.9027204854055126
+base,HAP gpt-4o-mini,21,ai_hc3,0.8647245752541753
+base,HAP gpt-4o-mini,21,ai_hap,0.9134379370265713
+base,HAP gpt-4o-mini,21,ai_perp,0.9933979985983147
+base,HAP gpt-4o-mini,22,ai,0.9053830472892751
+base,HAP gpt-4o-mini,22,ai_hc3,0.8684304005683546
+base,HAP gpt-4o-mini,22,ai_hap,0.9172493687616208
+base,HAP gpt-4o-mini,22,ai_perp,0.9939132299243795
+base,HAP gpt-4o-mini,23,ai,0.9256146773723842
+base,HAP gpt-4o-mini,23,ai_hc3,0.8751572095583411
+base,HAP gpt-4o-mini,23,ai_hap,0.9436157718389279
+base,HAP gpt-4o-mini,23,ai_perp,0.9937052172772104
+base,HAP gpt-4o-mini,24,ai,0.9405307842716837
+base,HAP gpt-4o-mini,24,ai_hc3,0.8808439553124832
+base,HAP gpt-4o-mini,24,ai_hap,0.9617800762286348
+base,HAP gpt-4o-mini,24,ai_perp,0.992940370774543
+base,HAP gpt-4o-mini,25,ai,0.9627049324598934
+base,HAP gpt-4o-mini,25,ai_hc3,0.8871419382298444
+base,HAP gpt-4o-mini,25,ai_hap,0.9809972446324736
+base,HAP gpt-4o-mini,25,ai_perp,0.9936316128020584
+base,HAP gpt-4o-mini,26,ai,0.9747504648282616
+base,HAP gpt-4o-mini,26,ai_hc3,0.9170637574764546
+base,HAP gpt-4o-mini,26,ai_hap,0.9847766744218048
+base,HAP gpt-4o-mini,26,ai_perp,0.9942460501598497
+base,HAP gpt-4o-mini,27,ai,0.9810516479401947
+base,HAP gpt-4o-mini,27,ai_hc3,0.922568092140002
+base,HAP gpt-4o-mini,27,ai_hap,0.98618476003341
+base,HAP gpt-4o-mini,27,ai_perp,0.9946556750650439
+base,HAP gpt-4o-mini,28,ai,0.8792918609451454
+base,HAP gpt-4o-mini,28,ai_hc3,0.8286135797056461
+base,HAP gpt-4o-mini,28,ai_hap,0.9116618290392056
+base,HAP gpt-4o-mini,28,ai_perp,0.9550884693789381
+base,HAP llama3-70b-inst,1,ai,0.7243320393879948
+base,HAP llama3-70b-inst,1,ai_hc3,0.6731385268224308
+base,HAP llama3-70b-inst,1,ai_hap,0.7216982792553788
+base,HAP llama3-70b-inst,1,ai_perp,0.8181841455960521
+base,HAP llama3-70b-inst,2,ai,0.7670930392567868
+base,HAP llama3-70b-inst,2,ai_hc3,0.7414402795689978
+base,HAP llama3-70b-inst,2,ai_hap,0.758772533370029
+base,HAP llama3-70b-inst,2,ai_perp,0.8967457221399061
+base,HAP llama3-70b-inst,3,ai,0.8081643363916526
+base,HAP llama3-70b-inst,3,ai_hc3,0.7802938418655854
+base,HAP llama3-70b-inst,3,ai_hap,0.799875832450613
+base,HAP llama3-70b-inst,3,ai_perp,0.9310934104793572
+base,HAP llama3-70b-inst,4,ai,0.7649969118122382
+base,HAP llama3-70b-inst,4,ai_hc3,0.7072622015418537
+base,HAP llama3-70b-inst,4,ai_hap,0.756493994834886
+base,HAP llama3-70b-inst,4,ai_perp,0.9247762263945647
+base,HAP llama3-70b-inst,5,ai,0.764923307337086
+base,HAP llama3-70b-inst,5,ai_hc3,0.7242776360802736
+base,HAP llama3-70b-inst,5,ai_hap,0.7589197423203331
+base,HAP llama3-70b-inst,5,ai_perp,0.9319990655431849
+base,HAP llama3-70b-inst,6,ai,0.7975108886620306
+base,HAP llama3-70b-inst,6,ai_hc3,0.7779705006064368
+base,HAP llama3-70b-inst,6,ai_hap,0.7812539002371344
+base,HAP llama3-70b-inst,6,ai_perp,0.955130071908372
+base,HAP llama3-70b-inst,7,ai,0.8066090418297434
+base,HAP llama3-70b-inst,7,ai_hc3,0.7867902368464001
+base,HAP llama3-70b-inst,7,ai_hap,0.7987493639613288
+base,HAP llama3-70b-inst,7,ai_perp,0.9616008653326122
+base,HAP llama3-70b-inst,8,ai,0.8110797136465898
+base,HAP llama3-70b-inst,8,ai_hc3,0.8416863745315715
+base,HAP llama3-70b-inst,8,ai_hap,0.7974532851597378
+base,HAP llama3-70b-inst,8,ai_perp,0.9814644730399609
+base,HAP llama3-70b-inst,9,ai,0.8259734191838864
+base,HAP llama3-70b-inst,9,ai_hc3,0.8238772917393378
+base,HAP llama3-70b-inst,9,ai_hap,0.8217363615707834
+base,HAP llama3-70b-inst,9,ai_perp,0.9771410101734185
+base,HAP llama3-70b-inst,10,ai,0.8505317123281095
+base,HAP llama3-70b-inst,10,ai_hc3,0.8445537488679311
+base,HAP llama3-70b-inst,10,ai_hap,0.8498500708843097
+base,HAP llama3-70b-inst,10,ai_perp,0.9906330304882537
+base,HAP llama3-70b-inst,11,ai,0.8546407621583392
+base,HAP llama3-70b-inst,11,ai_hc3,0.8469890969370938
+base,HAP llama3-70b-inst,11,ai_hap,0.8554760129415868
+base,HAP llama3-70b-inst,11,ai_perp,0.9874296357218519
+base,HAP llama3-70b-inst,12,ai,0.8464354632761671
+base,HAP llama3-70b-inst,12,ai_hc3,0.8390078116749498
+base,HAP llama3-70b-inst,12,ai_hap,0.8470915031633923
+base,HAP llama3-70b-inst,12,ai_perp,0.9870200108166577
+base,HAP llama3-70b-inst,13,ai,0.8512549563013431
+base,HAP llama3-70b-inst,13,ai_hc3,0.8400254735487918
+base,HAP llama3-70b-inst,13,ai_hap,0.8551303919278291
+base,HAP llama3-70b-inst,13,ai_perp,0.9855127191733257
+base,HAP llama3-70b-inst,14,ai,0.8520006016365795
+base,HAP llama3-70b-inst,14,ai_hc3,0.8423296136405094
+base,HAP llama3-70b-inst,14,ai_hap,0.8551527932898321
+base,HAP llama3-70b-inst,14,ai_perp,0.9841622370640135
+base,HAP llama3-70b-inst,15,ai,0.8654830213676992
+base,HAP llama3-70b-inst,15,ai_hc3,0.8529446590352693
+base,HAP llama3-70b-inst,15,ai_hap,0.8711409653706945
+base,HAP llama3-70b-inst,15,ai_perp,0.9877880575138969
+base,HAP llama3-70b-inst,16,ai,0.8523430224557653
+base,HAP llama3-70b-inst,16,ai_hc3,0.8389758097292315
+base,HAP llama3-70b-inst,16,ai_hap,0.8591466361154758
+base,HAP llama3-70b-inst,16,ai_perp,0.9847350718923711
+base,HAP llama3-70b-inst,17,ai,0.8448897692979732
+base,HAP llama3-70b-inst,17,ai_hc3,0.8320889910106535
+base,HAP llama3-70b-inst,17,ai_hap,0.8516133780933881
+base,HAP llama3-70b-inst,17,ai_perp,0.9844374537971908
+base,HAP llama3-70b-inst,18,ai,0.8490532224359242
+base,HAP llama3-70b-inst,18,ai_hc3,0.8352475830530497
+base,HAP llama3-70b-inst,18,ai_hap,0.8545991596289053
+base,HAP llama3-70b-inst,18,ai_perp,0.9848694800643879
+base,HAP llama3-70b-inst,19,ai,0.8493924430605382
+base,HAP llama3-70b-inst,19,ai_hc3,0.8356188056233821
+base,HAP llama3-70b-inst,19,ai_hap,0.8550535872581053
+base,HAP llama3-70b-inst,19,ai_perp,0.9854647162547483
+base,HAP llama3-70b-inst,20,ai,0.8638125198012039
+base,HAP llama3-70b-inst,20,ai_hc3,0.8538695152665282
+base,HAP llama3-70b-inst,20,ai_hap,0.867105520015617
+base,HAP llama3-70b-inst,20,ai_perp,0.9853367084718752
+base,HAP llama3-70b-inst,21,ai,0.8681615842243208
+base,HAP llama3-70b-inst,21,ai_hc3,0.8602891055776191
+base,HAP llama3-70b-inst,21,ai_hap,0.8699056902659681
+base,HAP llama3-70b-inst,21,ai_perp,0.9846710680009344
+base,HAP llama3-70b-inst,22,ai,0.8651982040508062
+base,HAP llama3-70b-inst,22,ai_hc3,0.8569385018609131
+base,HAP llama3-70b-inst,22,ai_hap,0.8671407221559071
+base,HAP llama3-70b-inst,22,ai_perp,0.9851382964084215
+base,HAP llama3-70b-inst,23,ai,0.8860346709079913
+base,HAP llama3-70b-inst,23,ai_hc3,0.8739091336753275
+base,HAP llama3-70b-inst,23,ai_hap,0.886357890559746
+base,HAP llama3-70b-inst,23,ai_perp,0.983867819163405
+base,HAP llama3-70b-inst,24,ai,0.8893468722898353
+base,HAP llama3-70b-inst,24,ai_hc3,0.871281773931855
+base,HAP llama3-70b-inst,24,ai_hap,0.8916318112141217
+base,HAP llama3-70b-inst,24,ai_perp,0.9807604302341583
+base,HAP llama3-70b-inst,25,ai,0.9167885407432772
+base,HAP llama3-70b-inst,25,ai_hc3,0.8916926149109867
+base,HAP llama3-70b-inst,25,ai_hap,0.9192526905635864
+base,HAP llama3-70b-inst,25,ai_perp,0.9813012631167974
+base,HAP llama3-70b-inst,26,ai,0.929234097433124
+base,HAP llama3-70b-inst,26,ai_hc3,0.9130875157209558
+base,HAP llama3-70b-inst,26,ai_hap,0.9246546190008353
+base,HAP llama3-70b-inst,26,ai_perp,0.9815860804336903
+base,HAP llama3-70b-inst,27,ai,0.9447646416902147
+base,HAP llama3-70b-inst,27,ai_hc3,0.9357816955270881
+base,HAP llama3-70b-inst,27,ai_hap,0.9321430742989174
+base,HAP llama3-70b-inst,27,ai_perp,0.9838390174122587
+base,HAP llama3-70b-inst,28,ai,0.8506437191381236
+base,HAP llama3-70b-inst,28,ai_hc3,0.8344379338263768
+base,HAP llama3-70b-inst,28,ai_hap,0.8572585213180962
+base,HAP llama3-70b-inst,28,ai_perp,0.9208239860983547
+base,HAP llama3-8b-inst,1,ai,0.7536778236116757
+base,HAP llama3-8b-inst,1,ai_hc3,0.7171796045199549
+base,HAP llama3-8b-inst,1,ai_hap,0.7399041861745195
+base,HAP llama3-8b-inst,1,ai_perp,0.8503268998755125
+base,HAP llama3-8b-inst,2,ai,0.7954915658872059
+base,HAP llama3-8b-inst,2,ai_hc3,0.7832572220391
+base,HAP llama3-8b-inst,2,ai_hap,0.7780921080001664
+base,HAP llama3-8b-inst,2,ai_perp,0.9117802362383634
+base,HAP llama3-8b-inst,3,ai,0.8376061264524883
+base,HAP llama3-8b-inst,3,ai_hc3,0.8246517388257206
+base,HAP llama3-8b-inst,3,ai_hap,0.818696176727545
+base,HAP llama3-8b-inst,3,ai_perp,0.9429053286439815
+base,HAP llama3-8b-inst,4,ai,0.8009222960756015
+base,HAP llama3-8b-inst,4,ai_hc3,0.6835007568460162
+base,HAP llama3-8b-inst,4,ai_hap,0.7891103779109769
+base,HAP llama3-8b-inst,4,ai_perp,0.9335511599105224
+base,HAP llama3-8b-inst,5,ai,0.7991237867262331
+base,HAP llama3-8b-inst,5,ai_hc3,0.7052268777941699
+base,HAP llama3-8b-inst,5,ai_hap,0.7861725992940372
+base,HAP llama3-8b-inst,5,ai_perp,0.9437373792326573
+base,HAP llama3-8b-inst,6,ai,0.8258358108172976
+base,HAP llama3-8b-inst,6,ai_hc3,0.7547754903498133
+base,HAP llama3-8b-inst,6,ai_hap,0.7983653406127093
+base,HAP llama3-8b-inst,6,ai_perp,0.9628361404373387
+base,HAP llama3-8b-inst,7,ai,0.8363676511531901
+base,HAP llama3-8b-inst,7,ai_hc3,0.7634352168611853
+base,HAP llama3-8b-inst,7,ai_hap,0.8207090991132261
+base,HAP llama3-8b-inst,7,ai_perp,0.9699629737488039
+base,HAP llama3-8b-inst,8,ai,0.8370684937644209
+base,HAP llama3-8b-inst,8,ai_hc3,0.877624559573222
+base,HAP llama3-8b-inst,8,ai_hap,0.8173648957856638
+base,HAP llama3-8b-inst,8,ai_perp,0.9840278288919966
+base,HAP llama3-8b-inst,9,ai,0.8485507918881467
+base,HAP llama3-8b-inst,9,ai_hc3,0.8536711032030748
+base,HAP llama3-8b-inst,9,ai_hap,0.8393982354127132
+base,HAP llama3-8b-inst,9,ai_perp,0.9804020084421132
+base,HAP llama3-8b-inst,10,ai,0.871864209343928
+base,HAP llama3-8b-inst,10,ai_hc3,0.8712529721807085
+base,HAP llama3-8b-inst,10,ai_hap,0.8681327824731744
+base,HAP llama3-8b-inst,10,ai_perp,0.9915450859412251
+base,HAP llama3-8b-inst,11,ai,0.8772053340843122
+base,HAP llama3-8b-inst,11,ai_hc3,0.8751764107257722
+base,HAP llama3-8b-inst,11,ai_hap,0.8748595914631611
+base,HAP llama3-8b-inst,11,ai_perp,0.9893561528540936
+base,HAP llama3-8b-inst,12,ai,0.8677999622377041
+base,HAP llama3-8b-inst,12,ai_hc3,0.8667086958887099
+base,HAP llama3-8b-inst,12,ai_hap,0.8646989736976007
+base,HAP llama3-8b-inst,12,ai_perp,0.9882904880616743
+base,HAP llama3-8b-inst,13,ai,0.8726738585706012
+base,HAP llama3-8b-inst,13,ai_hc3,0.8677935618485604
+base,HAP llama3-8b-inst,13,ai_hap,0.8725810529280179
+base,HAP llama3-8b-inst,13,ai_perp,0.9866423878571818
+base,HAP llama3-8b-inst,14,ai,0.8733458994306854
+base,HAP llama3-8b-inst,14,ai_hc3,0.8695408680847796
+base,HAP llama3-8b-inst,14,ai_hap,0.8723538391134181
+base,HAP llama3-8b-inst,14,ai_perp,0.9858487396033679
+base,HAP llama3-8b-inst,15,ai,0.8855610421113604
+base,HAP llama3-8b-inst,15,ai_hc3,0.8788438337050892
+base,HAP llama3-8b-inst,15,ai_hap,0.8872731462072895
+base,HAP llama3-8b-inst,15,ai_perp,0.9888505221117442
+base,HAP llama3-8b-inst,16,ai,0.8736339169421501
+base,HAP llama3-8b-inst,16,ai_hc3,0.8661390612549243
+base,HAP llama3-8b-inst,16,ai_hap,0.8765044914730816
+base,HAP llama3-8b-inst,16,ai_perp,0.987029611400373
+base,HAP llama3-8b-inst,17,ai,0.8689232305324164
+base,HAP llama3-8b-inst,17,ai_hc3,0.8612139618088779
+base,HAP llama3-8b-inst,17,ai_hap,0.8724530451451449
+base,HAP llama3-8b-inst,17,ai_perp,0.9871256172375281
+base,HAP llama3-8b-inst,18,ai,0.8726130548737364
+base,HAP llama3-8b-inst,18,ai_hc3,0.8647981797293276
+base,HAP llama3-8b-inst,18,ai_hap,0.8749555973003158
+base,HAP llama3-8b-inst,18,ai_perp,0.9869048038120718
+base,HAP llama3-8b-inst,19,ai,0.8743283591642372
+base,HAP llama3-8b-inst,19,ai_hc3,0.8663438737075213
+base,HAP llama3-8b-inst,19,ai_hap,0.8759732591741578
+base,HAP llama3-8b-inst,19,ai_perp,0.9866839903866155
+base,HAP llama3-8b-inst,20,ai,0.8838425376262877
+base,HAP llama3-8b-inst,20,ai_hc3,0.880658344027317
+base,HAP llama3-8b-inst,20,ai_hap,0.8829112810058852
+base,HAP llama3-8b-inst,20,ai_perp,0.9838038152719686
+base,HAP llama3-8b-inst,21,ai,0.88793878667823
+base,HAP llama3-8b-inst,21,ai_hc3,0.8875483629404667
+base,HAP llama3-8b-inst,21,ai_hap,0.8860474716862785
+base,HAP llama3-8b-inst,21,ai_perp,0.9831317744118842
+base,HAP llama3-8b-inst,22,ai,0.8903965361093955
+base,HAP llama3-8b-inst,22,ai_hc3,0.8895964874664379
+base,HAP llama3-8b-inst,22,ai_hap,0.8877723765604948
+base,HAP llama3-8b-inst,22,ai_perp,0.9841654372585853
+base,HAP llama3-8b-inst,23,ai,0.9104137531561918
+base,HAP llama3-8b-inst,23,ai_hc3,0.9069223408783256
+base,HAP llama3-8b-inst,23,ai_hap,0.9061702951539452
+base,HAP llama3-8b-inst,23,ai_perp,0.9828789590407098
+base,HAP llama3-8b-inst,24,ai,0.9145548049321397
+base,HAP llama3-8b-inst,24,ai_hc3,0.9052486391172583
+base,HAP llama3-8b-inst,24,ai_hap,0.9118154383786533
+base,HAP llama3-8b-inst,24,ai_perp,0.979822773224612
+base,HAP llama3-8b-inst,25,ai,0.9380538336730873
+base,HAP llama3-8b-inst,25,ai_hc3,0.9243217987653649
+base,HAP llama3-8b-inst,25,ai_hap,0.9349016420198348
+base,HAP llama3-8b-inst,25,ai_perp,0.9800563874283557
+base,HAP llama3-8b-inst,26,ai,0.9471359858679408
+base,HAP llama3-8b-inst,26,ai_hc3,0.9408076011021471
+base,HAP llama3-8b-inst,26,ai_hap,0.9391771019677997
+base,HAP llama3-8b-inst,26,ai_perp,0.9803476051343921
+base,HAP llama3-8b-inst,27,ai,0.9572742022714981
+base,HAP llama3-8b-inst,27,ai_hc3,0.9544132283242821
+base,HAP llama3-8b-inst,27,ai_hap,0.9449278516133781
+base,HAP llama3-8b-inst,27,ai_perp,0.9821813166240506
+base,HAP llama3-8b-inst,28,ai,0.8818424160188939
+base,HAP llama3-8b-inst,28,ai_hc3,0.865393415919688
+base,HAP llama3-8b-inst,28,ai_hap,0.8875259615784641
+base,HAP llama3-8b-inst,28,ai_perp,0.9333399470687818
+base,HAP llama3-70b-base,1,ai,0.49214032213158565
+base,HAP llama3-70b-base,1,ai_hc3,0.5593188065834402
+base,HAP llama3-70b-base,1,ai_hap,0.450425785887782
+base,HAP llama3-70b-base,1,ai_perp,0.5282033147615375
+base,HAP llama3-70b-base,2,ai,0.5339604647962596
+base,HAP llama3-70b-base,2,ai_hc3,0.6086850080484894
+base,HAP llama3-70b-base,2,ai_hap,0.4789779218576489
+base,HAP llama3-70b-base,2,ai_perp,0.6105955242078719
+base,HAP llama3-70b-base,3,ai,0.569620232910161
+base,HAP llama3-70b-base,3,ai_hc3,0.6472569532227559
+base,HAP llama3-70b-base,3,ai_hap,0.5021409301685542
+base,HAP llama3-70b-base,3,ai_perp,0.6612130017505063
+base,HAP llama3-70b-base,4,ai,0.6244363657310363
+base,HAP llama3-70b-base,4,ai_hc3,0.6185832098591595
+base,HAP llama3-70b-base,4,ai_hap,0.5996700599396443
+base,HAP llama3-70b-base,4,ai_perp,0.7194789443198146
+base,HAP llama3-70b-base,5,ai,0.6297358879419868
+base,HAP llama3-70b-base,5,ai_hc3,0.6489722575132568
+base,HAP llama3-70b-base,5,ai_hap,0.5967418819064199
+base,HAP llama3-70b-base,5,ai_perp,0.7425395464044213
+base,HAP llama3-70b-base,6,ai,0.6431607041708135
+base,HAP llama3-70b-base,6,ai_hc3,0.6800493470002976
+base,HAP llama3-70b-base,6,ai_hap,0.5916823742883567
+base,HAP llama3-70b-base,6,ai_perp,0.7635744253250598
+base,HAP llama3-70b-base,7,ai,0.6456344545748381
+base,HAP llama3-70b-base,7,ai_hc3,0.674359401051584
+base,HAP llama3-70b-base,7,ai_hap,0.6070049058982786
+base,HAP llama3-70b-base,7,ai_perp,0.7529017764280068
+base,HAP llama3-70b-base,8,ai,0.637560363670111
+base,HAP llama3-70b-base,8,ai_hc3,0.6908660046530828
+base,HAP llama3-70b-base,8,ai_hap,0.5961082433811975
+base,HAP llama3-70b-base,8,ai_perp,0.7778824952557115
+base,HAP llama3-70b-base,9,ai,0.6225354501553695
+base,HAP llama3-70b-base,9,ai_hc3,0.6631651204393226
+base,HAP llama3-70b-base,9,ai_hap,0.585653207715029
+base,HAP llama3-70b-base,9,ai_perp,0.7478998723122365
+base,HAP llama3-70b-base,10,ai,0.6431415030033825
+base,HAP llama3-70b-base,10,ai_hc3,0.6728841113539703
+base,HAP llama3-70b-base,10,ai_hap,0.6117187925025842
+base,HAP llama3-70b-base,10,ai_perp,0.7810858900221134
+base,HAP llama3-70b-base,11,ai,0.6211433655166234
+base,HAP llama3-70b-base,11,ai_hc3,0.6551550334260323
+base,HAP llama3-70b-base,11,ai_hap,0.5862868462402514
+base,HAP llama3-70b-base,11,ai_perp,0.7541370515327332
+base,HAP llama3-70b-base,12,ai,0.6207305404168574
+base,HAP llama3-70b-base,12,ai_hc3,0.6540509662987509
+base,HAP llama3-70b-base,12,ai_hap,0.5866308671567232
+base,HAP llama3-70b-base,12,ai_perp,0.7576956678966082
+base,HAP llama3-70b-base,13,ai,0.6263948848089964
+base,HAP llama3-70b-base,13,ai_hc3,0.6555774591095138
+base,HAP llama3-70b-base,13,ai_hap,0.5939449118506405
+base,HAP llama3-70b-base,13,ai_perp,0.7531161894643195
+base,HAP llama3-70b-base,14,ai,0.6151237995270112
+base,HAP llama3-70b-base,14,ai_hc3,0.6467321213129757
+base,HAP llama3-70b-base,14,ai_hap,0.5814929547716502
+base,HAP llama3-70b-base,14,ai_perp,0.7485047090863126
+base,HAP llama3-70b-base,15,ai,0.6182631904019764
+base,HAP llama3-70b-base,15,ai_hc3,0.6443031736329567
+base,HAP llama3-70b-base,15,ai_hap,0.5875477229015524
+base,HAP llama3-70b-base,15,ai_perp,0.750751245675737
+base,HAP llama3-70b-base,16,ai,0.5959386330688905
+base,HAP llama3-70b-base,16,ai_hc3,0.6187784217280412
+base,HAP llama3-70b-base,16,ai_hap,0.5706826975080084
+base,HAP llama3-70b-base,16,ai_perp,0.7374640378134991
+base,HAP llama3-70b-base,17,ai,0.5788335930824595
+base,HAP llama3-70b-base,17,ai_hc3,0.6015357733750212
+base,HAP llama3-70b-base,17,ai_hap,0.5557601902195654
+base,HAP llama3-70b-base,17,ai_perp,0.7317100879733488
+base,HAP llama3-70b-base,18,ai,0.5899750704842854
+base,HAP llama3-70b-base,18,ai_hc3,0.6192296491626692
+base,HAP llama3-70b-base,18,ai_hap,0.5604388746835808
+base,HAP llama3-70b-base,18,ai_perp,0.7395121623394704
+base,HAP llama3-70b-base,19,ai,0.5916279709806356
+base,HAP llama3-70b-base,19,ai_hc3,0.6186344129723087
+base,HAP llama3-70b-base,19,ai_hap,0.5630982363727715
+base,HAP llama3-70b-base,19,ai_perp,0.732177316380836
+base,HAP llama3-70b-base,20,ai,0.5877493351595776
+base,HAP llama3-70b-base,20,ai_hc3,0.6171175207452613
+base,HAP llama3-70b-base,20,ai_hap,0.5583971505467533
+base,HAP llama3-70b-base,20,ai_perp,0.6907155955082069
+base,HAP llama3-70b-base,21,ai,0.5910967386817119
+base,HAP llama3-70b-base,21,ai_hc3,0.6240347413122718
+base,HAP llama3-70b-base,21,ai_hap,0.5565186363330891
+base,HAP llama3-70b-base,21,ai_perp,0.6927157171156006
+base,HAP llama3-70b-base,22,ai,0.5674697021578912
+base,HAP llama3-70b-base,22,ai_hc3,0.5968090859924283
+base,HAP llama3-70b-base,22,ai_hap,0.5351285358149775
+base,HAP llama3-70b-base,22,ai_perp,0.6863185281665125
+base,HAP llama3-70b-base,23,ai,0.5719467743638813
+base,HAP llama3-70b-base,23,ai_hc3,0.6009021348497989
+base,HAP llama3-70b-base,23,ai_hap,0.5385239422556891
+base,HAP llama3-70b-base,23,ai_perp,0.6783148415423658
+base,HAP llama3-70b-base,24,ai,0.5636678710065572
+base,HAP llama3-70b-base,24,ai_hc3,0.5926744346056241
+base,HAP llama3-70b-base,24,ai_hap,0.5316851264556886
+base,HAP llama3-70b-base,24,ai_perp,0.6614018132302445
+base,HAP llama3-70b-base,25,ai,0.5686825759006148
+base,HAP llama3-70b-base,25,ai_hc3,0.5884373769925212
+base,HAP llama3-70b-base,25,ai_hap,0.5367254329063207
+base,HAP llama3-70b-base,25,ai_perp,0.6549566213625788
+base,HAP llama3-70b-base,26,ai,0.5670280753069787
+base,HAP llama3-70b-base,26,ai_hc3,0.5867252728965922
+base,HAP llama3-70b-base,26,ai_hap,0.5368054377706165
+base,HAP llama3-70b-base,26,ai_perp,0.6501851312559804
+base,HAP llama3-70b-base,27,ai,0.5865908647245752
+base,HAP llama3-70b-base,27,ai_hc3,0.6110979547556491
+base,HAP llama3-70b-base,27,ai_hap,0.5511967127601358
+base,HAP llama3-70b-base,27,ai_perp,0.6453784390090918
+base,HAP llama3-70b-base,28,ai,0.6479289940828402
+base,HAP llama3-70b-base,28,ai_hc3,0.6691782860397912
+base,HAP llama3-70b-base,28,ai_hap,0.623409103273479
+base,HAP llama3-70b-base,28,ai_perp,0.6013053593658495
+base,HAP llama3-8b-base,1,ai,0.4938700272976597
+base,HAP llama3-8b-base,1,ai_hc3,0.5821825967018794
+base,HAP llama3-8b-base,1,ai_hap,0.4381098370780943
+base,HAP llama3-8b-base,1,ai_perp,0.5291073697280795
+base,HAP llama3-8b-base,2,ai,0.5366182263881644
+base,HAP llama3-8b-base,2,ai_hc3,0.6319648234612665
+base,HAP llama3-8b-base,2,ai_hap,0.469302133569721
+base,HAP llama3-8b-base,2,ai_perp,0.6174775426345921
+base,HAP llama3-8b-base,3,ai,0.5781311503739428
+base,HAP llama3-8b-base,3,ai_hc3,0.6771259692589309
+base,HAP llama3-8b-base,3,ai_hap,0.4928267638672431
+base,HAP llama3-8b-base,3,ai_perp,0.6807293883468115
+base,HAP llama3-8b-base,4,ai,0.6318272150946778
+base,HAP llama3-8b-base,4,ai_hc3,0.6688534662907504
+base,HAP llama3-8b-base,4,ai_hap,0.5924296197208789
+base,HAP llama3-8b-base,4,ai_perp,0.7609230641222986
+base,HAP llama3-8b-base,5,ai,0.6375747645456844
+base,HAP llama3-8b-base,5,ai_hc3,0.7023403022903791
+base,HAP llama3-8b-base,5,ai_hap,0.5930248559112394
+base,HAP llama3-8b-base,5,ai_perp,0.7831740169802324
+base,HAP llama3-8b-base,6,ai,0.6572303596058641
+base,HAP llama3-8b-base,6,ai_hc3,0.7352191013213605
+base,HAP llama3-8b-base,6,ai_hap,0.597530729868376
+base,HAP llama3-8b-base,6,ai_perp,0.8060010048610955
+base,HAP llama3-8b-base,7,ai,0.6583056249819988
+base,HAP llama3-8b-base,7,ai_hc3,0.7290843283271623
+base,HAP llama3-8b-base,7,ai_hap,0.6112243624412363
+base,HAP llama3-8b-base,7,ai_perp,0.7952579516834624
+base,HAP llama3-8b-base,8,ai,0.6454728447489607
+base,HAP llama3-8b-base,8,ai_hc3,0.714974670459964
+base,HAP llama3-8b-base,8,ai_hap,0.5925192251688902
+base,HAP llama3-8b-base,8,ai_perp,0.8179377306140213
+base,HAP llama3-8b-base,9,ai,0.6275741565087157
+base,HAP llama3-8b-base,9,ai_hc3,0.6793597050700683
+base,HAP llama3-8b-base,9,ai_hap,0.5820321875570034
+base,HAP llama3-8b-base,9,ai_perp,0.7892575868612811
+base,HAP llama3-8b-base,10,ai,0.6569647434564021
+base,HAP llama3-8b-base,10,ai_hc3,0.6927109168237429
+base,HAP llama3-8b-base,10,ai_hap,0.6182007866078257
+base,HAP llama3-8b-base,10,ai_perp,0.8179121290574467
+base,HAP llama3-8b-base,11,ai,0.6236251164070775
+base,HAP llama3-8b-base,11,ai_hc3,0.6670069540228046
+base,HAP llama3-8b-base,11,ai_hap,0.5788255925960298
+base,HAP llama3-8b-base,11,ai_perp,0.7877822971636675
+base,HAP llama3-8b-base,12,ai,0.6190392375856453
+base,HAP llama3-8b-base,12,ai_hc3,0.6627602958259862
+base,HAP llama3-8b-base,12,ai_hap,0.5755805953001942
+base,HAP llama3-8b-base,12,ai_perp,0.7913857162515481
+base,HAP llama3-8b-base,13,ai,0.6227514632889679
+base,HAP llama3-8b-base,13,ai_hc3,0.6624850790928088
+base,HAP llama3-8b-base,13,ai_hap,0.5792640192523705
+base,HAP llama3-8b-base,13,ai_perp,0.7826043823464468
+base,HAP llama3-8b-base,14,ai,0.6076017421859249
+base,HAP llama3-8b-base,14,ai_hc3,0.6518284311686151
+base,HAP llama3-8b-base,14,ai_hap,0.5621173767365055
+base,HAP llama3-8b-base,14,ai_perp,0.7771896531309105
+base,HAP llama3-8b-base,15,ai,0.6210617605550417
+base,HAP llama3-8b-base,15,ai_hc3,0.6557806714648251
+base,HAP llama3-8b-base,15,ai_hap,0.5808289143979953
+base,HAP llama3-8b-base,15,ai_perp,0.778530534656507
+base,HAP llama3-8b-base,16,ai,0.5829538435936904
+base,HAP llama3-8b-base,16,ai_hc3,0.6154582198597675
+base,HAP llama3-8b-base,16,ai_hap,0.5494350056483435
+base,HAP llama3-8b-base,16,ai_perp,0.7590669512706372
+base,HAP llama3-8b-base,17,ai,0.5664984431053408
+base,HAP llama3-8b-base,17,ai_hc3,0.5972011098274775
+base,HAP llama3-8b-base,17,ai_hap,0.5366470281393109
+base,HAP llama3-8b-base,17,ai_perp,0.7491783500436827
+base,HAP llama3-8b-base,18,ai,0.5808257142034235
+base,HAP llama3-8b-base,18,ai_hc3,0.6184472015898568
+base,HAP llama3-8b-base,18,ai_hap,0.5439946748762324
+base,HAP llama3-8b-base,18,ai_perp,0.7580940921208009
+base,HAP llama3-8b-base,19,ai,0.5791840143880748
+base,HAP llama3-8b-base,19,ai_hc3,0.616464681052608
+base,HAP llama3-8b-base,19,ai_hap,0.5420681577439909
+base,HAP llama3-8b-base,19,ai_perp,0.7429651722824748
+base,HAP llama3-8b-base,20,ai,0.5754685884901802
+base,HAP llama3-8b-base,20,ai_hc3,0.6154422188869083
+base,HAP llama3-8b-base,20,ai_hap,0.5366598289175981
+base,HAP llama3-8b-base,20,ai_perp,0.6987224823269254
+base,HAP llama3-8b-base,21,ai,0.5787551883154496
+base,HAP llama3-8b-base,21,ai_hc3,0.623167488583306
+base,HAP llama3-8b-base,21,ai_hap,0.5342580828914398
+base,HAP llama3-8b-base,21,ai_perp,0.6977544234689469
+base,HAP llama3-8b-base,22,ai,0.556725048882972
+base,HAP llama3-8b-base,22,ai_hc3,0.5984683868779221
+base,HAP llama3-8b-base,22,ai_hap,0.5126327680722989
+base,HAP llama3-8b-base,22,ai_perp,0.686912164259587
+base,HAP llama3-8b-base,23,ai,0.5641847024299078
+base,HAP llama3-8b-base,23,ai_hc3,0.6084241921908852
+base,HAP llama3-8b-base,23,ai_hap,0.5144696797565291
+base,HAP llama3-8b-base,23,ai_perp,0.6781404309382011
+base,HAP llama3-8b-base,24,ai,0.5562226183351948
+base,HAP llama3-8b-base,24,ai_hc3,0.600823730082789
+base,HAP llama3-8b-base,24,ai_hap,0.5100950137768376
+base,HAP llama3-8b-base,24,ai_perp,0.6631955222877551
+base,HAP llama3-8b-base,25,ai,0.5641078977601838
+base,HAP llama3-8b-base,25,ai_hc3,0.6036271005277121
+base,HAP llama3-8b-base,25,ai_hap,0.5145240830642503
+base,HAP llama3-8b-base,25,ai_perp,0.6602481430870998
+base,HAP llama3-8b-base,26,ai,0.5597076302239177
+base,HAP llama3-8b-base,26,ai_hc3,0.6001580896118485
+base,HAP llama3-8b-base,26,ai_hap,0.5165530064227906
+base,HAP llama3-8b-base,26,ai_perp,0.6578479971582273
+base,HAP llama3-8b-base,27,ai,0.5861540381655205
+base,HAP llama3-8b-base,27,ai_hc3,0.6267277050444667
+base,HAP llama3-8b-base,27,ai_hap,0.5424329799251795
+base,HAP llama3-8b-base,27,ai_perp,0.6511019870008097
+base,HAP llama3-8b-base,28,ai,0.664101177351583
+base,HAP llama3-8b-base,28,ai_hc3,0.6897699380122312
+base,HAP llama3-8b-base,28,ai_hap,0.6344545748381502
+base,HAP llama3-8b-base,28,ai_perp,0.6225530512255145
+base,MAGE chat (GPT-3.5/davinci-003),1,ai,0.6984291666666667
+base,MAGE chat (GPT-3.5/davinci-003),1,ai_hc3,0.7244958333333333
+base,MAGE chat (GPT-3.5/davinci-003),1,ai_hap,0.6208472222222222
+base,MAGE chat (GPT-3.5/davinci-003),1,ai_perp,0.7479861111111111
+base,MAGE chat (GPT-3.5/davinci-003),2,ai,0.7137201388888889
+base,MAGE chat (GPT-3.5/davinci-003),2,ai_hc3,0.7408125
+base,MAGE chat (GPT-3.5/davinci-003),2,ai_hap,0.6513180555555556
+base,MAGE chat (GPT-3.5/davinci-003),2,ai_perp,0.7572777777777777
+base,MAGE chat (GPT-3.5/davinci-003),3,ai,0.7700736111111112
+base,MAGE chat (GPT-3.5/davinci-003),3,ai_hc3,0.7840374999999999
+base,MAGE chat (GPT-3.5/davinci-003),3,ai_hap,0.7104652777777778
+base,MAGE chat (GPT-3.5/davinci-003),3,ai_perp,0.7961041666666666
+base,MAGE chat (GPT-3.5/davinci-003),4,ai,0.7177319444444445
+base,MAGE chat (GPT-3.5/davinci-003),4,ai_hc3,0.7432083333333334
+base,MAGE chat (GPT-3.5/davinci-003),4,ai_hap,0.6395875
+base,MAGE chat (GPT-3.5/davinci-003),4,ai_perp,0.8152791666666666
+base,MAGE chat (GPT-3.5/davinci-003),5,ai,0.7164736111111112
+base,MAGE chat (GPT-3.5/davinci-003),5,ai_hc3,0.7626361111111112
+base,MAGE chat (GPT-3.5/davinci-003),5,ai_hap,0.6405166666666666
+base,MAGE chat (GPT-3.5/davinci-003),5,ai_perp,0.8337611111111111
+base,MAGE chat (GPT-3.5/davinci-003),6,ai,0.7394256944444444
+base,MAGE chat (GPT-3.5/davinci-003),6,ai_hc3,0.7886222222222222
+base,MAGE chat (GPT-3.5/davinci-003),6,ai_hap,0.6741194444444445
+base,MAGE chat (GPT-3.5/davinci-003),6,ai_perp,0.8554625
+base,MAGE chat (GPT-3.5/davinci-003),7,ai,0.7373805555555555
+base,MAGE chat (GPT-3.5/davinci-003),7,ai_hc3,0.7896111111111112
+base,MAGE chat (GPT-3.5/davinci-003),7,ai_hap,0.6868138888888887
+base,MAGE chat (GPT-3.5/davinci-003),7,ai_perp,0.8645111111111111
+base,MAGE chat (GPT-3.5/davinci-003),8,ai,0.7425152777777778
+base,MAGE chat (GPT-3.5/davinci-003),8,ai_hc3,0.8133027777777777
+base,MAGE chat (GPT-3.5/davinci-003),8,ai_hap,0.6867958333333334
+base,MAGE chat (GPT-3.5/davinci-003),8,ai_perp,0.8831222222222223
+base,MAGE chat (GPT-3.5/davinci-003),9,ai,0.7386625
+base,MAGE chat (GPT-3.5/davinci-003),9,ai_hc3,0.770313888888889
+base,MAGE chat (GPT-3.5/davinci-003),9,ai_hap,0.6903027777777777
+base,MAGE chat (GPT-3.5/davinci-003),9,ai_perp,0.8724833333333334
+base,MAGE chat (GPT-3.5/davinci-003),10,ai,0.7630069444444445
+base,MAGE chat (GPT-3.5/davinci-003),10,ai_hc3,0.7809833333333334
+base,MAGE chat (GPT-3.5/davinci-003),10,ai_hap,0.7339958333333333
+base,MAGE chat (GPT-3.5/davinci-003),10,ai_perp,0.8967291666666668
+base,MAGE chat (GPT-3.5/davinci-003),11,ai,0.7561652777777779
+base,MAGE chat (GPT-3.5/davinci-003),11,ai_hc3,0.7763000000000001
+base,MAGE chat (GPT-3.5/davinci-003),11,ai_hap,0.7238694444444446
+base,MAGE chat (GPT-3.5/davinci-003),11,ai_perp,0.8866013888888891
+base,MAGE chat (GPT-3.5/davinci-003),12,ai,0.7471055555555557
+base,MAGE chat (GPT-3.5/davinci-003),12,ai_hc3,0.7698513888888888
+base,MAGE chat (GPT-3.5/davinci-003),12,ai_hap,0.7126055555555556
+base,MAGE chat (GPT-3.5/davinci-003),12,ai_perp,0.8836916666666668
+base,MAGE chat (GPT-3.5/davinci-003),13,ai,0.7496680555555556
+base,MAGE chat (GPT-3.5/davinci-003),13,ai_hc3,0.7692138888888889
+base,MAGE chat (GPT-3.5/davinci-003),13,ai_hap,0.7180013888888889
+base,MAGE chat (GPT-3.5/davinci-003),13,ai_perp,0.8832902777777777
+base,MAGE chat (GPT-3.5/davinci-003),14,ai,0.7441319444444445
+base,MAGE chat (GPT-3.5/davinci-003),14,ai_hc3,0.7705736111111111
+base,MAGE chat (GPT-3.5/davinci-003),14,ai_hap,0.7064493055555555
+base,MAGE chat (GPT-3.5/davinci-003),14,ai_perp,0.8835444444444445
+base,MAGE chat (GPT-3.5/davinci-003),15,ai,0.7649472222222222
+base,MAGE chat (GPT-3.5/davinci-003),15,ai_hc3,0.7788013888888888
+base,MAGE chat (GPT-3.5/davinci-003),15,ai_hap,0.7418680555555556
+base,MAGE chat (GPT-3.5/davinci-003),15,ai_perp,0.8938402777777777
+base,MAGE chat (GPT-3.5/davinci-003),16,ai,0.7536958333333333
+base,MAGE chat (GPT-3.5/davinci-003),16,ai_hc3,0.7661340277777777
+base,MAGE chat (GPT-3.5/davinci-003),16,ai_hap,0.7335305555555556
+base,MAGE chat (GPT-3.5/davinci-003),16,ai_perp,0.8917208333333333
+base,MAGE chat (GPT-3.5/davinci-003),17,ai,0.7429805555555555
+base,MAGE chat (GPT-3.5/davinci-003),17,ai_hc3,0.7550833333333332
+base,MAGE chat (GPT-3.5/davinci-003),17,ai_hap,0.7242256944444445
+base,MAGE chat (GPT-3.5/davinci-003),17,ai_perp,0.8926138888888888
+base,MAGE chat (GPT-3.5/davinci-003),18,ai,0.7503708333333333
+base,MAGE chat (GPT-3.5/davinci-003),18,ai_hc3,0.76415
+base,MAGE chat (GPT-3.5/davinci-003),18,ai_hap,0.7276930555555556
+base,MAGE chat (GPT-3.5/davinci-003),18,ai_perp,0.8931944444444444
+base,MAGE chat (GPT-3.5/davinci-003),19,ai,0.7537145833333333
+base,MAGE chat (GPT-3.5/davinci-003),19,ai_hc3,0.7663583333333334
+base,MAGE chat (GPT-3.5/davinci-003),19,ai_hap,0.7311763888888889
+base,MAGE chat (GPT-3.5/davinci-003),19,ai_perp,0.8965652777777777
+base,MAGE chat (GPT-3.5/davinci-003),20,ai,0.775201388888889
+base,MAGE chat (GPT-3.5/davinci-003),20,ai_hc3,0.7851611111111112
+base,MAGE chat (GPT-3.5/davinci-003),20,ai_hap,0.7569874999999999
+base,MAGE chat (GPT-3.5/davinci-003),20,ai_perp,0.8966361111111112
+base,MAGE chat (GPT-3.5/davinci-003),21,ai,0.7808555555555555
+base,MAGE chat (GPT-3.5/davinci-003),21,ai_hc3,0.7945083333333334
+base,MAGE chat (GPT-3.5/davinci-003),21,ai_hap,0.7609625
+base,MAGE chat (GPT-3.5/davinci-003),21,ai_perp,0.896701388888889
+base,MAGE chat (GPT-3.5/davinci-003),22,ai,0.7720875
+base,MAGE chat (GPT-3.5/davinci-003),22,ai_hc3,0.7926694444444444
+base,MAGE chat (GPT-3.5/davinci-003),22,ai_hap,0.7503402777777778
+base,MAGE chat (GPT-3.5/davinci-003),22,ai_perp,0.8974125
+base,MAGE chat (GPT-3.5/davinci-003),23,ai,0.7882541666666667
+base,MAGE chat (GPT-3.5/davinci-003),23,ai_hc3,0.8088777777777777
+base,MAGE chat (GPT-3.5/davinci-003),23,ai_hap,0.7605208333333333
+base,MAGE chat (GPT-3.5/davinci-003),23,ai_perp,0.8943875
+base,MAGE chat (GPT-3.5/davinci-003),24,ai,0.7895625
+base,MAGE chat (GPT-3.5/davinci-003),24,ai_hc3,0.8052305555555557
+base,MAGE chat (GPT-3.5/davinci-003),24,ai_hap,0.758026388888889
+base,MAGE chat (GPT-3.5/davinci-003),24,ai_perp,0.8851125
+base,MAGE chat (GPT-3.5/davinci-003),25,ai,0.8198347222222223
+base,MAGE chat (GPT-3.5/davinci-003),25,ai_hc3,0.8220597222222222
+base,MAGE chat (GPT-3.5/davinci-003),25,ai_hap,0.7931458333333333
+base,MAGE chat (GPT-3.5/davinci-003),25,ai_perp,0.8884111111111112
+base,MAGE chat (GPT-3.5/davinci-003),26,ai,0.8392458333333332
+base,MAGE chat (GPT-3.5/davinci-003),26,ai_hc3,0.8397555555555556
+base,MAGE chat (GPT-3.5/davinci-003),26,ai_hap,0.8077930555555555
+base,MAGE chat (GPT-3.5/davinci-003),26,ai_perp,0.8900083333333333
+base,MAGE chat (GPT-3.5/davinci-003),27,ai,0.8810284722222224
+base,MAGE chat (GPT-3.5/davinci-003),27,ai_hc3,0.8731152777777778
+base,MAGE chat (GPT-3.5/davinci-003),27,ai_hap,0.8359958333333334
+base,MAGE chat (GPT-3.5/davinci-003),27,ai_perp,0.8880833333333333
+base,MAGE chat (GPT-3.5/davinci-003),28,ai,0.8221819444444444
+base,MAGE chat (GPT-3.5/davinci-003),28,ai_hc3,0.8352111111111111
+base,MAGE chat (GPT-3.5/davinci-003),28,ai_hap,0.7951374999999999
+base,MAGE chat (GPT-3.5/davinci-003),28,ai_perp,0.8347541666666667
+base,MAGE older LMs,1,ai,0.5146777777777778
+base,MAGE older LMs,1,ai_hc3,0.5427347222222222
+base,MAGE older LMs,1,ai_hap,0.4873694444444444
+base,MAGE older LMs,1,ai_perp,0.5225527777777778
+base,MAGE older LMs,2,ai,0.5141666666666667
+base,MAGE older LMs,2,ai_hc3,0.5457708333333333
+base,MAGE older LMs,2,ai_hap,0.4846638888888889
+base,MAGE older LMs,2,ai_perp,0.5091277777777778
+base,MAGE older LMs,3,ai,0.535525
+base,MAGE older LMs,3,ai_hc3,0.5588680555555555
+base,MAGE older LMs,3,ai_hap,0.5083305555555555
+base,MAGE older LMs,3,ai_perp,0.5194805555555555
+base,MAGE older LMs,4,ai,0.5150729166666668
+base,MAGE older LMs,4,ai_hc3,0.5792041666666666
+base,MAGE older LMs,4,ai_hap,0.4634486111111111
+base,MAGE older LMs,4,ai_perp,0.5406500000000001
+base,MAGE older LMs,5,ai,0.5120513888888889
+base,MAGE older LMs,5,ai_hc3,0.58035
+base,MAGE older LMs,5,ai_hap,0.4639902777777777
+base,MAGE older LMs,5,ai_perp,0.5433722222222221
+base,MAGE older LMs,6,ai,0.5136208333333334
+base,MAGE older LMs,6,ai_hc3,0.5819847222222222
+base,MAGE older LMs,6,ai_hap,0.4661618055555556
+base,MAGE older LMs,6,ai_perp,0.5441083333333333
+base,MAGE older LMs,7,ai,0.5061375
+base,MAGE older LMs,7,ai_hc3,0.5700861111111111
+base,MAGE older LMs,7,ai_hap,0.4678555555555556
+base,MAGE older LMs,7,ai_perp,0.5419875
+base,MAGE older LMs,8,ai,0.5090277777777777
+base,MAGE older LMs,8,ai_hc3,0.5481902777777777
+base,MAGE older LMs,8,ai_hap,0.4812138888888889
+base,MAGE older LMs,8,ai_perp,0.5419
+base,MAGE older LMs,9,ai,0.5034472222222222
+base,MAGE older LMs,9,ai_hc3,0.5273680555555555
+base,MAGE older LMs,9,ai_hap,0.48249305555555555
+base,MAGE older LMs,9,ai_perp,0.5357958333333334
+base,MAGE older LMs,10,ai,0.5163020833333334
+base,MAGE older LMs,10,ai_hc3,0.5295680555555555
+base,MAGE older LMs,10,ai_hap,0.5033097222222223
+base,MAGE older LMs,10,ai_perp,0.5398180555555556
+base,MAGE older LMs,11,ai,0.5112736111111111
+base,MAGE older LMs,11,ai_hc3,0.5244430555555556
+base,MAGE older LMs,11,ai_hap,0.49774027777777774
+base,MAGE older LMs,11,ai_perp,0.5344527777777778
+base,MAGE older LMs,12,ai,0.49934999999999996
+base,MAGE older LMs,12,ai_hc3,0.513311111111111
+base,MAGE older LMs,12,ai_hap,0.48639027777777777
+base,MAGE older LMs,12,ai_perp,0.5240597222222223
+base,MAGE older LMs,13,ai,0.49049027777777776
+base,MAGE older LMs,13,ai_hc3,0.5045722222222222
+base,MAGE older LMs,13,ai_hap,0.4776458333333333
+base,MAGE older LMs,13,ai_perp,0.51605
+base,MAGE older LMs,14,ai,0.4952958333333334
+base,MAGE older LMs,14,ai_hc3,0.5081152777777778
+base,MAGE older LMs,14,ai_hap,0.48389166666666666
+base,MAGE older LMs,14,ai_perp,0.5147583333333333
+base,MAGE older LMs,15,ai,0.5104194444444444
+base,MAGE older LMs,15,ai_hc3,0.5175888888888889
+base,MAGE older LMs,15,ai_hap,0.5016847222222223
+base,MAGE older LMs,15,ai_perp,0.5144263888888888
+base,MAGE older LMs,16,ai,0.5121638888888889
+base,MAGE older LMs,16,ai_hc3,0.5184152777777777
+base,MAGE older LMs,16,ai_hap,0.5042944444444444
+base,MAGE older LMs,16,ai_perp,0.51905
+base,MAGE older LMs,17,ai,0.5224333333333333
+base,MAGE older LMs,17,ai_hc3,0.5265361111111111
+base,MAGE older LMs,17,ai_hap,0.5172097222222223
+base,MAGE older LMs,17,ai_perp,0.5217861111111111
+base,MAGE older LMs,18,ai,0.5198944444444444
+base,MAGE older LMs,18,ai_hc3,0.5245944444444445
+base,MAGE older LMs,18,ai_hap,0.5139722222222222
+base,MAGE older LMs,18,ai_perp,0.5213875
+base,MAGE older LMs,19,ai,0.5165541666666666
+base,MAGE older LMs,19,ai_hc3,0.5217527777777777
+base,MAGE older LMs,19,ai_hap,0.5105388888888889
+base,MAGE older LMs,19,ai_perp,0.5268861111111112
+base,MAGE older LMs,20,ai,0.5314958333333333
+base,MAGE older LMs,20,ai_hc3,0.5358597222222222
+base,MAGE older LMs,20,ai_hap,0.5258819444444445
+base,MAGE older LMs,20,ai_perp,0.5328777777777778
+base,MAGE older LMs,21,ai,0.5382194444444445
+base,MAGE older LMs,21,ai_hc3,0.5412861111111111
+base,MAGE older LMs,21,ai_hap,0.5337416666666667
+base,MAGE older LMs,21,ai_perp,0.5359597222222222
+base,MAGE older LMs,22,ai,0.5472722222222222
+base,MAGE older LMs,22,ai_hc3,0.5506694444444444
+base,MAGE older LMs,22,ai_hap,0.5439527777777778
+base,MAGE older LMs,22,ai_perp,0.5422180555555556
+base,MAGE older LMs,23,ai,0.5441652777777778
+base,MAGE older LMs,23,ai_hc3,0.5535138888888889
+base,MAGE older LMs,23,ai_hap,0.5370541666666667
+base,MAGE older LMs,23,ai_perp,0.5370652777777778
+base,MAGE older LMs,24,ai,0.5582986111111111
+base,MAGE older LMs,24,ai_hc3,0.5721291666666668
+base,MAGE older LMs,24,ai_hap,0.5451652777777778
+base,MAGE older LMs,24,ai_perp,0.5479513888888888
+base,MAGE older LMs,25,ai,0.5651625
+base,MAGE older LMs,25,ai_hc3,0.5797930555555555
+base,MAGE older LMs,25,ai_hap,0.5427736111111112
+base,MAGE older LMs,25,ai_perp,0.5536930555555555
+base,MAGE older LMs,26,ai,0.5709180555555556
+base,MAGE older LMs,26,ai_hc3,0.589425
+base,MAGE older LMs,26,ai_hap,0.5376111111111112
+base,MAGE older LMs,26,ai_perp,0.5593652777777778
+base,MAGE older LMs,27,ai,0.5599722222222222
+base,MAGE older LMs,27,ai_hc3,0.5956527777777778
+base,MAGE older LMs,27,ai_hap,0.5011763888888888
+base,MAGE older LMs,27,ai_perp,0.5668416666666667
+base,MAGE older LMs,28,ai,0.4749513888888889
+base,MAGE older LMs,28,ai_hc3,0.4864777777777778
+base,MAGE older LMs,28,ai_hap,0.4679055555555556
+base,MAGE older LMs,28,ai_perp,0.4678611111111111
+base,MAGE GPT-4 (OOD),1,ai,0.7037089895013122
+base,MAGE GPT-4 (OOD),1,ai_hc3,0.705469160104987
+base,MAGE GPT-4 (OOD),1,ai_hap,0.6807923228346456
+base,MAGE GPT-4 (OOD),1,ai_perp,0.7319734251968504
+base,MAGE GPT-4 (OOD),2,ai,0.731183562992126
+base,MAGE GPT-4 (OOD),2,ai_hc3,0.7526148293963255
+base,MAGE GPT-4 (OOD),2,ai_hap,0.7028543307086614
+base,MAGE GPT-4 (OOD),2,ai_perp,0.7785318241469816
+base,MAGE GPT-4 (OOD),3,ai,0.7584235564304462
+base,MAGE GPT-4 (OOD),3,ai_hc3,0.7697555774278215
+base,MAGE GPT-4 (OOD),3,ai_hap,0.7242240813648294
+base,MAGE GPT-4 (OOD),3,ai_perp,0.8347260498687664
+base,MAGE GPT-4 (OOD),4,ai,0.7251410761154856
+base,MAGE GPT-4 (OOD),4,ai_hc3,0.747965879265092
+base,MAGE GPT-4 (OOD),4,ai_hap,0.7007906824146982
+base,MAGE GPT-4 (OOD),4,ai_perp,0.8502542650918635
+base,MAGE GPT-4 (OOD),5,ai,0.7388139763779529
+base,MAGE GPT-4 (OOD),5,ai_hc3,0.7630757874015749
+base,MAGE GPT-4 (OOD),5,ai_hap,0.7334268372703412
+base,MAGE GPT-4 (OOD),5,ai_perp,0.8719291338582678
+base,MAGE GPT-4 (OOD),6,ai,0.7651919291338583
+base,MAGE GPT-4 (OOD),6,ai_hc3,0.825857939632546
+base,MAGE GPT-4 (OOD),6,ai_hap,0.7169406167979003
+base,MAGE GPT-4 (OOD),6,ai_perp,0.9134990157480316
+base,MAGE GPT-4 (OOD),7,ai,0.7913812335958005
+base,MAGE GPT-4 (OOD),7,ai_hc3,0.8375180446194226
+base,MAGE GPT-4 (OOD),7,ai_hap,0.7725311679790027
+base,MAGE GPT-4 (OOD),7,ai_perp,0.9107004593175853
+base,MAGE GPT-4 (OOD),8,ai,0.7969422572178477
+base,MAGE GPT-4 (OOD),8,ai_hc3,0.8329970472440945
+base,MAGE GPT-4 (OOD),8,ai_hap,0.7647883858267717
+base,MAGE GPT-4 (OOD),8,ai_perp,0.9266338582677165
+base,MAGE GPT-4 (OOD),9,ai,0.799524278215223
+base,MAGE GPT-4 (OOD),9,ai_hc3,0.8112385170603673
+base,MAGE GPT-4 (OOD),9,ai_hap,0.7717027559055119
+base,MAGE GPT-4 (OOD),9,ai_perp,0.9256069553805775
+base,MAGE GPT-4 (OOD),10,ai,0.8331578083989502
+base,MAGE GPT-4 (OOD),10,ai_hc3,0.844591535433071
+base,MAGE GPT-4 (OOD),10,ai_hap,0.8079511154855642
+base,MAGE GPT-4 (OOD),10,ai_perp,0.9425672572178478
+base,MAGE GPT-4 (OOD),11,ai,0.8480101706036746
+base,MAGE GPT-4 (OOD),11,ai_hc3,0.8506414041994751
+base,MAGE GPT-4 (OOD),11,ai_hap,0.8286548556430446
+base,MAGE GPT-4 (OOD),11,ai_perp,0.946259842519685
+base,MAGE GPT-4 (OOD),12,ai,0.8422457349081366
+base,MAGE GPT-4 (OOD),12,ai_hc3,0.8417650918635171
+base,MAGE GPT-4 (OOD),12,ai_hap,0.8253723753280839
+base,MAGE GPT-4 (OOD),12,ai_perp,0.9404461942257218
+base,MAGE GPT-4 (OOD),13,ai,0.838503937007874
+base,MAGE GPT-4 (OOD),13,ai_hc3,0.8352411417322834
+base,MAGE GPT-4 (OOD),13,ai_hap,0.8254494750656167
+base,MAGE GPT-4 (OOD),13,ai_perp,0.9398195538057743
+base,MAGE GPT-4 (OOD),14,ai,0.8291830708661418
+base,MAGE GPT-4 (OOD),14,ai_hc3,0.8356594488188975
+base,MAGE GPT-4 (OOD),14,ai_hap,0.8040862860892388
+base,MAGE GPT-4 (OOD),14,ai_perp,0.9377690288713909
+base,MAGE GPT-4 (OOD),15,ai,0.8548047900262467
+base,MAGE GPT-4 (OOD),15,ai_hc3,0.8481496062992124
+base,MAGE GPT-4 (OOD),15,ai_hap,0.8455003280839894
+base,MAGE GPT-4 (OOD),15,ai_perp,0.9532431102362204
+base,MAGE GPT-4 (OOD),16,ai,0.8444652230971128
+base,MAGE GPT-4 (OOD),16,ai_hc3,0.8359990157480315
+base,MAGE GPT-4 (OOD),16,ai_hap,0.8347883858267716
+base,MAGE GPT-4 (OOD),16,ai_perp,0.9494734251968504
+base,MAGE GPT-4 (OOD),17,ai,0.8292814960629922
+base,MAGE GPT-4 (OOD),17,ai_hc3,0.8274442257217847
+base,MAGE GPT-4 (OOD),17,ai_hap,0.815851377952756
+base,MAGE GPT-4 (OOD),17,ai_perp,0.9483923884514437
+base,MAGE GPT-4 (OOD),18,ai,0.8352903543307088
+base,MAGE GPT-4 (OOD),18,ai_hc3,0.833833661417323
+base,MAGE GPT-4 (OOD),18,ai_hap,0.8155610236220472
+base,MAGE GPT-4 (OOD),18,ai_perp,0.9478248031496064
+base,MAGE GPT-4 (OOD),19,ai,0.8343996062992126
+base,MAGE GPT-4 (OOD),19,ai_hc3,0.8305413385826772
+base,MAGE GPT-4 (OOD),19,ai_hap,0.8175295275590551
+base,MAGE GPT-4 (OOD),19,ai_perp,0.9475606955380578
+base,MAGE GPT-4 (OOD),20,ai,0.8684760498687664
+base,MAGE GPT-4 (OOD),20,ai_hc3,0.8586450131233596
+base,MAGE GPT-4 (OOD),20,ai_hap,0.8605052493438319
+base,MAGE GPT-4 (OOD),20,ai_perp,0.946113845144357
+base,MAGE GPT-4 (OOD),21,ai,0.8701164698162729
+base,MAGE GPT-4 (OOD),21,ai_hc3,0.8615551181102361
+base,MAGE GPT-4 (OOD),21,ai_hap,0.8588106955380578
+base,MAGE GPT-4 (OOD),21,ai_perp,0.9427673884514436
+base,MAGE GPT-4 (OOD),22,ai,0.8528641732283464
+base,MAGE GPT-4 (OOD),22,ai_hc3,0.8522785433070867
+base,MAGE GPT-4 (OOD),22,ai_hap,0.837882217847769
+base,MAGE GPT-4 (OOD),22,ai_perp,0.9449442257217847
+base,MAGE GPT-4 (OOD),23,ai,0.8567339238845145
+base,MAGE GPT-4 (OOD),23,ai_hc3,0.8597432742782153
+base,MAGE GPT-4 (OOD),23,ai_hap,0.8397965879265092
+base,MAGE GPT-4 (OOD),23,ai_perp,0.9454888451443569
+base,MAGE GPT-4 (OOD),24,ai,0.861186843832021
+base,MAGE GPT-4 (OOD),24,ai_hc3,0.8605495406824147
+base,MAGE GPT-4 (OOD),24,ai_hap,0.842373687664042
+base,MAGE GPT-4 (OOD),24,ai_perp,0.944245406824147
+base,MAGE GPT-4 (OOD),25,ai,0.887084153543307
+base,MAGE GPT-4 (OOD),25,ai_hc3,0.8714534120734907
+base,MAGE GPT-4 (OOD),25,ai_hap,0.8728067585301836
+base,MAGE GPT-4 (OOD),25,ai_perp,0.9468225065616798
+base,MAGE GPT-4 (OOD),26,ai,0.9025426509186352
+base,MAGE GPT-4 (OOD),26,ai_hc3,0.888497375328084
+base,MAGE GPT-4 (OOD),26,ai_hap,0.8831709317585301
+base,MAGE GPT-4 (OOD),26,ai_perp,0.9470374015748033
+base,MAGE GPT-4 (OOD),27,ai,0.923254593175853
+base,MAGE GPT-4 (OOD),27,ai_hc3,0.8929773622047245
+base,MAGE GPT-4 (OOD),27,ai_hap,0.9060392060367454
+base,MAGE GPT-4 (OOD),27,ai_perp,0.9401837270341208
+base,MAGE GPT-4 (OOD),28,ai,0.7584432414698162
+base,MAGE GPT-4 (OOD),28,ai_hc3,0.7244685039370078
+base,MAGE GPT-4 (OOD),28,ai_hap,0.7744816272965879
+base,MAGE GPT-4 (OOD),28,ai_perp,0.8357398293963254
+base,Llama-3.1 paraphrase,1,ai,0.751016
+base,Llama-3.1 paraphrase,1,ai_hc3,0.675252
+base,Llama-3.1 paraphrase,1,ai_hap,0.761076
+base,Llama-3.1 paraphrase,1,ai_perp,0.739756
+base,Llama-3.1 paraphrase,2,ai,0.791864
+base,Llama-3.1 paraphrase,2,ai_hc3,0.7528079999999999
+base,Llama-3.1 paraphrase,2,ai_hap,0.795076
+base,Llama-3.1 paraphrase,2,ai_perp,0.812648
+base,Llama-3.1 paraphrase,3,ai,0.8349640000000002
+base,Llama-3.1 paraphrase,3,ai_hc3,0.794266
+base,Llama-3.1 paraphrase,3,ai_hap,0.839376
+base,Llama-3.1 paraphrase,3,ai_perp,0.8586119999999999
+base,Llama-3.1 paraphrase,4,ai,0.80182
+base,Llama-3.1 paraphrase,4,ai_hc3,0.68976
+base,Llama-3.1 paraphrase,4,ai_hap,0.799592
+base,Llama-3.1 paraphrase,4,ai_perp,0.8234159999999999
+base,Llama-3.1 paraphrase,5,ai,0.7854239999999999
+base,Llama-3.1 paraphrase,5,ai_hc3,0.704724
+base,Llama-3.1 paraphrase,5,ai_hap,0.778296
+base,Llama-3.1 paraphrase,5,ai_perp,0.8307
+base,Llama-3.1 paraphrase,6,ai,0.811624
+base,Llama-3.1 paraphrase,6,ai_hc3,0.729728
+base,Llama-3.1 paraphrase,6,ai_hap,0.8048479999999999
+base,Llama-3.1 paraphrase,6,ai_perp,0.8651599999999999
+base,Llama-3.1 paraphrase,7,ai,0.807596
+base,Llama-3.1 paraphrase,7,ai_hc3,0.7345599999999999
+base,Llama-3.1 paraphrase,7,ai_hap,0.800648
+base,Llama-3.1 paraphrase,7,ai_perp,0.8706360000000001
+base,Llama-3.1 paraphrase,8,ai,0.8047559999999999
+base,Llama-3.1 paraphrase,8,ai_hc3,0.810596
+base,Llama-3.1 paraphrase,8,ai_hap,0.7979759999999999
+base,Llama-3.1 paraphrase,8,ai_perp,0.8908
+base,Llama-3.1 paraphrase,9,ai,0.7908040000000001
+base,Llama-3.1 paraphrase,9,ai_hc3,0.78336
+base,Llama-3.1 paraphrase,9,ai_hap,0.7883960000000001
+base,Llama-3.1 paraphrase,9,ai_perp,0.86444
+base,Llama-3.1 paraphrase,10,ai,0.824308
+base,Llama-3.1 paraphrase,10,ai_hc3,0.813268
+base,Llama-3.1 paraphrase,10,ai_hap,0.825388
+base,Llama-3.1 paraphrase,10,ai_perp,0.903312
+base,Llama-3.1 paraphrase,11,ai,0.83154
+base,Llama-3.1 paraphrase,11,ai_hc3,0.818232
+base,Llama-3.1 paraphrase,11,ai_hap,0.8303440000000001
+base,Llama-3.1 paraphrase,11,ai_perp,0.8906199999999997
+base,Llama-3.1 paraphrase,12,ai,0.816096
+base,Llama-3.1 paraphrase,12,ai_hc3,0.8029280000000001
+base,Llama-3.1 paraphrase,12,ai_hap,0.817452
+base,Llama-3.1 paraphrase,12,ai_perp,0.881564
+base,Llama-3.1 paraphrase,13,ai,0.80306
+base,Llama-3.1 paraphrase,13,ai_hc3,0.787888
+base,Llama-3.1 paraphrase,13,ai_hap,0.8078160000000001
+base,Llama-3.1 paraphrase,13,ai_perp,0.865544
+base,Llama-3.1 paraphrase,14,ai,0.8021560000000001
+base,Llama-3.1 paraphrase,14,ai_hc3,0.7873919999999999
+base,Llama-3.1 paraphrase,14,ai_hap,0.8023119999999999
+base,Llama-3.1 paraphrase,14,ai_perp,0.8520719999999998
+base,Llama-3.1 paraphrase,15,ai,0.8272280000000001
+base,Llama-3.1 paraphrase,15,ai_hc3,0.8045760000000001
+base,Llama-3.1 paraphrase,15,ai_hap,0.835312
+base,Llama-3.1 paraphrase,15,ai_perp,0.8542080000000001
+base,Llama-3.1 paraphrase,16,ai,0.813884
+base,Llama-3.1 paraphrase,16,ai_hc3,0.7925519999999999
+base,Llama-3.1 paraphrase,16,ai_hap,0.825324
+base,Llama-3.1 paraphrase,16,ai_perp,0.83888
+base,Llama-3.1 paraphrase,17,ai,0.805192
+base,Llama-3.1 paraphrase,17,ai_hc3,0.7863080000000001
+base,Llama-3.1 paraphrase,17,ai_hap,0.813484
+base,Llama-3.1 paraphrase,17,ai_perp,0.8358160000000001
+base,Llama-3.1 paraphrase,18,ai,0.823592
+base,Llama-3.1 paraphrase,18,ai_hc3,0.7993359999999999
+base,Llama-3.1 paraphrase,18,ai_hap,0.835028
+base,Llama-3.1 paraphrase,18,ai_perp,0.84208
+base,Llama-3.1 paraphrase,19,ai,0.816052
+base,Llama-3.1 paraphrase,19,ai_hc3,0.791048
+base,Llama-3.1 paraphrase,19,ai_hap,0.8286439999999999
+base,Llama-3.1 paraphrase,19,ai_perp,0.83758
+base,Llama-3.1 paraphrase,20,ai,0.8645440000000001
+base,Llama-3.1 paraphrase,20,ai_hc3,0.8413520000000001
+base,Llama-3.1 paraphrase,20,ai_hap,0.8771440000000001
+base,Llama-3.1 paraphrase,20,ai_perp,0.870592
+base,Llama-3.1 paraphrase,21,ai,0.8740079999999999
+base,Llama-3.1 paraphrase,21,ai_hc3,0.8476640000000001
+base,Llama-3.1 paraphrase,21,ai_hap,0.8852319999999998
+base,Llama-3.1 paraphrase,21,ai_perp,0.8667480000000001
+base,Llama-3.1 paraphrase,22,ai,0.870368
+base,Llama-3.1 paraphrase,22,ai_hc3,0.8493879999999999
+base,Llama-3.1 paraphrase,22,ai_hap,0.878412
+base,Llama-3.1 paraphrase,22,ai_perp,0.868064
+base,Llama-3.1 paraphrase,23,ai,0.8770479999999999
+base,Llama-3.1 paraphrase,23,ai_hc3,0.8559119999999999
+base,Llama-3.1 paraphrase,23,ai_hap,0.8813
+base,Llama-3.1 paraphrase,23,ai_perp,0.8695200000000001
+base,Llama-3.1 paraphrase,24,ai,0.8869440000000001
+base,Llama-3.1 paraphrase,24,ai_hc3,0.865528
+base,Llama-3.1 paraphrase,24,ai_hap,0.8909640000000001
+base,Llama-3.1 paraphrase,24,ai_perp,0.880496
+base,Llama-3.1 paraphrase,25,ai,0.90254
+base,Llama-3.1 paraphrase,25,ai_hc3,0.8674919999999999
+base,Llama-3.1 paraphrase,25,ai_hap,0.908736
+base,Llama-3.1 paraphrase,25,ai_perp,0.894684
+base,Llama-3.1 paraphrase,26,ai,0.9135920000000001
+base,Llama-3.1 paraphrase,26,ai_hc3,0.8818920000000001
+base,Llama-3.1 paraphrase,26,ai_hap,0.9113439999999999
+base,Llama-3.1 paraphrase,26,ai_perp,0.89742
+base,Llama-3.1 paraphrase,27,ai,0.9177199999999999
+base,Llama-3.1 paraphrase,27,ai_hc3,0.9011640000000001
+base,Llama-3.1 paraphrase,27,ai_hap,0.8824559999999999
+base,Llama-3.1 paraphrase,27,ai_perp,0.906284
+base,Llama-3.1 paraphrase,28,ai,0.72406
+base,Llama-3.1 paraphrase,28,ai_hc3,0.71946
+base,Llama-3.1 paraphrase,28,ai_hap,0.726904
+base,Llama-3.1 paraphrase,28,ai_perp,0.787636

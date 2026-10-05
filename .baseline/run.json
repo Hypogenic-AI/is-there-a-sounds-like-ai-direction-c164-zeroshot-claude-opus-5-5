@@ -7,5 +7,10 @@
   "workspace": "is-there-a-sounds-like-ai-direction-c164-zeroshot-claude-opus-5-5",
   "github_url": "https://github.com/Hypogenic-AI/is-there-a-sounds-like-ai-direction-c164-zeroshot-claude-opus-5-5",
   "started_at": "2026-10-05T09:54:09Z",
-  "status": "running"
+  "status": "completed",
+  "completed_at": "2026-10-05T14:12:55Z",
+  "return_code": 0,
+  "elapsed_seconds": 15524.014497041702,
+  "timed_out": false,
+  "paper_pdf": "paper_draft/main.pdf"
 }

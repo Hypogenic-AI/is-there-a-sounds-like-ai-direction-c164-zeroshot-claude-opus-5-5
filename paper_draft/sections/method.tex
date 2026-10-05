@@ -1,0 +1,46 @@
+\section{Setup}
+\label{sec:method}
+
+\paragraph{Models and representations.} We study Qwen2.5-7B-Instruct and its pretrained base Qwen2.5-7B~\citep{qwen2025qwen25} (28 layers, $d{=}3584$). $h_\ell$ denotes the residual stream after block $\ell$. To \emph{read} a text we feed it as raw text (no chat template). We cut it to at most 128 tokens and mean-pool $h_\ell$ over all positions except the first, which is an attention sink with outlier norm. \textbf{Length control:} the members of a matched group (the human and AI answers to one question, or the human and model continuations of one prefix) are cut to the \emph{same} number of tokens, the minimum over the group. Pooled representations therefore never see a length difference within a pair.
+
+\paragraph{Corpora.} Table~\ref{tab:data} summarises the data. \textbf{HC3}~\citep{guo2023hc3}: one human and one ChatGPT answer per question, in five domains (Reddit ELI5 is capped so it does not dominate). HC3 human answers carry Penn-Treebank tokenisation artefacts (``do n't'', `` .''), which would be a trivial cue. We detokenise \emph{both} sides with the same rules. \textbf{HAP}, the human-AI parallel corpus~\citep{reinhart2025llms}: for 1{,}800 documents in six genres (academic, blog, fiction, news, spoken, TV/movie) we pair the true human continuation of a prefix with the continuations of GPT-4o, GPT-4o-mini, Llama-3-8B/70B-Instruct and Llama-3-8B/70B \emph{base}~\citep{grattafiori2024llama3}. \textbf{MAGE}~\citep{li2024mage} is used for out-of-distribution evaluation only. It has 1{,}200 human texts, 600 from chat-style generators (GPT-3.5-turbo, text-davinci-003), 600 from older LMs (OPT, FLAN-T5, T0, LLaMA-1, GLM, BLOOM, GPT-J/NeoX), and its GPT-4 OOD set. \textbf{Rewrites}: 500 human training passages rewritten by Llama-3.1-8B-Instruct, a different model family, in a formal, an informal and a neutral-paraphrase version. HC3 and HAP are split 70/30 by question or document. All directions are fit on training splits only. A further 160 HC3 questions (40 each from ELI5, open QA, finance and medicine) are held out entirely as steering prompts.
+
+\begin{table}[t]
+\centering\small
+\caption{Data. ``Matched'' = groups share a question or a prefix and are length-matched in tokens.}
+\label{tab:data}
+\begin{tabular}{llrl}
+\toprule
+Corpus & Contrast & Texts & Use\\
+\midrule
+HC3 & human vs ChatGPT, same question & 6{,}230 & fit $u_{AI}$ (train) / eval (test), matched\\
+HAP & human vs 6 LMs, same prefix & 12{,}600 & fit $u_{AI}$ (instruct LMs, train) / eval, matched\\
+MAGE & human vs 30+ generators, 10 domains & 2{,}400 & OOD eval\\
+MAGE-GPT4 & human vs GPT-4 & 1{,}562 & OOD eval\\
+Rewrites & human / formal / informal / paraphrase & 2{,}000 & formality direction; content-matched eval\\
+Persona responses & default Assistant vs 24 role-play personas & 400 & Assistant axis\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Directions.} All directions are differences of means, unit-normalised per layer. The \textbf{AI direction} is $u_{AI} = \mathrm{unit}(\hat u_{HC3} + \hat u_{HAP})$, where $\hat u_{HC3}$ is the ChatGPT-minus-human direction on HC3 and $\hat u_{HAP}$ is the instruct-LM-minus-human direction on HAP (GPT-4o, GPT-4o-mini, Llama-3-Instruct). Pooling two corpora with different topics and generators averages out corpus-specific confounds. Six \textbf{confound directions} each hold \emph{authorship fixed}:
+\textit{formality} (formal minus informal Llama rewrite of the same passage, both AI);
+\textit{register} (HAP human academic+news minus spoken+TV+fiction, both human);
+\textit{domain} (HC3 human encyclopedic domains minus Reddit ELI5);
+\textit{fluency} (human texts in the lowest minus the highest tertile of per-token NLL under the model);
+\textit{verbosity} (HC3 human answers in the longest minus the shortest tertile of full length);
+and the \textit{Assistant axis}, after \citet{lu2026assistant}: the model answers 16 questions as its default Assistant and in 24 role-play personas (pirate, nurse, detective, \dots). We mean-pool the residual stream over response tokens inside the chat template and take default minus role-play. Finally, $u_{AI}^{\perp}$ is $u_{AI}$ with the span of the six confound directions projected out, renormalised.
+
+\paragraph{Read-out evaluation.} We report the AUROC of the scalar projection $h_\ell^\top u$ on held-out sets. A logistic-regression probe on all $d$ dimensions (standardised, $C{=}0.01$), trained on the same data, gives an upper bound. For the \emph{nullspace test} we project the confound span out of all activations, refit the diff-of-means on the training data, and re-evaluate. We compare against removing a random subspace of the same dimension, and against removing $u_{AI}$ itself.
+
+\paragraph{Steering.} Following activation addition~\citep{turner2023steering}, we add $\alpha\, g_\ell\, v$ to $h_\ell$ at every position (prompt and generated) at a single layer $\ell$. Here $v$ is a unit direction and $g_\ell$ is the human-to-AI gap: the difference between the mean AI and mean human projections on $u_{AI}$ in the training data ($g_{12}{=}7.1$). So $\alpha{=}{-}1$ moves the activations by one human-to-AI gap towards human. A pilot over layers $\{8,12,16,20,24\}$ on 40 prompts (Appendix~\ref{app:pilot}) picked $\ell{=}12$, which gave the largest detector change per unit of coherence loss. We sweep $\alpha\in\{\pm2,\pm4,\pm6,\pm8\}$.
+\textbf{Controls} use \emph{exactly the same vector norm}: three isotropic random directions; the formality, register, fluency and Assistant directions; and $u_{AI}^{\perp}$.
+\textbf{Prompt baseline}: a system prompt asking the model to answer like an ordinary person on a forum such as Reddit, ``not like an AI assistant''. We also combine this prompt with negative steering.
+\textbf{Multi-layer variants}: adding $\alpha\, g_\ell\, u_{AI,\ell}$ at all layers 1--27 with $\alpha\in\{\pm0.25,\pm0.5,\pm1\}$, and clamping every token's projection on $u_{AI,\ell}$ to the human (or AI) mean at all layers (a directional ablation).
+Every condition answers the same 160 held-out HC3 questions with the chat template (temperature 0.7, top-$p$ 0.9, at most 200 new tokens), using the same random seed across conditions. A second unsteered run with a different seed measures sampling variability.
+
+\paragraph{Independent measures.} No measure has access to Qwen activations.
+(i)~Two public supervised detectors: \texttt{desklib/ai-text-detector-v1.01} (DeBERTa-v3-large trained on recent LLM text) and \texttt{fakespot-ai/roberta-base-ai-text-detection-v1}. A third, the HC3-trained \texttt{Hello-SimpleAI/chatgpt-detector-roberta}, is reported only for completeness: it was trained on the corpus we fit $u_{AI}$ on.
+(ii)~The zero-shot Binoculars score~\citep{hans2024binoculars} with Falcon-7B and Falcon-7B-Instruct~\citep{almazrouei2023falcon}. We report $-B$, so that higher means more AI-like.
+(iii)~An LLM judge, Gemma-3-12B-it~\citep{gemma2025gemma3}, a different model family, run at temperature 0~\citep{zheng2023judging}. It rates each response 1--10 for \emph{AI-likeness}, \emph{coherence} and \emph{relevance} to the question.
+For fluency we use the mean token NLL under Falcon-7B. For content preservation we use the cosine similarity between all-mpnet-base-v2 embeddings~\citep{reimers2019sentence,song2020mpnet} of each steered answer and the unsteered answer to the same question. We also compute simple stylometrics: length, list items, first-person rate, contractions, and the rate of stock ``AI phrases''. We validate every measure on held-out \emph{real} human and AI text (Table~\ref{tab:validation}).
